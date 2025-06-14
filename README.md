@@ -44,4 +44,6 @@ Con el objetivo de distribuir distintas acciones en particular, se realizaron di
 
 ### Nextion
 
+---
+
 ## Ensayos
