@@ -16,3 +16,21 @@
 ![Placa de Desarrollo](https://github.com/Agustin586/AWG-RP2040/blob/main/img/AWG_Placa.jpeg)
 
 > Exposición del proyecto
+
+## PCB
+
+La Placa fue diseñada en el software de Altium Designer 2021. Dicho proyecto puede ser descargado en la carpeta correspondiente.
+
+## Sotfware 
+
+Como se comentó al comienzo el programa fue realizado con el sistema operativo en tiempo real FreeRTOS junto con Quantum Leaps, el cual nos permite generar máquinas de estado. Para la lógica en el programa se realizó una estructura en capas, como se puede ver a continuación.
+
+![Diagrama en capas](https://github.com/Agustin586/AWG-RP2040/blob/main/img/Diagrama%20en%20capas.png)
+
+> Diagrama en capas
+
+### FreeRTOS
+
+### Quantum Leaps
+
+### Nextion
