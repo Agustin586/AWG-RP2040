@@ -44,6 +44,8 @@ Con el objetivo de distribuir distintas acciones en particular, se realizaron di
 
 ![Máquina de Estados](https://github.com/Agustin586/AWG-RP2040/blob/main/img/SM_of_Awg.png)
 
+> Máquina de estados para la configuración de los parámetros.
+
 ### Nextion
 
 ## Ensayos
