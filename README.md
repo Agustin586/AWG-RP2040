@@ -29,7 +29,7 @@ Como se comentó al comienzo el programa fue realizado con el sistema operativo 
 
 > Diagrama en capas
 
-En este diagrama podemos ver la división en capas del proyecto. En lo más alto tenemos el framework de Quantum Leaps, que al tener las máquinas de estados se encuentran lo más cerca posible del usuario (respecto al sotfware). Esa etapa se comunica con el display junto con el archivo AWG, el cual este último controla todas el objeto de tipo señal. Este objeto se encarga de guardar toda la información necesaria para que el dispositivo genere la señal requerida por el usuario. Para lograr esto, el objeto señal contiene información de cada objeto generado por las capas inferiores, como puede verse a continuación:
+En este diagrama podemos ver la división en capas del proyecto. En lo más alto tenemos el framework de Quantum Leaps, que al tener las máquinas de estados se encuentran lo más cerca posible del usuario (respecto al sotfware). Esa etapa se comunica con el display junto con el archivo AWG. Este último controla el objeto de tipo señal que se encarga de guardar toda la información necesaria para que el dispositivo genere la señal requerida por el usuario, a decir frecuencia, amplitud, offset, buffer de datos (muy importante ya que es donde se carga cada punto a muestrear), etc. Para lograr esto, el objeto señal contiene información de cada objeto generado por las capas inferiores, como puede verse a continuación:
 
 ```c
 // Objeto tipo generador de funciones
