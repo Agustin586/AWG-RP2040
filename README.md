@@ -1,2 +1,6 @@
 # AWG RP2040
-Se trata de un generador de funciones arbitrarias construido con el microcontrolador RP2040 y la placa de desarrollo RPI Pi Pico.  Cuenta con una pantalla Nextion que se programa aparte.
+
+## Introducción
+El proyecto consiste en el diseño e implementación de un Generador de Funciones Arbitrarias (AWG) utilizando una Raspberry Pi Pico. El objetvio es generar cualquier señal periódica (actualmente cargadas senoidal, triangular y cuadrada). Respecto al hardware posee el microcontrolador RP2040 y permite ajustar el tipo de señal, frecuencia, amplitud y offset, con un rango de salida de hasta 10 Vpp, offset de hasta +- 5 Vp y una frecuencia máxima de 1.5 MHz, con resolución de 1 Hz. Para la conversión digital a analógica se emplea una red R-2R controlada por los periféricos PIO y 2 DMAs encadenados, perimitiendo un flujo continuo de datos a alta velocidad.
+
+Respecto al sotfware está desarrollado mediante el sistema operativo en tiempo real FreeRTOS junto con el framework Quantum Leaps (QP), el cual utiliza una arquitectura basada en máquinas de estado finitas (donde su fuerte en este proyecto consiste en el menú para la configuración como se verá en una imagen mas adelante) y objetos activos. Esto permite una gran modularidad y escalabilidad del proyecto. Además se tiene una pantalla Nextion de 2.4' que permite mostrar las configuraciones antes mecionadas al usuario.
