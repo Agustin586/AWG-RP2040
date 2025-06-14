@@ -44,6 +44,7 @@ typedef struct
 // Generamos el objeto señal
 awg Gen_Funcion;
 ```
+> Si tuvieramos la posibilidad de generar (quizás con más pines disponibles) otro canal, simplementa bastaría con declarar otro objeto de tipo awg. Deberíamos tener presente que al tener mas de un canal el ancho de banda disminuiría por lo que no podríamos lograr una frecuencia como la específicada al comienzo. Cabe destacar que la frecuencia de la señal senoidal puede llevarse hasta 7 MHz, logrando una buena respuesta. Sin embargo se dejó por software la limitación de 1.5 MHz para todas las señales.
 
 ### FreeRTOS
 
