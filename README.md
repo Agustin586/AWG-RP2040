@@ -29,6 +29,23 @@ Como se comentó al comienzo el programa fue realizado con el sistema operativo 
 
 > Diagrama en capas
 
+En este diagrama podemos ver la división en capas del proyecto. En lo más alto tenemos el framework de Quantum Leaps, que al tener las máquinas de estados se encuentran lo más cerca posible del usuario (respecto al sotfware). Esa etapa se comunica con el display junto con el archivo AWG. Este último controla el objeto de tipo señal que se encarga de guardar toda la información necesaria para que el dispositivo genere la señal requerida por el usuario, a decir frecuencia, amplitud, offset, buffer de datos (muy importante ya que es donde se carga cada punto a muestrear), etc. Para lograr esto, el objeto señal contiene información de cada objeto generado por las capas inferiores, como puede verse a continuación:
+
+```c
+// Objeto tipo generador de funciones
+typedef struct
+{
+    dacR2R_t EtapaDac;
+    amplificacion_t EtapaAmp;
+    offset_t EtapaOffset;
+    periferico_t DatosPerifericos;
+} awg;
+
+// Generamos el objeto señal
+awg Gen_Funcion;
+```
+> Si tuvieramos la posibilidad de generar (quizás con más pines disponibles) otro canal, simplementa bastaría con declarar otro objeto de tipo awg. Deberíamos tener presente que al tener mas de un canal el ancho de banda disminuiría por lo que no podríamos lograr una frecuencia como la específicada al comienzo. Cabe destacar que la frecuencia de la señal senoidal puede llevarse hasta 4 MHz, logrando una buena respuesta. Sin embargo se dejó por software la limitación de 1.5 MHz para todas las señales.
+
 ### FreeRTOS
 
 Con el objetivo de distribuir distintas acciones en particular, se realizaron diferentes tareas. En la siguiente tabla puede verse una descripción mas detallada de cada tarea.
@@ -41,6 +58,10 @@ Con el objetivo de distribuir distintas acciones en particular, se realizaron di
 
 
 ### Quantum Leaps
+
+![Máquina de Estados](https://github.com/Agustin586/AWG-RP2040/blob/main/img/SM_of_Awg.png)
+
+> Máquina de estados para la configuración de los parámetros.
 
 ### Nextion
 
