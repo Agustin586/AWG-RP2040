@@ -42,6 +42,8 @@ Con el objetivo de distribuir distintas acciones en particular, se realizaron di
 
 ### Quantum Leaps
 
+![Máquina de Estados](https://github.com/Agustin586/AWG-RP2040/blob/main/img/SM_of_Awg.png)
+
 ### Nextion
 
 ## Ensayos
