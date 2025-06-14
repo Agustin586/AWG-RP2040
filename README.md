@@ -10,3 +10,9 @@
 ![Diagrama de conexionado del Bus Can con sus Nodos](https://github.com/Agustin586/AWG-RP2040/blob/main/img/pico2w-pinout.svg)
 
 > Pinout de la placa de desarrollo RPI Pi Pico
+
+## Hardware
+
+![Placa de Desarrollo](https://github.com/Agustin586/AWG-RP2040/blob/main/img/AWG_Placa.jpeg)
+
+> Exposición del proyecto
