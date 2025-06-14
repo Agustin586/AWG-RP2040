@@ -31,6 +31,15 @@ Como se comentó al comienzo el programa fue realizado con el sistema operativo 
 
 ### FreeRTOS
 
+Con el objetivo de distribuir distintas acciones en particular, se realizaron diferentes tareas. En la siguiente tabla puede verse una descripción mas detallada de cada tarea.
+
+| Tarea | Descripción |
+|:-----:|:-----------:|
+|Encoder| Se encarga de detectar una notificación de interrupción cuando el encoder se mueve hacia un lado en particular. Junto con esto activa una variable para detectar el lado al que fue girado el encoder (izquierda o derecha). |
+|Pulsadores| Cada cierto tiempo se ejecuta dicha tarea con el fin de detectar por polling el estado de los pulsadores. |
+|QP Máquina de estado| Se ejecuta la máquina de estado como una tarea de tipo estática. |
+
+
 ### Quantum Leaps
 
 ### Nextion
