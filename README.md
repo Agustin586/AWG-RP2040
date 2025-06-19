@@ -21,6 +21,10 @@
 
 La Placa fue diseñada en el software de Altium Designer 2021. Dicho proyecto puede ser descargado en la carpeta correspondiente.
 
+```stl
+[https://github.com/Agustin586/AWG-RP2040/blob/main/PCB/Generador%20de%20Funciones/PCB_Awg.step]
+```
+
 ## Sotfware 
 
 Como se comentó al comienzo el programa fue realizado con el sistema operativo en tiempo real FreeRTOS junto con Quantum Leaps, el cual nos permite generar máquinas de estado. Para la lógica en el programa se realizó una estructura en capas, como se puede ver a continuación.
