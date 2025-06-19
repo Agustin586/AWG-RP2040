@@ -22,7 +22,7 @@
 La Placa fue diseñada en el software de Altium Designer 2021. Dicho proyecto puede ser descargado en la carpeta correspondiente.
 
 ```stl
-[https://github.com/Agustin586/AWG-RP2040/blob/main/PCB/Generador%20de%20Funciones/PCB_Awg.step]
+<https://github.com/Agustin586/AWG-RP2040/blob/main/PCB/Generador%20de%20Funciones/PCB_Awg.step>
 ```
 
 ## Sotfware 
