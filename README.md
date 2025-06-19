@@ -66,3 +66,9 @@ Con el objetivo de distribuir distintas acciones en particular, se realizaron di
 ### Nextion
 
 ## Ensayos
+
+Mostramos algunos de los ensayos realizados para el generador de funciones.
+
+![Senoidal100KHz10Vpp](https://github.com/Agustin586/AWG-RP2040/blob/main/img/Sine_100KHz_10vpp.png)
+
+> Senoidal 100 KHz a 10 Vpp
