@@ -1,0 +1,38 @@
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\newtcolorbox[auto counter, number within=section]{ejemplo}[2][]{enhanced,
+before skip=2mm,after skip=2mm,
+colback=blue!5,colframe=blue!70,boxrule=0.7mm,
+breakable, % Permitir que se corte entre páginas
+opacityback=1, % Transparencia en el fondo
+drop shadow={black!35!white}, % Sombra difuminada
+attach boxed title to top left={xshift=1cm,yshift*=1mm-\tcboxedtitleheight},
+varwidth boxed title*=-3cm,
+boxed title style={frame code={
+\path[fill=tcbcolback!30!blue]
+([yshift=-1mm,xshift=-1mm]frame.north west)
+arc[start angle=0,end angle=180,radius=1mm]
+([yshift=-1mm,xshift=1mm]frame.north east)
+arc[start angle=180,end angle=0,radius=1mm];
+\path[left color=tcbcolback!60!blue,right color=tcbcolback!60!blue,
+middle color=tcbcolback!80!blue]
+([xshift=-2mm]frame.north west) -- ([xshift=2mm]frame.north east)
+[rounded corners=1mm]-- ([xshift=1mm,yshift=-1mm]frame.north east)
+-- (frame.south east) -- (frame.south west)
+-- ([xshift=-1mm,yshift=-1mm]frame.north west)
+[sharp corners]-- cycle;
+},interior engine=empty,},
+fonttitle=\bfseries,
+title=Ejemplo~\thetcbcounter: #2}
+
+\newtheorem{ejercicio}{Ejercicio}[section]
+
+% StickNote
+\usepackage{tikz, adjustbox}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+
+% Yellow:
+\definecolor{BgYellow}{HTML}{FFF59C}
+\definecolor{FrameYellow}{HTML}{F7A600}

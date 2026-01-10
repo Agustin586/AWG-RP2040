@@ -1,0 +1,34 @@
+\section{Introducción}
+Un generador de formas de onda arbitrarias (AWG) permite generar funciones periódicas cargando puntos en un buffer y reproduciéndolos mediante un DAC a la frecuencia solicitada. La resolución depende de la profundidad del buffer y del DAC, afectando la frecuencia máxima alcanzable.
+
+La idea de este proyecto consiste en la implementación de dicho generador de funciones basado en un microcontrolador relativamente nuevo \textbf{RP2040}. Este microcontrolador es de la familia \textit{Raspberry Pi}. A continuación puede verse una imagen preliminar de su pinout.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Introduccion/img/raspberry-pi-pico-w-pinout}
+	\caption{Raspberry Pi Pico W Pinout.}
+	\label{fig:raspberry-pi-pico-w-pinout}
+\end{figure}
+
+Como sabemos dentro del mercado de los microcontroladores existen una gran variedad de ellos. \textcolor{blue}{¿Porqué entonces elegimos este en particular?} El RP2040 posee un periférico en particular denominado PIO (Programable Input/Output), podríamos pensar a dicho periférico como un fragmento de FPGA en su idea central, dado que ambos te permiten crear un hardware a medida que se adapta a señales digitales que con periféricos existentes no es posible. La diferencia es que con una FPGA se define una lógica (por ejemplo utilizando flip-flops, FSMs, Sumadores, etc) y diciendo como estos deben conectarse. Con el PIO se programan unas máquinas de estados que ejecutan un conjunto de instrucciones para leer/generar señales de forma determinista y concurrente. Este microcontrolador posee un conjunto de 8 máquinas de estado. Al estar embebido dentro del propio microcontrolador permite manipularlo junto con otros periféricos dentro del mismo. En particular permite controlar los propios GPIOs. Entonces la idea detrás del Generador de Funciones consiste en producir un DAC (conversor de digital a analógico) que pueda actuar a altas velocidades. El proceso sería primero tener cargado en RAM cada punto de la señal a muestrear, luego transferirlo mediante DMA hacia el periférico PIO y que este mismo se encargue de producir el valor de tensión deseado habilitando o no salidas GPIOs mediante un DAC R2R (el cual puede verse en la figura ).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Introduccion/img/r2r-4bits-2}
+	\caption{DAC R-2R de 4 Bits. Este tipo de DAC permite tener un valor de tensión de acuerdo a la cantidad de bits habilitados y su ponderación. La resolución (mínima representación de valor de tensión) depende de la cantidad de bits. Con 4 bits y una alimentación de 3V3 la resolución es de 206 mV.}
+	\label{fig:r2r-4bits-2}
+\end{figure}
+
+Este proyecto consiste en la continuación de un trabajo que se realizó en otras materias. Este proyecto base es el generador de funciones arbitrarias con dicho micro realizado con el conjunto de resistencias R-2R. La idea sería poder realizar un dispositivo completo con una mejora clara a nivel tecnológico. Partiendo de que la base de usar un DAC con resistencias R-2R se cambiarían por un sintetizador digital directo (DDS). En particular se quiere utilizar el AD9102 que tiene 12 bits de resolución a comparación de los 8 bits implementados en la versión anterior. También hay cierta mejoras respecto a la corriente máxima que permite a la salida del conector BNC, así como la impedancia de salida que sea de $50 \ \Omega$. Las versiones anteriores no dejaban de ser prototipos, la idea ahora es realizar un equipo completo en donde se tengan las placas de desarrollos diseñadas, una fuente de alimentación conmutada conectada a 220 Vac y una carcasa en 3D o en su caso en chapa.
+
+\section{Motivación}
+La motivación para realizar el proyecto comenzó como parte de un trabajo práctico de la materia \textit{Dispositivos y Circuitos Electrónicos IV} donde se realizó una primera versión del desarrollo. El trabajo únicamente consistía en generar la señal con el DAC 2-2R y eligiendo mediante una pantalla TFT el valor de la frecuencia de salida. Debido al tiempo limitado el hardware se realizó lo mencionado, quedando como futura mejora la implementación de un control de acondicionamiento de señal, permitiendo variar el amplitud máxima, offset y tipo de señal. Por el lado del firmware de la primera versión 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Introduccion/img/1raVersionPlaca}
+	\caption{Primera versión de la placa de desarrollo, realizada con una placa perforada.}
+	\label{fig:1raversionplaca}
+\end{figure}
+
+

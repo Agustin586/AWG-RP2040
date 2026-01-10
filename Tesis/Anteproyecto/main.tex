@@ -1,0 +1,144 @@
+\documentclass[article,12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{{pic/}{../pic/}}
+
+\usepackage{geometry}
+\geometry{left = 1.7cm, right= 2.5cm}
+
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{float}
+%\usepackage[inkscapeformat=png]{svg}
+\usepackage[bookmarks = true, colorlinks=true, linkcolor = black, citecolor = black, menucolor = black, urlcolor = black]{hyperref}
+
+% \lhead{\includegraphics[width=2cm, height= 1.5cm]{pic/FCEIA-logo.png}}
+
+\usepackage{hyperref}
+\usepackage{vmargin}
+\usepackage{enumitem} 
+
+\chead{{\itshape \bfseries \textquotedblleft Proyecto 1 \textquotedblright} \\
+{\bfseries }Generador de Funciones Arbitrarias \\
+Zuliani, Agustín\\
+Universidad Nacional de Rosario, 2025}
+
+\lhead{\includegraphics[width=2cm, height=2cm]{pic/unr-logo.png}}
+\rhead{\includegraphics[width=3.15cm, height=1.5cm]{pic/FCEIA-logo.png}}
+\renewcommand{\headrulewidth}{1.5pt}
+
+\lfoot[\thepage]{Zuliani, Agustín}
+\rfoot[Zuliani, Agustín]{\thepage}
+
+\setpapersize{A4}
+\setmargins{2.5cm}       	% margen izquierdo
+{1cm}                       % margen superior
+{16.5cm}                    % anchura del texto
+{23cm}                    	% altura del texto
+{10pt}                      % altura de los encabezados
+{2.5cm}                     % espacio entre el texto y los encabezados
+{0pt}                       % altura del pie de página
+{1cm}                       % espacio entre el texto y el pie de página
+
+\usepackage{tikz, adjustbox}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+
+% Yellow:
+\definecolor{BgYellow}{HTML}{FFF59C}
+\definecolor{FrameYellow}{HTML}{F7A600}
+
+% Definir el estilo de la nota
+% Yellow Sticky Note (YStkyNote):
+\newtcolorbox{YStkyNote}[1][]{%
+    enhanced,
+    before skip=2mm,after skip=2mm, 
+    width=0.4\textwidth, % width of the sticky note
+    boxrule=0.2mm,
+    colback=BgYellow, colframe=FrameYellow, % Colors
+    attach boxed title to top left={xshift=0cm,yshift*=0mm-\tcboxedtitleheight},
+    varwidth boxed title*=-3cm,
+    % The titlebox:
+    boxed title style={frame code={%
+        \path[left color=FrameYellow,right color=FrameYellow,
+        middle color=FrameYellow]
+        ([xshift=-0mm]frame.north west) -- ([xshift=0mm]frame.north east)
+        [rounded corners=0mm]-- ([xshift=0mm,yshift=0mm]frame.north east)
+        -- (frame.south east) -- (frame.south west)
+        -- ([xshift=0mm,yshift=0mm]frame.north west)
+        [sharp corners]-- cycle;
+        },interior engine=empty,
+    },
+    sharp corners,rounded corners=southeast,arc is angular,arc=3mm,
+    % The "folded paper" in the bottom right corner:
+    underlay={%
+        \path[fill=BgYellow!80!black] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+        \path[draw=FrameYellow,shorten <=-0.05mm,shorten >=-0.05mm,color=FrameYellow] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+        },
+    drop fuzzy shadow, % Shadow
+    fonttitle=\bfseries, 
+    title={#1}
+}
+\usepackage{titlesec}
+%\usepackage{lipsum}
+
+% Define custom section title format
+\titleformat{\section}[block] % {command}[shape]
+  {\sffamily\Huge\bfseries\color{teal}} % {format}
+  {\raisebox{-0.2\height}{\includegraphics[height=1.2em]{pic/pid.png}}\hspace{0.3em}\thesection} % {label}
+  {0.5em} % {sep}
+  {} % No {before-code}
+  [\vspace{-0.5em}\color{teal}\rule{\linewidth}{2pt}] % {after-code}
+
+\titleformat{\subsection}
+    {\normalfont\large\bfseries\color{teal}}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0.5em}{0.5em}
+
+\titleformat{\subsubsection}
+    {\normalfont\large\bfseries\color{teal}}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{0.5em}{0.5em}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+% Definir un comando para usar la imagen como etiqueta de ítem
+\newcommand{\itemimage}{\includegraphics[width=0.025\textwidth]{pic/items_control.png}}
+
+% Definir globalmente el símbolo de los ítems como la imagen
+\setlist[itemize]{label=\itemimage}
+
+\input{tcolorbox_define}
+\input{Config_codigo}
+
+\begin{document}
+\vspace*{2.1cm}
+
+\begin{center}
+\bfseries \LARGE \textquotedblleft Anteproyecto: Generador de Funciones Arbitrarias basado en RP2040.\textquotedblright
+\end{center}
+
+\vspace{0.1cm} 
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\input{Introduccion/doc/introduccion.tex}
+\input{Introduccion/doc/Objetivo.tex}
+
+\newpage 
+
+\bibliographystyle{plain}  % Estilo de la bibliografía (plain, alpha, etc.)
+\bibliography{bibliografia} % Nombre del archivo .bib (sin extensión)
+
+\end{document}

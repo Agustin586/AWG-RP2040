@@ -1,0 +1,16 @@
+.LT8471IFE_PBF :1 ;DC/DC CONVERTER, MULTITOPOLOGY, 50V, TSSOP-20; Supply Voltage:50V; No. of Step-Down DC - DC Converters:2; No. of LDO Regulators:-; No. of Regulated Outputs:2; Digital IC Case:TSSOP; No. of Pins:20Pins; Operating Temperature Min:-40CRoHS Compliant: Yes
+SOP65P640X120-21N
+*STM IC
+*NGS
+*PLB 1="C1" 2="E1" 3="VIN1" 4="PG1" 5="FB1" 6="OV/UV" 7="RT" 8="SS1" 9="SYNC" 10="GND_1" 11="GND_2" 12="GND_3" 13="C3" 14="SHOUT" 15="SS2" 16="FB2" 17="PG2" 18="VIN2" 19="E2" 20="C2" 21="GND_4"
+*MXP 21
+*DFN LT8471IFE_PBF
+~!Mouser Part Number (584-LT8471IFE#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8471IFEPBF?qs=hVkxg5c3xu%2FiDctk9AXMtQ%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT8471IFE#PBF)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/8471fd.pdf)
+~!Height (1.2mm)
+~!3D_Model (LT8471IFE#PBF)
+LT8471IFE_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

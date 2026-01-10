@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{1}{chapter*.1}%
+\addvspace {1em}
+\contentsline {subparagraph}{}{7}{chapter*.2}%

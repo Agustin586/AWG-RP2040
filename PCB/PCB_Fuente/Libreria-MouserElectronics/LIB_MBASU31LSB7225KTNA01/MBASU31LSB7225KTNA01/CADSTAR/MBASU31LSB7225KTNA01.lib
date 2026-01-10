@@ -1,0 +1,16 @@
+.MBASU31LSB7225KTNA01 :1 ;MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Telecommunications Infrastructure and Industrial Equipment]
+MBASx31x
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MBASU31LSB7225KTNA01
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (TAIYO YUDEN)
+~!Manufacturer_Part_Number (MBASU31LSB7225KTNA01)
+~!Link Datasheet (https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MBASU31LSB7225KTNA01)
+~!Height (1.6mm)
+~!3D_Model (MBASU31LSB7225KTNA01)
+MBASU31LSB7225KTNA01
+1.1!U 2.1!U 

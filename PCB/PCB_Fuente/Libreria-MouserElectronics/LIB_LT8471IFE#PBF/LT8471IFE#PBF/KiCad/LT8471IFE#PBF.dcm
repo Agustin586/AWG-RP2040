@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT8471IFE#PBF
+D DC/DC CONVERTER, MULTITOPOLOGY, 50V, TSSOP-20; Supply Voltage:50V; No. of Step-Down DC - DC Converters:2; No. of LDO Regulators:-; No. of Regulated Outputs:2; Digital IC Case:TSSOP; No. of Pins:20Pins; Operating Temperature Min:-40CRoHS Compliant: Yes
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8471fd.pdf
+$ENDCMP
+#
+#End Doc Library

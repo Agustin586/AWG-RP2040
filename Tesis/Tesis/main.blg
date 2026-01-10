@@ -1,0 +1,96 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: introduction-to-DM.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: acknowledgements.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 14495 items.
+Database file #1: susy.bib
+Repeated entry---line 9744 of file susy.bib
+ : @article{Ma:1998dn
+ :                   ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Ade:2015xua
+Warning--empty journal in Akerib:2016lao
+Warning--empty journal in Akerib:2016vxi
+Warning--empty journal in belanger2014micromegas
+Warning--empty journal in Ackermann:2015zua
+Warning--empty journal in Funk:review
+Warning--empty journal in AbazajianKaplinghat2013
+Warning--empty journal in TheFermi-LAT:2015kwa
+Warning--empty journal in Zho2015
+Warning--empty journal in GordonMacias2013erratum
+Warning--empty journal in Mirabal2013
+Warning--empty journal in Lacroix:2015wfx
+Warning--empty journal in O'Leary:2016osi
+Warning--empty journal in MacGorCroProf2015
+Warning--empty journal in Bertoneetal
+Warning--empty journal in Freeseetal
+Warning--empty journal in ArkaniHamed:2005yv
+Warning--empty journal in Patt:2006fw
+Warning--empty journal in Arkani-Hamed:2015vfh
+Warning--empty journal in Abe:2014gua
+Warning--empty journal in Martin:2012us
+Warning--empty journal in Belanger:2014vza
+Warning--empty journal in Staub:2008uz
+Warning--empty journal in Beenakker:1996ed
+Warning--empty journal in Acero:2015hja
+Warning--empty journal in Garcia-Cely:2015quu
+
+Done.
+You've used 211 entries,
+            4039 wiz_defined-function locations,
+            2010 strings with 41235 characters,
+and the built_in function-call counts, 135874 in all, are:
+= -- 12107
+> -- 2959
+< -- 792
++ -- 1545
+- -- 596
+* -- 6175
+:= -- 21659
+add.period$ -- 422
+call.type$ -- 211
+change.case$ -- 212
+chr.to.int$ -- 1245
+cite$ -- 237
+duplicate$ -- 11056
+empty$ -- 10360
+format.name$ -- 774
+if$ -- 31318
+int.to.chr$ -- 0
+int.to.str$ -- 211
+missing$ -- 1828
+newline$ -- 676
+num.names$ -- 210
+pop$ -- 4010
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 11225
+stack$ -- 0
+substring$ -- 4109
+swap$ -- 8515
+text.length$ -- 377
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 211
+warning$ -- 26
+while$ -- 495
+width$ -- 214
+write$ -- 2091
+(There was 1 error message)

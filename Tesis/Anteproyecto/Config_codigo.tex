@@ -1,0 +1,24 @@
+\usepackage{tcolorbox}
+\usepackage{listings}
+\usepackage{xcolor} % Para colores personalizados
+
+\definecolor{codebg}{rgb}{1,1,1} % Fondo gris claro
+\definecolor{codeborder}{rgb}{0.6,0.6,0.6} % Borde gris oscuro
+
+\lstdefinestyle{mystyle}{
+  language=C,
+  basicstyle=\ttfamily\color{black}, % Código en negro
+  keywordstyle=\color{blue}, % Palabras clave en azul
+  commentstyle=\color{green!50!black}, % Comentarios en verde oscuro
+  stringstyle=\color{red}, % Cadenas en rojo
+  showspaces=false, % Oculta los espacios
+  showstringspaces=false % Evita que los espacios dentro de strings se marquen
+}
+
+\newtcolorbox{codebox}{
+    colback=codebg, 
+    colframe=codeborder, 
+    arc=3mm, 
+    boxrule=1pt, 
+    fontupper=\ttfamily
+}

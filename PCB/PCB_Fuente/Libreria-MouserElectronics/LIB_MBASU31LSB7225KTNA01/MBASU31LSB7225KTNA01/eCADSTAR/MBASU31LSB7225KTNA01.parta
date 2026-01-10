@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_19293835"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-26-09:13:52)
+    (utime 2024-04-29-09:19:43)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MBASU31LSB7225KTNA01")
+)
+
+
+(pinAssign "ECS_19293835"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-26-09:13:52)
+    (utime 2024-04-29-09:19:43)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19293835")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MBASU31LSB7225KTNA01")
+)
+
+
+(part "MBASU31LSB7225KTNA01"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-26-09:13:52)
+    (utime 2024-04-29-09:19:43)
+    (packageRef "MBASU31LSB7225KTNA01")
+    (pinAssignRef "ECS_19293835")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Telecommunications Infrastructure and Industrial Equipment]")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "TAIYO YUDEN")
+    (property "Manufacturer_Part_Number" "MBASU31LSB7225KTNA01")
+    (property "Datasheet_Link" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MBASU31LSB7225KTNA01")
+    (property "compAreaTopHeight" 1.6)
+)
+
+

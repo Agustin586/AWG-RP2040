@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT8471IFE#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT8471IFE#PBF" (!) = "", "SOP65P640X120-21N", "Small Outline Packages", "584-LT8471IFE#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8471IFEPBF?qs=hVkxg5c3xu%2FiDctk9AXMtQ%3D%3D", "DC/DC CONVERTER, MULTITOPOLOGY, 50V, TSSOP-20; Supply Voltage:50V; No. of Step-Down DC - DC Converters:2; No. of LDO Regulators:-; No. of Regulated Outputs:2; Digital IC Case:TSSOP; No. of Pins:20Pins; Operating Temperature Min:-40CRoHS Compliant: Yes", "https://www.analog.com/media/en/technical-documentation/data-sheets/8471fd.pdf", "1.2 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MBASx31x"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MBASx31x")
+        (spec "default")
+    )
+)

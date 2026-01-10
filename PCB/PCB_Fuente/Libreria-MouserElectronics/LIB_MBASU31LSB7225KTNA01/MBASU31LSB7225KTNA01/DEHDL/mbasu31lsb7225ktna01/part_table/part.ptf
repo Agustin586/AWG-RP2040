@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MBASU31LSB7225KTNA01'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TAIYO YUDEN", "MBASU31LSB7225KTNA01" (!) = "", "MBASx31x", "Other", "", "", "MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Telecommunications Infrastructure and Industrial Equipment]", "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MBASU31LSB7225KTNA01", "1.6 mm"
+END_PART
+
+END.

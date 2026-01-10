@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=FB1_15V Pin=B2-5
+Removed Pin From Net: NetName=FB2_15V Pin=B2-16
+Removed Pin From Net: NetName=FB2_15V Pin=R14-1
+Removed Pin From Net: NetName=FB1_15V Pin=R15-1
+Removed Pin From Net: NetName=FB1_15V Pin=R18-2
+Removed Pin From Net: NetName=FB2_15V Pin=R19-2
+Added Pin To Net: NetName=FB1_5V Pin=B2-5
+Added Pin To Net: NetName=FB1_5V Pin=R15-1
+Added Pin To Net: NetName=FB1_5V Pin=R18-2
+Added Net: Name=FB1_5V
+Added Pin To Net: NetName=FB2_5V Pin=B2-16
+Added Pin To Net: NetName=FB2_5V Pin=R14-1
+Added Pin To Net: NetName=FB2_5V Pin=R19-2
+Added Net: Name=FB2_5V
