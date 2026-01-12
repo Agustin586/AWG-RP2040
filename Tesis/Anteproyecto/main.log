@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.5)  9 JAN 2026 07:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.5)  11 JAN 2026 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,12 +1036,12 @@ Package hyperref Info: Link coloring ON on input line 121.
 \openout4 = `main.out'.
 
 \c@lstlisting=\count348
-<pic/unr-logo.png, id=54, 186.6975pt x 186.6975pt>
+<pic/unr-logo.png, id=58, 186.6975pt x 186.6975pt>
 File: pic/unr-logo.png Graphic file (type png)
 <use pic/unr-logo.png>
 Package pdftex.def Info: pic/unr-logo.png  used on input line 130.
 (pdftex.def)             Requested size: 56.90419pt x 56.90419pt.
-<pic/FCEIA-logo.png, id=55, 501.875pt x 238.8925pt>
+<pic/FCEIA-logo.png, id=59, 501.875pt x 238.8925pt>
 File: pic/FCEIA-logo.png Graphic file (type png)
 <use pic/FCEIA-logo.png>
 Package pdftex.def Info: pic/FCEIA-logo.png  used on input line 130.
@@ -1080,7 +1080,7 @@ Package fancyhdr Warning: \headheight is too small (10.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
 
 [2] (Introduccion/doc/introduccion.tex
-<pic/pid.png, id=74, 213.79875pt x 237.88875pt>
+<pic/pid.png, id=79, 213.79875pt x 237.88875pt>
 File: pic/pid.png Graphic file (type png)
 <use pic/pid.png>
 Package pdftex.def Info: pic/pid.png  used on input line 1.
@@ -1090,7 +1090,7 @@ Package pdftex.def Info: pic/pid.png  used on input line 1.
 pdfTeX warning: pdflatex.exe (file ./Introduccion/img/raspberry-pi-pico-w-pinou
 t.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<Introduccion/img/raspberry-pi-pico-w-pinout.pdf, id=75, 856.42763pt x 608.8888
+<Introduccion/img/raspberry-pi-pico-w-pinout.pdf, id=80, 856.42763pt x 608.8888
 1pt>
 File: Introduccion/img/raspberry-pi-pico-w-pinout.pdf Graphic file (type pdf)
 <use Introduccion/img/raspberry-pi-pico-w-pinout.pdf>
@@ -1113,7 +1113,7 @@ Package fancyhdr Warning: \headheight is too small (10.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
 
 [3 <./pic/pid.png> <./Introduccion/img/raspberry-pi-pico-w-pinout.pdf>]
-<Introduccion/img/r2r-4bits-2.png, id=121, 239.12868pt x 242.31706pt>
+<Introduccion/img/r2r-4bits-2.png, id=126, 239.12868pt x 242.31706pt>
 File: Introduccion/img/r2r-4bits-2.png Graphic file (type png)
 <use Introduccion/img/r2r-4bits-2.png>
 Package pdftex.def Info: Introduccion/img/r2r-4bits-2.png  used on input line 1
@@ -1140,33 +1140,123 @@ Package fancyhdr Warning: \headheight is too small (10.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
 
 [4 <./Introduccion/img/r2r-4bits-2.png>]
-<Introduccion/img/1raVersionPlaca.png, id=128, 227.34938pt x 235.37938pt>
+<Introduccion/img/1raVersionPlaca.png, id=133, 227.34938pt x 235.37938pt>
 File: Introduccion/img/1raVersionPlaca.png Graphic file (type png)
 <use Introduccion/img/1raVersionPlaca.png>
 Package pdftex.def Info: Introduccion/img/1raVersionPlaca.png  used on input li
 ne 29.
 (pdftex.def)             Requested size: 234.73523pt x 243.02888pt.
+<Introduccion/img/SM_of_Awg.png, id=134, 1264.725pt x 1156.32pt>
+File: Introduccion/img/SM_of_Awg.png Graphic file (type png)
+<use Introduccion/img/SM_of_Awg.png>
+Package pdftex.def Info: Introduccion/img/SM_of_Awg.png  used on input line 36.
+
+(pdftex.def)             Requested size: 328.62788pt x 300.45967pt.
+File: pic/unr-logo.png Graphic file (type png)
+<use pic/unr-logo.png>
+Package pdftex.def Info: pic/unr-logo.png  used on input line 40.
+(pdftex.def)             Requested size: 56.90419pt x 56.90419pt.
+File: pic/FCEIA-logo.png Graphic file (type png)
+<use pic/FCEIA-logo.png>
+Package pdftex.def Info: pic/FCEIA-logo.png  used on input line 40.
+(pdftex.def)             Requested size: 89.6214pt x 42.67801pt.
+
+
+Package fancyhdr Warning: \headheight is too small (10.0pt): 
+(fancyhdr)                Make it at least 61.25423pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25423pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
+
+[5 <./Introduccion/img/1raVersionPlaca.png>]
+<Introduccion/img/dispositivo.png, id=141, 370.88562pt x 560.0925pt>
+File: Introduccion/img/dispositivo.png Graphic file (type png)
+<use Introduccion/img/dispositivo.png>
+Package pdftex.def Info: Introduccion/img/dispositivo.png  used on input line 4
+7.
+(pdftex.def)             Requested size: 281.68513pt x 425.39268pt.
+File: pic/unr-logo.png Graphic file (type png)
+<use pic/unr-logo.png>
+Package pdftex.def Info: pic/unr-logo.png  used on input line 51.
+(pdftex.def)             Requested size: 56.90419pt x 56.90419pt.
+File: pic/FCEIA-logo.png Graphic file (type png)
+<use pic/FCEIA-logo.png>
+Package pdftex.def Info: pic/FCEIA-logo.png  used on input line 51.
+(pdftex.def)             Requested size: 89.6214pt x 42.67801pt.
+
+
+Package fancyhdr Warning: \headheight is too small (10.0pt): 
+(fancyhdr)                Make it at least 61.25423pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25423pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
+
+[6 <./Introduccion/img/SM_of_Awg.png>]
+File: pic/unr-logo.png Graphic file (type png)
+<use pic/unr-logo.png>
+Package pdftex.def Info: pic/unr-logo.png  used on input line 55.
+(pdftex.def)             Requested size: 56.90419pt x 56.90419pt.
+File: pic/FCEIA-logo.png Graphic file (type png)
+<use pic/FCEIA-logo.png>
+Package pdftex.def Info: pic/FCEIA-logo.png  used on input line 55.
+(pdftex.def)             Requested size: 89.6214pt x 42.67801pt.
+
+
+Package fancyhdr Warning: \headheight is too small (10.0pt): 
+(fancyhdr)                Make it at least 61.25423pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25423pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
+
+[7 <./Introduccion/img/dispositivo.png>]
+<Introduccion/img/10VPP_50KHZ_SENOIDAL.png, id=156, 1011.78pt x 704.6325pt>
+File: Introduccion/img/10VPP_50KHZ_SENOIDAL.png Graphic file (type png)
+<use Introduccion/img/10VPP_50KHZ_SENOIDAL.png>
+Package pdftex.def Info: Introduccion/img/10VPP_50KHZ_SENOIDAL.png  used on inp
+ut line 58.
+(pdftex.def)             Requested size: 328.62788pt x 228.86308pt.
 ) (Introduccion/doc/Objetivo.tex
 File: pic/pid.png Graphic file (type png)
 <use pic/pid.png>
 Package pdftex.def Info: pic/pid.png  used on input line 1.
 (pdftex.def)             Requested size: 29.51404pt x 32.84169pt.
-<pic/items_control.png, id=129, 513.92pt x 513.92pt>
+File: pic/unr-logo.png Graphic file (type png)
+<use pic/unr-logo.png>
+Package pdftex.def Info: pic/unr-logo.png  used on input line 5.
+(pdftex.def)             Requested size: 56.90419pt x 56.90419pt.
+File: pic/FCEIA-logo.png Graphic file (type png)
+<use pic/FCEIA-logo.png>
+Package pdftex.def Info: pic/FCEIA-logo.png  used on input line 5.
+(pdftex.def)             Requested size: 89.6214pt x 42.67801pt.
+
+
+Package fancyhdr Warning: \headheight is too small (10.0pt): 
+(fancyhdr)                Make it at least 61.25423pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25423pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
+
+[8 <./Introduccion/img/10VPP_50KHZ_SENOIDAL.png (PNG copy)>]
+File: pic/pid.png Graphic file (type png)
+<use pic/pid.png>
+Package pdftex.def Info: pic/pid.png  used on input line 6.
+(pdftex.def)             Requested size: 29.51404pt x 32.84169pt.
+<pic/items_control.png, id=163, 513.92pt x 513.92pt>
 File: pic/items_control.png Graphic file (type png)
 <use pic/items_control.png>
-Package pdftex.def Info: pic/items_control.png  used on input line 5.
+Package pdftex.def Info: pic/items_control.png  used on input line 10.
 (pdftex.def)             Requested size: 11.73389pt x 11.7313pt.
 File: pic/items_control.png Graphic file (type png)
 <use pic/items_control.png>
-Package pdftex.def Info: pic/items_control.png  used on input line 6.
+Package pdftex.def Info: pic/items_control.png  used on input line 11.
 (pdftex.def)             Requested size: 11.73389pt x 11.7313pt.
 File: pic/items_control.png Graphic file (type png)
 <use pic/items_control.png>
-Package pdftex.def Info: pic/items_control.png  used on input line 7.
+Package pdftex.def Info: pic/items_control.png  used on input line 12.
 (pdftex.def)             Requested size: 11.73389pt x 11.7313pt.
 File: pic/items_control.png Graphic file (type png)
 <use pic/items_control.png>
-Package pdftex.def Info: pic/items_control.png  used on input line 9.
+Package pdftex.def Info: pic/items_control.png  used on input line 14.
 (pdftex.def)             Requested size: 11.73389pt x 11.7313pt.
 )
 File: pic/unr-logo.png Graphic file (type png)
@@ -1185,24 +1275,7 @@ Package fancyhdr Warning: \headheight is too small (10.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
 
-[5 <./Introduccion/img/1raVersionPlaca.png> <./pic/items_control.png>]
-File: pic/unr-logo.png Graphic file (type png)
-<use pic/unr-logo.png>
-Package pdftex.def Info: pic/unr-logo.png  used on input line 139.
-(pdftex.def)             Requested size: 56.90419pt x 56.90419pt.
-File: pic/FCEIA-logo.png Graphic file (type png)
-<use pic/FCEIA-logo.png>
-Package pdftex.def Info: pic/FCEIA-logo.png  used on input line 139.
-(pdftex.def)             Requested size: 89.6214pt x 42.67801pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 61.25423pt, for example:
-(fancyhdr)                \setlength{\headheight}{61.25423pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
-
-[6] (main.bbl
+[9 <./pic/items_control.png>] (main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -1223,7 +1296,7 @@ Package fancyhdr Warning: \headheight is too small (10.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-51.25423pt}.
 
-[7] (main.aux
+[10] (main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -1232,13 +1305,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BEA0AA5F34FE46D7F1030B1C2558B3EE;346.
+(rerunfilecheck)             Checksum: D0300E059EFB2623EFEC20C2A478F49F;439.
  ) 
 Here is how much of TeX's memory you used:
- 30895 strings out of 474486
- 623345 string characters out of 5743756
- 1934542 words of memory out of 5000000
- 52643 multiletter control sequences out of 15000+600000
+ 30941 strings out of 474486
+ 624821 string characters out of 5743756
+ 1935542 words of memory out of 5000000
+ 52682 multiletter control sequences out of 15000+600000
  564005 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,96p,1543b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1249,10 +1322,11 @@ fonts/cm/cmbxti10.pfb><D:/Users/aguat/AppData/Local/Programs/MiKTeX/fonts/type1
 nts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/aguat/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/aguat/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Users/aguat/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (7 pages, 2298172 bytes).
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/ag
+uat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (10 pages, 3855305 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

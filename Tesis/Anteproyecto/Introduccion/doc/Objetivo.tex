@@ -1,4 +1,9 @@
-\section{Alcance y Objetivos}
+\section{Objetivos}
+El objetivo de este proyecto final consiste en el diseño de un Generador de Funciones Arbitrarias como un dispositivo final. La idea sería que se pueda utilizar como un instrumento convencional, para esto se utilizará una fuente de SMPS de tipo Flyback con +24V/6A de salida como alimentación principal. Esta tensión ingresa a una placa de \textit{Alimentación General} que se encargar de producir las diferentes tensiones necesarias para la placa de \textit{Control} y de \textit{Panel}. Estas tensiones son $\pm$15V, $\pm$5V, 3.3V y GND. A continuación se menciona en detalle que se hará en cada placa en particular.
+
+\paragraph{Placa de Alimentación:} Se ingresa con una entrada de +24V/6A, pasando con las protecciones de ESD con diodos TVS, Fusibles eléctricos y protección contra polaridad inversa (don diodos Shottky). El corazón de esta placa es el integrado LT8471 que es un circuito integrado con dos canales de salida. Dentro de las configuraciones permitidas, se puede configuran un buck y un inverter, en el canal 1 y 2 respectivamente. Como cada circuito integrado posee solo dos canales es necesario dos integrados uno para las salidas de $\pm$15V y otro para las salidas de $\pm$5V. Luego para la salida de 3.3V se utiliza un LDO de bajo ripple. Todas estas tensiones ingresan a un conector IDC 2x8.
+
+\section{Alcance del proyecto}
 La intención de este proyecto consiste en la realización de dicho \textit{Generador de Funciones Arbitrarias} para esto mismo se proponen ciertas características para validar la calidad del dispositivo realizado:
 
 \begin{itemize}
