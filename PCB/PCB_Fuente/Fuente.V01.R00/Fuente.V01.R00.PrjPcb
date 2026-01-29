@@ -91,6 +91,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Fuente.V01.R00\Design Rule Check - PCB-Fuente.V01.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=$(Librerias)
 Value=D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Fuente\Libreria-MouserElectronics
@@ -253,7 +257,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother HL-1210W series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
