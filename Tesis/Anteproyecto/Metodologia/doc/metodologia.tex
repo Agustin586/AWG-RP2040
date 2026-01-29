@@ -1,0 +1,63 @@
+\section{Metodología de ensayo y validación}
+La metodología de ensayo propuesta tiene como objetivo verificar el cumplimiento de las especificaciones funcionales y de desempeño del generador de funciones/arbitrario, tanto en el dominio temporal como en el dominio frecuencial. Se definen el instrumental, las condiciones de medición, los ensayos y los criterios de aceptación.
+
+\subsection{Instrumental y condiciones de medición}
+Los ensayos se realizarán bajo condiciones ambientales de laboratorio. Se utilizará el siguiente instrumental:
+\begin{itemize}
+	\item Osciloscopio con ancho de banda adecuado (idealmente $\geq 5\times$ la frecuencia máxima a evaluar), sondas pasivas y entrada con terminación de 50\,$\Omega$ o alta impedancia según se disponga.
+	\item Analizador de espectro (si se dispone) o FFT del osciloscopio para evaluación espectral.
+	\item Multímetro TRMS para verificación de amplitud en baja frecuencia.
+	\item Cables coaxiales BNC de baja longitud y adaptadores/terminadores adecuados.
+\end{itemize}
+
+\subsection{Ensayos funcionales}
+Se verificará el correcto funcionamiento de las funciones principales:
+\begin{itemize}
+	\item \textbf{Generación de formas de onda:} senoidal, cuadrada, triangular/rampa, pulso y arbitraria.
+	\item \textbf{Configuración de parámetros:} frecuencia, amplitud, offset DC, duty cycle y fase (si aplica).
+	\item \textbf{Visualización de Configuraciones:} definida a través de la interfaz de visualización que se use (display o PC).
+	\item Verificación de interfaz de control (USB/serial/Ethernet) y respuesta a comandos (si aplica).
+\end{itemize}
+
+El resultado satisfactorio de esta etapa radica en la posibilidad de que el usuario/desarrollador pueda manejar de forma correcta las configuraciones mencionadas y que estas se vean claramente representadas en la interfaz de visualización elegida.
+
+\subsection{Ensayos de frecuencia y resolución}
+Se evaluará la exactitud y resolución de frecuencia mediante puntos de prueba representativos (por ejemplo 1\,kHz, 10\,kHz, 100\,kHz, 300 KHz, 500 KHz, 700 KHz, 1\,MHz, 5\,MHz, 10\,MHz y frecuencia máxima del equipo):
+
+\begin{itemize}
+	\item \textbf{Error de frecuencia:} $\Delta f = f_\text{medida} - f_\text{programada}$ (si es posible en base a la calidad del instrumental usado).
+	\item \textbf{Resolución efectiva:} menor cambio programable observable en la salida (igual que item anterior).
+\end{itemize}
+
+Como criterio de aceptación se adoptará un error máximo permitido en frecuencia (en ppm o en \%), definido en función de los objetivos del proyecto y del oscilador de referencia utilizado.
+
+\subsection{Ensayos de amplitud y offset}
+Se medirán amplitud y offset tanto en High-Z como con carga de 50\,$\Omega$:
+
+\begin{itemize}
+	\item Amplitud de salida (Vpp y/o Vrms) versus valor programado.
+	\item Offset DC versus valor programado.
+\end{itemize}
+
+El criterio de aceptación se definirá mediante un error relativo y/o absoluto máximo (por ejemplo $\pm(1\%$ a $3\%)$).
+
+\subsection{Integridad de señal en el dominio temporal}
+Para cada forma de onda, especialmente a frecuencias elevadas, se evaluará:
+
+\begin{itemize}
+	\item \textbf{Para senoidal:} ruido observable, estabilidad y distorsión.
+	\item \textbf{Para cuadrada/pulso:} tiempos de subida y bajada (10--90\%), overshoot/undershoot para ciertas frecuencias seleccionadas, duty real versus duty programado.
+\end{itemize}
+
+Dado que se trata de un proyecto final a nivel educativo y no un dispositivo comercial, la validación de la etapa será en función de los resultados obtenidos.
+
+\subsection{Ensayos espectrales (armónicos, THD, SFDR)}
+Se caracterizará la calidad espectral mediante FFT del osciloscopio o analizador de espectro. Para una senoidal (por ejemplo 1\,MHz y 10\,MHz) se evaluará:
+
+\begin{itemize}
+	\item Niveles de armónicos (2º, 3º, etc.).
+	\item THD o THD+N (si el instrumento lo permite).
+	\item SFDR: diferencia entre el tono fundamental y el mayor espurio.
+\end{itemize}
+
+Se verificará que el contenido espectral sea consistente con la forma cargada y que no existan espurios dominantes no esperados. En caso de aparecer mencionarlos y dar una breve justificación.

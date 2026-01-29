@@ -1,3 +1,52 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{dentgen2019_funktionsgeneratorv2_frontpanel_sch}
+Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
+\newblock Funktionsgenerator version 2: Frontpanel (frontpanelv2).
+\newblock Esquem{\'a}tico (PDF) exportado desde archivo de dise{\~n}o
+  \texttt{.SchDoc}.
+\newblock Fecha exacta no indicada en el PDF; referencia interna:
+  \texttt{FrontpanelV2.SchDoc}.
+
+\bibitem{dentgen2019_funktionsgeneratorv2_hauptplatine_sch}
+Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
+\newblock Funktionsgenerator version 2: Hauptplatine (mainboard).
+\newblock Esquem{\'a}tico (PDF) exportado desde archivo de dise{\~n}o.
+\newblock Fecha exacta no indicada en el PDF; esquem{\'a}tico de la placa
+  principal (DDS, etapas anal{\'o}gicas, etc.).
+
+\bibitem{dentgen2019_funktionsgeneratorv2_netzteil_sch}
+Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
+\newblock Funktionsgenerator version 2: Netzteilplatine (powersupplyv2).
+\newblock Esquem{\'a}tico (PDF) exportado desde archivo de dise{\~n}o
+  \texttt{.SchDoc}.
+\newblock Fecha exacta no indicada en el PDF; referencia interna:
+  \texttt{PowerSupplyV2.sch}.
+
+\bibitem{dentgen2019_funktionsgeneratorv2_projektdoku}
+Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
+\newblock Funktionsgenerator version 2: Projektdokumentation.
+
+\bibitem{dentgen_frauschlaeger_taugenbeck_funktionsgenerator_2019}
+Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
+\newblock Funktionsgenerator auf basis des ad9102, 2019.
+\newblock GitHub repository. Consultado: 21 ene 2026.
+
+\bibitem{dds2022_montaje_electronico_completo}
+Hernán Fisella.
+\newblock Montaje electr{\'o}nico dds completo: esquem{\'a}ticos (dds / control
+  de amplitud y offset).
+\newblock Documento PDF.
+
+\bibitem{peterson_stitching_vias_2023}
+Zachariah Peterson.
+\newblock Todo lo que necesitas saber sobre las vías de unión en una pcb,
+  April 2023.
+\newblock Creado: 9 dic 2022. Consultado: 21 ene 2026.
+
+\bibitem{genfunciones2025_rpipico_pdf}
+Agustin Zuliani.
+\newblock Generador de funciones: Documentaci{\'o}n/esquem{\'a}tico (rpi pico).
+\newblock Documento PDF.
 
 \end{thebibliography}

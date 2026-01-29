@@ -1,14 +1,253 @@
 \section{Objetivos}
-El objetivo de este proyecto final consiste en el diseño de un Generador de Funciones Arbitrarias como un dispositivo final. La idea sería que se pueda utilizar como un instrumento convencional, para esto se utilizará una fuente de SMPS de tipo Flyback con +24V/6A de salida como alimentación principal. Esta tensión ingresa a una placa de \textit{Alimentación General} que se encargar de producir las diferentes tensiones necesarias para la placa de \textit{Control} y de \textit{Panel}. Estas tensiones son $\pm$15V, $\pm$5V, 3.3V y GND. A continuación se menciona en detalle que se hará en cada placa en particular.
 
-\paragraph{Placa de Alimentación:} Se ingresa con una entrada de +24V/6A, pasando con las protecciones de ESD con diodos TVS, Fusibles eléctricos y protección contra polaridad inversa (don diodos Shottky). El corazón de esta placa es el integrado LT8471 que es un circuito integrado con dos canales de salida. Dentro de las configuraciones permitidas, se puede configuran un buck y un inverter, en el canal 1 y 2 respectivamente. Como cada circuito integrado posee solo dos canales es necesario dos integrados uno para las salidas de $\pm$15V y otro para las salidas de $\pm$5V. Luego para la salida de 3.3V se utiliza un LDO de bajo ripple. Todas estas tensiones ingresan a un conector IDC 2x8.
+\subsection{Objetivo General}
+Diseñar e implementar un generador de funciones/arbitrario apto para laboratorio remoto, basado en RP2040 como unidad de control y un DDS dedicado como núcleo de síntesis, incorporando una etapa analógica de acondicionamiento que permita ajustar frecuencia, amplitud y offset, y validándolo mediante ensayos de laboratorio.
 
-\section{Alcance del proyecto}
-La intención de este proyecto consiste en la realización de dicho \textit{Generador de Funciones Arbitrarias} para esto mismo se proponen ciertas características para validar la calidad del dispositivo realizado:
+\subsection{Objetivos específicos}
+
+\subsubsection{Hardware}
+\begin{itemize}
+	\item Definir la arquitectura del sistema y los bloques funcionales (RP2040 como unidad de control, DDS AD9102 como núcleo de síntesis, etapa analógica de salida, interfaz de usuario, comunicaciones y alimentación), estableciendo especificaciones objetivo y criterios de aceptación medibles.
+	\item Diseñar e implementar la placa de control que incluya la etapa de generación de la forma de onda convencional/arbitraria mediante el AD9102, con el RP2040 como unidad de control, hasta la etapa analógica de salida para acondicionamiento de señal, permitiendo ajuste de amplitud y offset, contemplando estabilidad, ancho de banda y condiciones de carga típicas de laboratorio (p.ej. 50~\(\Omega\) / alta impedancia).
+	\item Diseñar e implementar la etapa de alimentación desde red eléctrica convencional, generando los rieles necesarios e incorporando protecciones básicas.
+	\item Diseñar e implementar la placa de panel (display, controles y conectores) para operación local del instrumento a través del propio usuario.
+	\item Implementar el control necesario para permitir que el equipo pueda ser manipulado mediante un laboratorio remoto con conexión por cable Ethernet.
+\end{itemize}
+
+\subsubsection{Firmware y control}
+\begin{itemize}
+	\item Desarrollar el firmware en el RP2040 para la configuración del AD9102: selección de modo de generación, ajuste de frecuencia y fase (DDS), y gestión de parámetros de salida.
+	\item Implementar soporte de formas de onda arbitrarias definidas por el usuario mediante la carga de tablas de muestras en la memoria de patrón on-chip del AD9102 (hasta 4096 muestras) y su reproducción controlada.
+	\item Implementar la interfaz de usuario local (display) para visualización y ajuste de parámetros.
+ 	\item Integrar un RTOS para organizar el firmware en tareas concurrentes (p.ej. control de síntesis, interfaz de usuario y comunicaciones), mejorando mantenibilidad y escalabilidad del firmware. Logrando además una capa de aplicación que permita cambiar de microcontrolador, si fuese necesario, con mínimos cambios a nivel de código. 
+\end{itemize}
+
+\subsubsection{Validación y documentación}
+\begin{itemize}
+	\item Elaborar y ejecutar un plan de ensayos para caracterizar el desempeño del equipo (frecuencia y error, amplitud y offset y análisis espectral), documentando resultados.
+	\item Documentar el diseño de hardware y firmware, las decisiones técnicas y los resultados de validación, asegurando replicabilidad y extensibilidad del sistema bajo licencia abierta no comercial.
+\end{itemize}
+
+%La idea sería que se pueda utilizar como un instrumento convencional, para esto se utilizará una fuente de SMPS de tipo Flyback con +24V/6A de salida como alimentación principal. Esta tensión ingresa a una placa de \textit{Alimentación General} que se encargar de producir las diferentes tensiones necesarias para la placa de \textit{Control} y de \textit{Panel}. Estas tensiones son $\pm$15V, $\pm$5V, 3.3V y GND. A continuación se menciona en detalle que se hará en cada placa en particular.
+%
+%\paragraph{Placa de Alimentación:} Se ingresa con una entrada de +24V/6A, pasando con las protecciones de ESD con diodos TVS, Fusibles eléctricos y protección contra polaridad inversa (con diodos Schottky o Mosfet canal P con bajo rdson). El corazón de esta placa es el integrado \textbf{LT8471} que es un circuito integrado con dos canales de salida. Dentro de las configuraciones permitidas, se puede configurar un \textit{buck} y un \textit{inverter}, en el canal 1 y 2 respectivamente. Como cada circuito integrado posee solo dos canales es necesario dos integrados uno para las salidas de $\pm$15V y otro para las salidas de $\pm$5V. Luego para la salida de 3.3V se utiliza un LDO de bajo ripple. Todas estas tensiones ingresan a un conector IDC 2x8 que luego alimentarán la PCB de Control y de panel frontal.
+%
+%\paragraph{Placa de Control:} En esta placa se generan las señales correspondientes al generador de funciones arbitrario con una impedancia de salida en \textbf{High-Z} o \textbf{50 $\Omega$} controlado por Relés y conector BNC. Para poder realizar esto se hará uso del microcontrolador \textbf{RP2040} junto con las mejoras correspondientes que se realizan para esta 3ra versión del proyecto. Estas mejoras como se mencionó pueden incluir el cambio de la forma de generación de señal desde el \textbf{DAC R-2R} al \textbf{DDS AD9102} como principal cambio, asi como también cambios en amplificadores operacionales, potenciómetros digitales a usar, DAC para cambiar el offset de la señal de salida y demás.
+%
+%\paragraph{Placa de panel frontal:} En dicha placa se encuentran todos los periféricos que permiten al usuario poder manejar el equipo. Estos son encoder, pulsadores, display TFT (quizas con capacidad touch) y demás. Puede ser que según las condiciones dicha placa se encuentre embebida dentro de la placa de control o como una placa totalmente independiente.
+
+\section{Alcance}
+El proyecto comprende el diseño, implementación y validación de un generador de funciones/arbitrario apto para uso de laboratorio y operación remota, utilizando un RP2040 como unidad de control y un DDS dedicado (AD9102) como núcleo de síntesis. El alcance incluye el desarrollo de hardware, firmware y documentación técnica necesaria para su replicación y utilización.
+
+\subsection{Incluye}
+
+\subsubsection{Hardware}
+\begin{itemize}
+	\item Diseño e implementación de la forma de onda convencional/arbitraria utilizando como unidad principal de control el RP2040 y como sintetizador de señal el AD9102.
+	\item Diseño e implementación de la etapa analógica de salida para acondicionamiento de la señal (ajuste de amplitud y offset) y adaptación a condiciones típicas de carga de laboratorio (50~\(\Omega\) / alta impedancia).
+	\item Diseño e implementación de la etapa de alimentación del instrumento desde red eléctrica convencional, generando los rieles necesarios e incorporando protecciones básicas.
+	\item Diseño e implementación de la placa de panel/interfaz física (display táctil, controles y conectores) para operación local del equipo.
+	\item Implementación de hardware y/o conexionado necesario para posible uso como laboratorio remoto.
+\end{itemize}
+
+\subsubsection{Firmware y control}
+\begin{itemize}
+	\item Desarrollo del firmware en el RP2040 para la configuración y control del AD9102 (p.ej. selección de modo de generación, ajuste de frecuencia y fase, y gestión de parámetros de salida).
+	
+	\item Desarrollo de driver/s para manejo de periféricos externos (DACs MCP4725 para ajuste offset, Memoria EEPROM para almacenamiento de tablas de formas de ondas arbitrarias, Reloj SI5351 como clock del AD9102, manejo de display TFT, etc).
+	
+	\item Implementación de la interfaz de usuario local mediante display para visualización y ajuste de parámetros.
+		
+	\item Implementación del firmware mediante un sistema operativo en tiempo real (RTOS) que permita la ejecución simultanea de diversas tareas (control del sintetizador, manipulación de periféricos del usuario, comunicaciones con hardware de control, etc).
+	
+	\item Implementación de programación orientada a objetos (POO) que permita definir una estructura ordenada y clara de software, permitiendo el mantenimiento y escalabilidad del código realizado.
+\end{itemize}
+
+\subsubsection{Validación y documentación}
+\begin{itemize}
+	\item Elaboración y ejecución de ensayos de validación con instrumental de laboratorio (osciloscopio, multímetro, etc), que incluya medición de frecuencia, amplitud y offset comparando el resultado configurado/deseado contra el medido.
+	
+	\item Elaboración de resultados medibles en el dominio frecuencial, que permitan determinar la calidad de la señal obtenida a la salida.
+	
+	\item Documentación técnica del sistema (hardware y firmware), que incluya cálculos; elecciones de componentes; explicación de etapas de desarrollo a nivel de hardware, así como también a nivel de firmware; resultados obtenidos y consideraciones de uso.
+	
+	\item Elaboración de un repositorio compartido, mediante un entorno de versionado, que permita acceso al total de la documentación tanto del hardware, firmware y demás.
+\end{itemize}
+
+\subsection{Exclusiones y límites}
 
 \begin{itemize}
-	\item $V_{opp} = $ 10 Vpp.
-	\item $V_{in} = $ 85 a 265 VAC.
-	\item $I_{o}$ = 20 mA.
-	\item 
+	\item No se incluyen certificaciones de ningún tipo, a decir EMI/seguridad/etc.
+	
+	\item Las prestaciones finales (rango de frecuencia, amplitud máxima, distorsión, espurias, etc) estarán condicionadas por el núcleo DDS, el reloj de referencia y la etapa analógica de salida, definiéndose especificaciones conservadoras y verificables.
+	
+	\item La implementación del número de canales de salida dependerán en gran medida del presupuesto y tiempo definidos en el proceso de desarrollo. Sin embargo a nivel de firmware el equipo debería estar estructurado de manera tal que puedan agregarse canales de salida como si fueran un objeto mas de una clase base.
+	
+	\item La implementación de interfaz/es de usuario para uso de independiente del display principal, quedan condicionadas al tiempo estipulado para el total del proyecto.
+	
+	\item El diseño e implementación de una carcasa que permita quedar como un dispositivo final es deseable pero no necesaria, dado que correspondería a un diseñador industrial. Sin embargo el diseño de las placas y demás, deberían estar preparados/pensados para tal caso.
 \end{itemize}
+
+\section{Antecedentes y estado actual}
+Haciendo un paréntesis antes de continuar con la especificaciones del instrumento actual se menciona la necesidad de poner en evidencia el trabajo previo de las versiones anteriores del proyecto presente. Tal como se comentó anteriormente tal proyecto nace como parte de elaborar un instrumento a nivel educativo y de costo reducido, el cual fue implementado y mejorado en las materias ya mencionadas (\textit{Dispositivos y Circuitos Electrónicos IV} y \textit{Sistemas Embebidos Avanzados II}). En dichas versiones el núcleo de generación de señal fue realizado mediante una escalera de resistencias \textbf{DAC R-2R} de 8 bits a nivel de hardware; sin embargo a nivel de firmware gracias a periféricos propios del RP2040 se logró muestrear a alta velocidad el vector donde se encuentra la forma de onda arbitraria. Entonces la pregunta que nos realizamos es:
+
+\begin{center}
+	¿Cuáles son dichos periféricos?
+\end{center}
+
+El RP2040 posee un periférico en particular, denominado \textbf{PIO} (entrada/salida programable) que funciona con un conjunto de máquinas de estado de manera independiente a los núcleos principales del procesador y que permite manipular GPIOs de la misma forma que lo haría cualesquiera de estos. De esta manera y junto con el \textbf{DMA} se transfiere la información cargada en un buffer desde la memoria RAM hacia este periférico PIO sin intervención alguna de los núcleos, logrando en efecto una alta tasa de muestreo. Esta es la razón por la que se decidió utilizar dicho microcontrolador en un primer instante.
+
+Volviendo al tema de la existencia de dos versiones previas existentes, en cada una se fueron realizando diferentes modificaciones tanto a nivel de hardware como firmware, por esto mismo es necesario hacer una breve descripción de como fue evolucionando dicho proyecto en el tiempo.
+
+\subsection{Primera versión}
+La primera versión del proyecto consistió mas que nada en una validación de la generación de la señal, con esto nos referimos a que la idea principal era poder demostrar que dicho prototipo era capaz de poder generar una forma de onda definida por el usuario en un buffer (generado en tiempo de ejecución) y ver como esta podía variar su frecuencia de manera configurable por el usuario. Para poder realizar la configuración se dispuso de un encoder rotativo, pulsadores y un display Nextion TFT de 2.4 pulgadas. Dicha imagen ilustrativa puede verse en la Figura \ref{fig:1raversionplaca}. Además para lograr una correcta escalabilidad del proyecto a nivel de código se hizo uso de un framework (\textbf{Quantum Leaps}) que permite generar máquinas de estado jerárquicas (puede verse la MEF implementada en la Figura \ref{fig:smofawg}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Introduccion/img/1raVersionPlaca}
+	\caption{Primera versión de la placa de desarrollo, realizada con una placa perforada.}
+	\label{fig:1raversionplaca}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Introduccion/img/SM_of_Awg}
+	\caption{Máquina de estado implementada en el modelado.}
+	\label{fig:smofawg}
+\end{figure}
+
+Se pueden observar tres estados principales (\textbf{Reset},\textbf{Configuración} y \textbf{Salida}). Luego dentro de \textit{Configuración} se tienen sus respectivos sub-estados. La idea detrás de esta MEF es permitir que el usuario realice una configuración de cada parámetro del generador de funciones observando los cambios en una pantalla TFT de 2.4 in. En tal primera versión unicamente era permitido configurar el tipo de señal y frecuencia de salida, quedando como futura mejora el resto de funcionalidades.
+
+\subsection{Segunda versión}
+Posteriormente dicho proyecto fue continuado en la materia de \textit{Sistemas Embebidos Avanzados II} como parte de un trabajo práctico integrador. Como era de esperarse se aprovechó la oportunidad para realizar las mejoras pendientes al proyecto, logrando así una clara conexión entre el hardware y el firmware en un desarrollo electrónico completo. Mostrando una madurez a nivel de conceptos teóricos y prácticos. A continuación se muestran cuales fueron estas mejoras implementadas.
+
+\subsubsection{Mejoras a nivel de firmware}
+Para cumplir con ciertos requerimientos de la materia se agregó al firmware la posibilidad de correr sobre un \textit{Sistema Operativo en Tiempo Real} (RTOS), junto con la MEF ya mencionada (siendo esta una tarea que permite configurar la señal de salida de forma secuencial). 
+Además de dicha adición de un RTOS también se re-estructuró el código de manera de cumplir con la formalidad de programación orientada a objetos (POO), quedando un formato como el siguiente:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"../../img/Diagrama en capas"}
+	\caption{Estructura en capas y programación orientada a objetos del proyecto en su segunda versión.}
+	\label{fig:diagrama-en-capas}
+\end{figure}
+
+Como puede observarse aparecen diversas capas (como \textit{Amplificación}, \textit{Offset}) que antes no fueron mencionadas por esto mismo nos lleva a la siguiente parte donde se detallan las mejoras realizadas a nivel de hardware.
+
+\subsubsection{Mejoras a nivel de hardware}
+Recordando lo mencionado en la versión previa, el prototipo no era capaz de poder amplificar, ni agregar offset a la señal. Por esto mismo las mejoras implementadas para el hardware consistieron en agregar dichas etapas de amplificación, offset, desacople de continua y filtros que permitieran acondicionar la señal de manera controlada por el usuario. Además para lograr una mejorar calidad tanto a nivel estético, como a nivel electrónico se realizó una placa de circuito impreso (de doble capa) en JLCPCB, que puede observarse en la Figura \ref{fig:dispositivo}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Introduccion/img/dispositivo}
+	\caption{Segunda versión de la PCB del generador de funciones Arbitrario.}
+	\label{fig:dispositivo}
+\end{figure}
+
+En dicho circuito pueden diferenciarse tres grandes etapas (\textit{Generación de señal con R-2R y control con RP2040}, \textit{Acondicionamiento de señal} y \textit{Periféricos/interfaz de usuario}). Sin entrar en demasiado detalle de cada etapa el usuario debería ser capaz de configurar una señal objetivo con una frecuencia, amplitud, offset deseado y mediante un control interno en el firmware se ajustan diversos periféricos para que esto sea posible (esto puede verse representado en la Figura \ref{fig:10vpp50khzsenoidal} donde se configura una señal senoidal 10 Vpp y 50KHz a modo de ejemplo). Debido a los efectos indeseados que se agravan a frecuencia media-altas, se tuvo que tener en cuenta consideraciones a nivel de layout y elecciones de componentes (como el amplificador operacional acorde para trabajar a alta frecuencia). Por esto mismo luego de una investigación detallada sobre AOs se optó por el \textbf{LM6172} que tiene un \textbf{ancho de banda de 100 MHz} y un \textbf{Slew Rate} 3000 V/$\mu$S.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Introduccion/img/10VPP_50KHZ_SENOIDAL}
+	\caption{Señal Senoidal con una amplitud de 10 Vpp y 50 KHz.}
+	\label{fig:10vpp50khzsenoidal}
+\end{figure}
+
+En amarillo se puede observar la señal que sale desde el DAC R-2R y en rojo la señal amplificada y con offset nulo.
+
+\section{Especificaciones y requisitos}
+Para poder evaluar la calidad del dispositivo desarrollado debemos proponer una serie de especificaciones y requisitos, que como antes mencionamos son conservadores.
+
+\subsection{Requisitos de funcionamiento} 
+Los requisitos de funcionamiento permiten tener una idea mas clara de que debería estar en condiciones correctas para poder decir que el dispositivo funciona de manera adecuada. Se enumeran estos requisitos a continuación:
+
+\begin{itemize}
+	\item \textbf{Generación de señales:} convencionales como senoidal, cuadrada, triangular, diente de sierra y formas de ondas arbitrarias guardadas en memoria EEPROM/SRAM.
+	
+	\item \textbf{Ajuste de parámetros:} permitiendo modificar amplitud, offset, fase y duty (según correspondan).
+	
+	\item \textbf{Interfaz visual:} visualización y ajuste mediante display para el usuario. De manera opcional puede agregarse un teclado táctil sobre el display.
+	
+	\item \textbf{(Opcional) Interfaz tipo GUI:} permite configurar el equipo desde la PC, así como también cargar tablas de muestras a la memoria EEPROM/SRAM del instrumento.
+\end{itemize}
+
+\subsection{Especificaciones alimentación}
+La alimentación es una parte importante del equipo, dado que nos permite obtener los rieles de tensiones necesarios para que pueda funcionar de manera adecuada las diferentes etapas de control y acondicionamiento. Por esto mismo es necesario definir una serie de especificaciones que nos permitan evaluar bajo que condiciones puede funcionar. 
+
+\begin{itemize}
+	\item $V_{ac}$ = 85 a 265 Vrms (alimentación universal).
+	
+	\item $I_{max}$ = 2 A.
+\end{itemize}
+
+En la sección de implementación se detallará mas como es el proceso para poder conseguir estas especificaciones.
+
+\subsection{Especificaciones de forma de onda}
+Con el fin de poder evaluar el equipo que se quiere llegar a obtener definimos una serie de especificaciones de salidas que nos permitan caracterizas al propio instrumento para luego compararlo con los resultados obtenidos y ver si estos fueron cumplidos.
+
+\begin{itemize}
+	\item \textbf{Tensión de pico a pico máxima:} $V_{pp} = $ 20 Vpp en High-Z y $V_{pp}$ = 10 Vpp en 50 $\Omega$.
+	\item \textbf{Corriente máxima permitida a la salida:} $I_{omax}$ = 100 mA.
+	\item \textbf{Frecuencia máxima de salida:} $f_{max} \simeq$ 2 MHz para señal Senoidal y 1 MHz para señal cuadrada/triangular/diente de sierra/arbitraria de pocas muestras.
+	\item \textbf{Frecuencia de muestreo máxima:} $180$ MSa/S.
+	\item \textbf{Impedancia de salida configurable:} $Z_o$ en High-Z o 50 $\Omega$.
+\end{itemize}
+
+\begin{center}
+	\begin{YStkyNote}[Nota]
+		Las especificaciones finales solamente se pueden llegar a mencionar una vez finalizado el proyecto por lo que parte del trabajo también consiste en documentar e informar si las especificaciones antes mencionadas fueron logradas de manera correcta. En caso contrario poder dar una explicación detallada de porque no fueron alcanzadas y una posible solución preliminar de la misma.
+	\end{YStkyNote}
+\end{center}
+
+\section{Implementación}
+Mencionamos que existen dos versiones previas del proyecto y tal como todo prototipo poseían ciertas cosas a mejorar, muchas de las cuales son parte de esta nuevas versión del proyecto, así como otras son quitadas del mismo porque se encontró una solución mejor. Estas nuevas mejoras/correcciones requieren una forma de implementarlas para poder cumplir con las especificaciones mencionadas, por lo que para poder enumerarlas a continuación fue necesario realizar una investigación previa basado en la versiones anteriores y trabajos/tesis desarrolladas por otras personas, estos pueden verse en \cite{dentgen2019_funktionsgeneratorv2_projektdoku}, \cite{genfunciones2025_rpipico_pdf}, \cite{dds2022_montaje_electronico_completo}. En gran medida la nueva implementación de este generador de funciones/arbitrario está basado en el proyecto final de un Alemán \cite{dentgen2019_funktionsgeneratorv2_projektdoku} (Tesis), que presenta tres placas diferentes. Por un lado se tiene la placa de alimentación \cite{dentgen2019_funktionsgeneratorv2_netzteil_sch} que permite generar a partir de 24 V de entrada los rieles de tensión necesarios para alimentar las otras dos placas. Luego se tiene la placa principal que se encarga de de la generación de la forma de onda basada en un STM32 y el AD9102 \cite{dentgen2019_funktionsgeneratorv2_hauptplatine_sch} y por último se tiene la placa de panel frontal que posee los periféricos que manipula el usuario \cite{dentgen2019_funktionsgeneratorv2_frontpanel_sch}. Este AWG es de dos canales, sin embargo como se mencionó anteriormente la utilización de un canal mas quedará a disposición del presupuesto del proyecto, dado que al trabajarse con alta velocidad los componentes aumentan de precio notablemente en comparación con los utilizados de manera convencional.
+
+Dijimos que en gran medida el proyecto va a estar basado en el trabajo realizado por el Alemán, sin embargo este no presenta la posibilidad de manejar la variación de amplitud, por lo que es necesario implementar una manera analógica de poder variarla. Así mismo hay otras series de cosas que se harán de manera diferente tal como la elección de la impedancia de salida, panel frontal y demás. Por esto mismo mencionamos a continuación cuales serán las formas de implementar dicho proyecto.
+
+\subsection{Alimentación}
+Con respecto a la etapa de alimentación se hace una fuente Flyback SMPS de 24 V. Esta tensión permite conectarse a la red con el rango universal de 85 a 265 Vrms en 50 Hz. Luego ingresa a una \textbf{Placa de Alimentación} que se encarga de generar las tensiones de $\pm$15 V, $\pm$5 V y 3.3 V. Esto se logra utilizando un integrado que permite configurar una fuente reductora en un canal y una inversora en el otro logrando una salida simétrica, dicho integrado es el LT8471. Al poseer solo dos canales es necesario dos integrados de estos.
+
+\subsection{Generación de señal}
+A lo largo del documento mencionamos que para la síntesis de la señal se utilizará el AD9102, controlado a través del RP2040. Este etapa junto con el acondicionamiento de la señal se encuentran embebidas dentro de la \textbf{Placa de Control}.
+
+\subsection{Acondicionamiento de la señal}
+Aunque forma parte de la placa de control, se decidió explicar por separado esta sub-etapa, dado que maneja lógica diferentes. Mientras que la etapa propia de la generación de la señal manipula señales digitales, el acondicionamiento maneja solo señales analógicas siendo el propio AD9102, el puente entre ambas. La etapa de acondicionamiento se caracteriza por tener la siguiente estructura:
+
+\begin{center}
+	\textbf{Salida AD9102} $\rightarrow$ \textbf{Conversor de Corriente en Tensión} $\rightarrow$ \textbf{Tensión Diferencial a Simple} $\rightarrow$ \textbf{Pre-Atenuador digital} $\rightarrow$ \textbf{Ajuste de offset} $\rightarrow$ \textbf{Amplificación final e Impedancia controlada}
+\end{center}
+
+\subsection{Interfaz de usuario}
+Por último se posee la etapa de interfaz de usuario, en esta se tienen los periféricos necesarios para que el usuario pueda manipular el equipo de manera correcta. A diferencia de lo realizado por el Alemán, en este nuestro proyecto se opta por seguir una interfaz simular al generador de funciones chino FeelElec FY6900 que puede verse mas adelante. Donde el mismo utiliza una pantalla a color y posee una cierta cantidad de botones ubicados en ciertas partes específicas de acuerdo al diseño gráfico del display.
+
+
+%Como se mencionó previamente en la sección anterior este proyecto es de alta frecuencia, por lo que para ser trabajado debe tenerse presente ciertas condiciones y características en la forma de trabajo. A continuación se enumeran algunas de estas características a tener en cuenta cuando se trabaje:
+%
+%\begin{enumerate}
+%	\item Para el diseño de la PCB ah de tenerse en cuenta las interferencias electromagnéticas presentes (\textbf{EMC}). Por esto mismo durante la realización debe diseñarse algún tipo de escudo para la máxima frecuencia presente, asi como también la máxima frecuencia que pueda venir del exterior. Para esto se hará uso de \textit{shielding vias} que funciona como una jaula de Faraday para la propia PCB.
+%	
+%	\item Con la misma intención de disminuir la EMI presente en el circuito se hará uso de las \textit{stitching vias} que se encargan de conectar entre sí planos de polígonos de distintas capas. Entre las ventajas principales a la hora de incluir esta característica se encuentra \cite{peterson_stitching_vias_2023}:
+%	
+%	\begin{itemize}
+%		\item \textbf{Bajar la impedancia de retorno:} dar un camino mas corto cuando la señal cambia de capa.
+%		
+%		\item \textbf{Unir Polígonos/Planos:} permite reducir diferencias de potencial generadas entre planos de masa de distintas capas.
+%		
+%		\item \textbf{Mejorar la integridad de la señal:} menor inductancia por el retorno y reduce EMI por lazo de corriente.
+%	\end{itemize}
+%	
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[width=0.5\linewidth]{Introduccion/img/vias_stitching}
+%		\caption{Imagen ilustrativa de como se ven las stitching vias.}
+%		\label{fig:viasstitching}
+%	\end{figure}
+%	
+%	\item Para poder guiarse en la implementación de las posibles mejoras al proyecto se hace uso de un trabajo previo realizado como tesis por un Alemán. Dicho trabajo puede verse en la siguiente referencia \cite{dentgen_frauschlaeger_taugenbeck_funktionsgenerator_2019}. Básicamente consiste en la implementación de un generador de funciones arbitrario con el AD9102 que tiene una amplitud fija de 20 Vpp en High-Z. Por esto deberá tenerse presente la forma de poder variar la amplitud a partir de atenuadores digitales de RF (como el PE4312) o alguna otra forma que se encuentre durante el proceso de desarrollo.
+%	
+%	\item Diseño de PCB de 4 capas. Esto ve a permitir poder lograr mejorar inmunidad frente al ruido presente generando un stackup como siguiente: SEÑAL-GND-GND-SEÑAL o SEÑAL-GND-PWR-SEÑAL, según sea conveniente.
+%	
+%	\item Desarrollo de librerías para poder manejar los diferentes periféricos nuevos utilizados como parte de mejoras propuestas. Entre las posibles librerías se encuentra el manejo del AD9102, Pote Digital MCP41010, DAC MCP4725.
+%\end{enumerate}
+
+
