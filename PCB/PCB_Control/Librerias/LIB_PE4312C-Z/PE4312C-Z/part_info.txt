@@ -1,0 +1,9 @@
+Manufacturer=Peregrine Semiconductor
+PartNumber=PE4312C-Z
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=1.1
+Released=2020-01-04 03:41:58
+Downloaded=2026-01-29 04:53:16
+3D=Y

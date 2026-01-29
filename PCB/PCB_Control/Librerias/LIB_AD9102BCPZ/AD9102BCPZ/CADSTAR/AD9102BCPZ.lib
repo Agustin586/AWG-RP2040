@@ -1,0 +1,16 @@
+.AD9102BCPZ :1 ;Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP
+QFN50P500X500X80-33N-D
+*STM IC
+*NGS
+*PLB 1="SCLK" 2="SDIO" 3="DGND" 4="DLDO2" 5="DVDD" 6="DLDO1" 7="SDO/SDI2/DOUT" 8="'CS'" 9="'RESET'" 10="NC_1" 11="NC_2" 12="AVDD2" 13="NC_3" 14="NC_4" 15="AGND_1" 16="NC_5" 17="NC_6" 18="REFIO" 19="CLKGND" 20="CLKN" 21="CLKP" 22="CLDO" 23="CLKVDD" 24="CAL_SENSE" 25="FSADJ" 26="AGND_2" 27="IOUT P" 28="IOUTN" 29="AVDD1" 30="NC_7" 31="NC_8" 32="'TRIGGER'" 33="EP"
+*MXP 33
+*DFN AD9102BCPZ
+~!Mouser Part Number (584-AD9102BCPZ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD9102BCPZ?qs=%2FtpEQrCGXCx4RM%2FcE0d16g%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (AD9102BCPZ)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/AD9102.pdf)
+~!Height (0.8mm)
+~!3D_Model (AD9102BCPZ)
+AD9102BCPZ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

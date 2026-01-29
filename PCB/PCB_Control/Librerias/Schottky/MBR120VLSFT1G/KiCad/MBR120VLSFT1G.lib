@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MBR120VLSFT1G
+#/224939/1857803/2.50/2/2/Diode
+DEF MBR120VLSFT1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "MBR120VLSFT1G" 450 100 50 H V L CNN
+F2 "SODFL3616X98N" 450 0 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" 450 -100 50 H I L CNN
+F4 "Guardring for Stress Protection; Optimized for Very Low Forward Voltage; 125 C Operating Junction Temperature; Epoxy Meets UL94, VO; Package Designed for Optimal Automated Board Assembly; ESD Rated Machine Model C; ESD Rated Human Body Model 3B; Device Meets MSL 1 Requirements; Pb-Free Packages are Available" 450 -200 50 H I L CNN "Description"
+F5 "0.98" 450 -300 50 H I L CNN "Height"
+F6 "863-MBR120VLSFT1G" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi/MBR120VLSFT1G?qs=3JMERSakebpX%252BkItPpFCkg%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "MBR120VLSFT1G" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

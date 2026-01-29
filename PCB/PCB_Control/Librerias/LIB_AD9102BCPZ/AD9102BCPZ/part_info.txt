@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD9102BCPZ
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=1.1
+Released=2019-05-16 16:51:04
+Downloaded=2026-01-27 12:37:21
+3D=Y

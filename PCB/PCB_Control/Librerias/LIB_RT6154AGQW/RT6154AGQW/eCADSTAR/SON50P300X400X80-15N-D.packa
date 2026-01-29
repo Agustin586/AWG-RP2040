@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RT6154AGQW"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-06-09:16:45)
+    (mountForm default
+        (footprintRef "SON50P300X400X80-15N-D")
+        (spec "System")
+    )
+)

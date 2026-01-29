@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MBR120VLSFT1G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MBR120VLSFT1G" (!) = "", "SODFL3616X98N", "Small Outline Diode Flat Lead", "863-MBR120VLSFT1G", "https://www.mouser.co.uk/ProductDetail/onsemi/MBR120VLSFT1G?qs=3JMERSakebpX%252BkItPpFCkg%3D%3D", "Guardring for Stress Protection; Optimized for Very Low Forward Voltage; 125 C Operating Junction Temperature; Epoxy Meets UL94, VO; Package Designed for Optimal Automated Board Assembly; ESD Rated Machine Model C; ESD Rated Human Body Model 3B; Device Meets MSL 1 Requirements; Pb-Free Packages are Available", "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF", "0.98 mm"
+END_PART
+
+END.

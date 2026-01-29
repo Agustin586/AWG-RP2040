@@ -1,0 +1,16 @@
+.RT6154AGQW :1 ;RICHTEK - RT6154AGQW - DC/DC CONV, BUCK-BOOST, 2.4MHZ, WDFN-14
+SON50P300X400X80-15N-D
+*STM IC
+*NGS
+*PLB 1="VINA" 2="GND" 3="FB" 4="VOUT_1" 5="VOUT_2" 6="LX2_1" 7="LX2_2" 8="LX1_1" 9="LX1_2" 10="VIN_1" 11="VIN_2" 12="EN" 13="PS/SYNC" 14="PGOOD" 15="PGND"
+*MXP 15
+*DFN RT6154AGQW
+~!Mouser Part Number (835-RT6154AGQW)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Richtek/RT6154AGQW?qs=amGC7iS6iy9E3yYxjjg2sA%3D%3D)
+~!Manufacturer_Name (RICHTEK)
+~!Manufacturer_Part_Number (RT6154AGQW)
+~!Link Datasheet (https://www.richtek.com/assets/product_file/RT6154A=RT6154B/DS6154AB-01.pdf)
+~!Height (0.8mm)
+~!3D_Model (RT6154AGQW)
+RT6154AGQW
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

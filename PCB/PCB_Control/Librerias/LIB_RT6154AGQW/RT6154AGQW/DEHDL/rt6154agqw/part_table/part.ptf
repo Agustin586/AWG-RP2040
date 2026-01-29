@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RT6154AGQW'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RICHTEK", "RT6154AGQW" (!) = "", "SON50P300X400X80-15N-D", "Small Outline No-lead", "835-RT6154AGQW", "https://www.mouser.co.uk/ProductDetail/Richtek/RT6154AGQW?qs=amGC7iS6iy9E3yYxjjg2sA%3D%3D", "RICHTEK - RT6154AGQW - DC/DC CONV, BUCK-BOOST, 2.4MHZ, WDFN-14", "https://www.richtek.com/assets/product_file/RT6154A=RT6154B/DS6154AB-01.pdf", "0.8 mm"
+END_PART
+
+END.

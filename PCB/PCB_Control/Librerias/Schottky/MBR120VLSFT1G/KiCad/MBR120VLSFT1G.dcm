@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBR120VLSFT1G
+D Guardring for Stress Protection; Optimized for Very Low Forward Voltage; 125 C Operating Junction Temperature; Epoxy Meets UL94, VO; Package Designed for Optimal Automated Board Assembly; ESD Rated Machine Model C; ESD Rated Human Body Model 3B; Device Meets MSL 1 Requirements; Pb-Free Packages are Available
+K
+F https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF
+$ENDCMP
+#
+#End Doc Library

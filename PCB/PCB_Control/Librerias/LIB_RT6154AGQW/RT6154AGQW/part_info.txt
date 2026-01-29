@@ -1,0 +1,9 @@
+Manufacturer=RICHTEK
+PartNumber=RT6154AGQW
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=15
+Version=1.1
+Released=2019-08-06 09:16:45
+Downloaded=2026-01-17 19:01:06
+3D=Y

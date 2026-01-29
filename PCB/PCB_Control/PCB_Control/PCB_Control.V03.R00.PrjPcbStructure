@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Control-Principal.V03.R00.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Control-Principal.V03.R00.SchDoc|Designator=U_Microcontrolador.V03.R00|SchDesignator=U_Microcontrolador.V03.R00|FileName=Microcontrolador.V03.R00.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Microcontrolador.V03.R00.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Control-Principal.V03.R00.SchDoc|Designator=U_Sintetizador-AD9102.V03.R00|SchDesignator=U_Sintetizador-AD9102.V03.R00|FileName=Sintetizador-AD9102.V03.R00.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Sintetizador-AD9102.V03.R00.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=Control-Principal.V03.R00.SchDoc|FileName=DifferentialToSingleOutput.V03.R00.SchDoc|SheetNumber=4

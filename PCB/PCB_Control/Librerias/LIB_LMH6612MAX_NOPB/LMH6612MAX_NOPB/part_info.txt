@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LMH6612MAX/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-12-17 11:32:55
+Downloaded=2026-01-27 14:46:50
+3D=Y

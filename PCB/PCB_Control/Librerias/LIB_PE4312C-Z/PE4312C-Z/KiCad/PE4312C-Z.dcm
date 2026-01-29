@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PE4312C-Z
+D RF ATTENUATOR 31.5DB 50OHM 20QFN
+K
+F https://www.psemi.com/pdf/datasheets/pe4312ds.pdf
+$ENDCMP
+#
+#End Doc Library

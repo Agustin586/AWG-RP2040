@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LMH6612MAX_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LMH6612MAX/NOPB" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "926-LMH6612MAX/NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMH6612MAX-NOPB?qs=7lkVKPoqpbYkkjxJnAARvQ%3D%3D", "Single Supply, Dual 345 MHz Rail-to-Rail Output Amplifier", "http://www.ti.com/lit/gpn/LMH6612", "1.75 mm"
+END_PART
+
+END.

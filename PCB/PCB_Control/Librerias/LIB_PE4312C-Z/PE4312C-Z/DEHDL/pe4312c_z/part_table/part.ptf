@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PE4312C_Z'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Peregrine Semiconductor", "PE4312C-Z" (!) = "", "QFN50P400X400X90-21N-D", "Quad Flat No-Lead", "81-PE4312C-Z", "https://www.mouser.co.uk/ProductDetail/pSemi/PE4312C-Z?qs=l7cgNqFNU1hgFbGgRtu7ww%3D%3D", "RF ATTENUATOR 31.5DB 50OHM 20QFN", "https://www.psemi.com/pdf/datasheets/pe4312ds.pdf", "0.9 mm"
+END_PART
+
+END.

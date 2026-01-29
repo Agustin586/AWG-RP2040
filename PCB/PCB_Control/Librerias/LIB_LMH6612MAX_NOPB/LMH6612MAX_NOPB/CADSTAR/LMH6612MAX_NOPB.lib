@@ -1,0 +1,16 @@
+.LMH6612MAX_NOPB :1 ;Single Supply, Dual 345 MHz Rail-to-Rail Output Amplifier
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="OUT A" 2="-IN A" 3="+IN A" 4="V-" 5="+IN B" 6="-IN B" 7="OUT B" 8="V+"
+*MXP 8
+*DFN LMH6612MAX_NOPB
+~!Mouser Part Number (926-LMH6612MAX/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMH6612MAX-NOPB?qs=7lkVKPoqpbYkkjxJnAARvQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LMH6612MAX/NOPB)
+~!Link Datasheet (http://www.ti.com/lit/gpn/LMH6612)
+~!Height (1.75mm)
+~!3D_Model (LMH6612MAX_NOPB)
+LMH6612MAX_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

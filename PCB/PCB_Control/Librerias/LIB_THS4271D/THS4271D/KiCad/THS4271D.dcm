@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THS4271D
+D Super-Fast Ultra-Low Distortion High Speed Amplifier
+K
+F http://www.ti.com/lit/ds/symlink/ths4271.pdf
+$ENDCMP
+#
+#End Doc Library

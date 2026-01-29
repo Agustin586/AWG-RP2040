@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9102BCPZ
+D Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9102.pdf
+$ENDCMP
+#
+#End Doc Library

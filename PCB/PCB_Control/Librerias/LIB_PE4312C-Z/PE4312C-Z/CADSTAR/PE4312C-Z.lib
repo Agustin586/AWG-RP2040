@@ -1,0 +1,16 @@
+.PE4312C-Z :1 ;RF ATTENUATOR 31.5DB 50OHM 20QFN
+QFN50P400X400X90-21N-D
+*STM IC
+*NGS
+*PLB 1="C16" 2="RF1" 3="DATA" 4="CLOCK" 5="LE" 6="VDD_1" 7="PUP1" 8="PUP2" 9="VDD_2" 10="GND_1" 11="GND_2" 12="VSS_EXT/GND" 13="P/S" 14="RF2" 15="C8" 16="C4" 17="C2" 18="GND_3" 19="C1" 20="C0.5" 21="EP"
+*MXP 21
+*DFN PE4312C-Z
+~!Mouser Part Number (81-PE4312C-Z)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/pSemi/PE4312C-Z?qs=l7cgNqFNU1hgFbGgRtu7ww%3D%3D)
+~!Manufacturer_Name (Peregrine Semiconductor)
+~!Manufacturer_Part_Number (PE4312C-Z)
+~!Link Datasheet (https://www.psemi.com/pdf/datasheets/pe4312ds.pdf)
+~!Height (0.9mm)
+~!3D_Model (PE4312C-Z)
+PE4312C-Z
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

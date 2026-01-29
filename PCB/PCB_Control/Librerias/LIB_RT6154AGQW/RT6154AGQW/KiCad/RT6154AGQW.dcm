@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT6154AGQW
+D RICHTEK - RT6154AGQW - DC/DC CONV, BUCK-BOOST, 2.4MHZ, WDFN-14
+K
+F https://www.richtek.com/assets/product_file/RT6154A=RT6154B/DS6154AB-01.pdf
+$ENDCMP
+#
+#End Doc Library

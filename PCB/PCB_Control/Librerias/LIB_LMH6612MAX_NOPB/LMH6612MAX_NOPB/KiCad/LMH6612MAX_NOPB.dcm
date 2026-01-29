@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMH6612MAX_NOPB
+D Single Supply, Dual 345 MHz Rail-to-Rail Output Amplifier
+K
+F http://www.ti.com/lit/gpn/LMH6612
+$ENDCMP
+#
+#End Doc Library

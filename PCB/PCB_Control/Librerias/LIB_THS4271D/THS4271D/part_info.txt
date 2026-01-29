@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=THS4271D
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=4.1
+Released=2015-04-13 16:56:55
+Downloaded=2026-01-27 14:52:32
+3D=Y

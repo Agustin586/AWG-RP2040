@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PE4312C-Z"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-04-03:41:58)
+    (mountForm default
+        (footprintRef "QFN50P400X400X90-21N-D")
+        (spec "System")
+    )
+)

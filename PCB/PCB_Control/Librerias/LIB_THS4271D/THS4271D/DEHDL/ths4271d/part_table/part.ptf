@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'THS4271D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "THS4271D" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-THS4271D", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THS4271D?qs=ZmJdcv7QZ9ppdaigv2fizw%3D%3D", "Super-Fast Ultra-Low Distortion High Speed Amplifier", "http://www.ti.com/lit/ds/symlink/ths4271.pdf", "1.75 mm"
+END_PART
+
+END.
