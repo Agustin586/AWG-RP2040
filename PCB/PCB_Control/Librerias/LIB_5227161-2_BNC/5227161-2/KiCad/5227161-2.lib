@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 5227161-2
+#/295720/1857803/2.50/4/2/Connector
+DEF 5227161-2 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "5227161-2" 750 200 50 H V L CNN
+F2 "52271612" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307191_BNC_Connectors&DocType=Catalog%20Section&DocLang=English&PartCntxt=5227161-2&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "Body Features: Body Material Zinc | Body Plating Material Nickel | Configuration Features: Number of Positions 1 | PCB Mount Orientation Right Angle | Number of Coaxial Contacts 1 | Contact Features: RF Connector Center Contact Plating Material Tin | RF Connector Center Contact Plating Thickness 5080 MICIN | RF Connector Center Contact Underplating Material Nickel | RF Connector Center Contact Material Phosphor Bronze | Dimensions: Profile Height from PCB .625 INCH | Mounting Post Length 3.48 MM | RF Connec" 750 -100 50 H I L CNN "Description"
+F5 "15.88" 750 -200 50 H I L CNN "Height"
+F6 "571-5227161-2" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5227161-2?qs=GSeC4G%252BEqEVBN3%2FeI6hwoQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5227161-2" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X MH1 MH1 900 0 200 L 50 50 0 0 P
+X MH2 MH2 900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IM03GR
+D DPDT telecom SMT relay, 2A 5Vdc coil
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/af0478e68580ade93768a4593bd7be66.pdf
+$ENDCMP
+#
+#End Doc Library

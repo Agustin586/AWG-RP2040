@@ -1,0 +1,206 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5413879-2"
+   (description "BNC RF Interface, Jack, 50 ohm, Bayonet, 4 GHz Operating Frequency, Cable-to-Board, 1 Position, Printed Circuit Board, Board Mount / Panel Mount")
+   (family "CON")
+   (package "54138792")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5413879&DocType=Customer%20Drawing&DocLang=English&PartCntxt=5413879-2&DocFormat=pdf")
+   (attribute "Geometry.Height" "12.95mm")
+   (attribute "Mouser Part Number" "571-5413879-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5413879-2?qs=dJbzCyn%252BCFbDLsMjA0NFtQ%3D%3D")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "5413879-2")
+   (gate
+    (symbol "5413879-2")
+    (pin "1" 1 PS)
+    (pin "MH1" 2 PS)
+    (pin "MH2" 3 PS)
+    (pin "GND" G1 PS)
+   )
+  )
+  (symbol "5413879-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "54138792"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.38 12.83)
+      (pt 7.38 12.83)
+      (pt 7.38 -1.27)
+      (pt -7.38 -1.27)
+      (pt -7.38 12.83))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.38 12.83)
+      (pt 7.38 12.83)
+      (pt 7.38 -1.27)
+      (pt -7.38 -1.27)
+      (pt -7.38 12.83))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.38 34.66)
+      (pt 8.38 34.66)
+      (pt 8.38 -2.27)
+      (pt -8.38 -2.27)
+      (pt -8.38 34.66))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -6.35 12.83)
+      (pt -6.35 21.59)
+      (pt 6.35 21.59)
+      (pt 6.35 12.83))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5 21.59)
+      (pt -5 33.66)
+      (pt 5 33.66)
+      (pt 5 21.59))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5 30.83)
+      (pt -5.535 30.83)
+      (pt -5.535 29.33)
+      (pt -5 29.33))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 5 30.83)
+      (pt 5.535 30.83)
+      (pt 5.535 29.33)
+      (pt 5 29.33))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.35 12.83)
+      (pt -6.35 21.59)
+      (pt 6.35 21.59)
+      (pt 6.35 12.83))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5 21.59)
+      (pt -5 33.66)
+      (pt 5 33.66)
+      (pt 5 21.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5 30.83)
+      (pt -5.535 30.83)
+      (pt -5.535 29.33)
+      (pt -5 29.33))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5 21.59)
+      (pt 5 29.33)
+      (pt 5.535 29.33)
+      (pt 5.535 30.83)
+      (pt 5 30.83))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -1.85)
+      (arc (pt 0.000 -1.850) (pt -0.050 -1.850) (pt 0.050 -1.750) (start 180.0) (sweep -90.0))
+      (pt 0 -1.75)
+      (arc (pt 0.000 -1.750) (pt -0.050 -1.850) (pt 0.050 -1.750) (start 180.0) (sweep 90.0))
+      (pt 0 -1.85))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 5.080 5.080) (padstack 0))
+   (leg 3 (pt -5.080 5.080) (padstack 0))
+   (leg G1 (pt -2.540 0.000) (padstack 4))
+   (padstack 0
+    (hole 2.01)
+    (plated true)
+    (pad (layer TCOP) (round 3.015))
+    (pad (layer INNER) (round 3.015))
+    (pad (layer BCOP) (round 3.015))
+   )
+   (padstack 1
+    (hole 0.89)
+    (plated true)
+    (pad (layer TCOP) (square 1.446))
+    (pad (layer INNER) (round 1.446))
+    (pad (layer BCOP) (square 1.446))
+   )
+   (padstack 4
+    (hole 0.89)
+    (plated true)
+    (pad (layer TCOP) (round 1.446))
+    (pad (layer INNER) (round 1.446))
+    (pad (layer BCOP) (round 1.446))
+   )
+   (model "5413879-2.stp"
+    (euler 90 0 180)
+    (offset 0 33.65999984741211 6.989999771118164)
+   )
+  )
+ )
+)

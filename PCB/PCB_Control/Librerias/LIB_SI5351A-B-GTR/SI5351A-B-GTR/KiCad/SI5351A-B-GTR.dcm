@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI5351A-B-GTR
+D Clock Generator 10MHz to 100MHz-IN 160MHz-OUT 10-Pin MSOP T/R
+K
+F https://www.mouser.de/datasheet/2/472/Si5351_B-2507774.pdf
+$ENDCMP
+#
+#End Doc Library

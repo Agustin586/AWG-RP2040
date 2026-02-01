@@ -1,0 +1,9 @@
+Manufacturer=Skyworks
+PartNumber=SI5351A-B-GTR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2021-08-16 12:35:17
+Downloaded=2026-01-29 19:55:24
+3D=Y

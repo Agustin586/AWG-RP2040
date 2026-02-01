@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "P6SMBJ5_0CA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-30-06:58:32)
+    (mountForm default
+        (footprintRef "DIONM5437X240N")
+        (spec "System")
+    )
+)

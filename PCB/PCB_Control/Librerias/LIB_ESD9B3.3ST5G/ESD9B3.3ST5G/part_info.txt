@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=ESD9B3.3ST5G
+PartCategory=Diode
+PackageCategory=Small Outline Diode Flat Lead
+PinCount=2
+Version=3.2
+Released=2016-03-15 14:04:54
+Downloaded=2026-02-01 05:11:45
+3D=Y

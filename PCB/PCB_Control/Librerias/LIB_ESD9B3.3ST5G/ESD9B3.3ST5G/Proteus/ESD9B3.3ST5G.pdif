@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ESD9B3.3ST5G"
+   (description "SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements ; AECQ101 Qualified and PPAP Capable ; This is a PbFree Device; Low Capacitance 15 pF; Low Clamping Voltage; Small Body Outline Dimensions: 0.039 x 0.024 (1.0mm x 0.60mm); Low Body Height: 0.016 (0.4 mm); Response Time is < 1 ns; IEC6100042 Level 4 ESD Protection; Low Leakage")
+   (family "DIO")
+   (package "SODFL1006X40N")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Mouser Part Number" "863-ESD9B3.3ST5G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD9B3.3ST5G?qs=yU2N9dt%252BrfmXrPf3vhgUEA%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "ESD9B3.3ST5G")
+   (gate
+    (symbol "ESD9B3.3ST5G")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "ESD9B3.3ST5G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SODFL1006X40N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.905 0.475)
+      (pt 0.905 0.475)
+      (pt 0.905 -0.475)
+      (pt -0.905 -0.475)
+      (pt -0.905 0.475))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.4 0.3)
+      (pt 0.4 0.3)
+      (pt 0.4 -0.3)
+      (pt -0.4 -0.3)
+      (pt -0.4 0.3))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.4 0.045)
+      (pt -0.145 0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.755 0.3)
+      (pt 0.4 0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.4 -0.3)
+      (pt 0.4 -0.3))))
+   (leg 1 (pt -0.5 0) (padstack 0))
+   (leg 2 (pt 0.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.32 0.51 0 0 0))
+   )
+   (model "ESD9B3.3ST5G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

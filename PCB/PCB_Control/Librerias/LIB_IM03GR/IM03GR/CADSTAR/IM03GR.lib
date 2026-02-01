@@ -1,0 +1,16 @@
+.IM03GR :1 ;DPDT telecom SMT relay, 2A 5Vdc coil
+IM06GR
+*STM K
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN IM03GR
+~!Mouser Part Number (655-IM03GR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/IM03GR?qs=h8jywBNgiq20bLq7q22y%252Bg%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (IM03GR)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/af0478e68580ade93768a4593bd7be66.pdf)
+~!Height (-)
+~!3D_Model (IM03GR)
+IM03GR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

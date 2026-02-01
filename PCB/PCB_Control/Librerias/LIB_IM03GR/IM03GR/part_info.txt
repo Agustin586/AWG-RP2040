@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=IM03GR
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2017-07-01 15:06:23
+Downloaded=2026-01-31 15:40:55
+3D=Y

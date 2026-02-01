@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=5227161-2
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=2.4
+Released=2020-07-27 09:54:34
+Downloaded=2026-01-31 16:14:48
+3D=Y

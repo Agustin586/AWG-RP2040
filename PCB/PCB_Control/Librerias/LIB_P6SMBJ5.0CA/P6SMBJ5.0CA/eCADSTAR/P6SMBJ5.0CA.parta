@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_16677215"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-06-30-06:58:32)
+    (utime 2023-06-30-06:58:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "P6SMBJ5_0CA")
+)
+
+
+(pinAssign "ECS_16677215"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-06-30-06:58:32)
+    (utime 2023-06-30-06:58:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16677215")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "P6SMBJ5_0CA")
+)
+
+
+(part "P6SMBJ5_0CA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-06-30-06:58:32)
+    (utime 2023-06-30-06:58:32)
+    (packageRef "P6SMBJ5_0CA")
+    (pinAssignRef "ECS_16677215")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressors / TVS Diodes TVS, SMB,  150C,  600W, Bidir")
+    (property "Mouser_Part_Number" "637-P6SMBJ5.0CA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/P6SMBJ5.0CA?qs=OlC7AqGiEDl52k1IDrEg7g%3D%3D")
+    (property "Manufacturer_Name" "Diotec")
+    (property "Manufacturer_Part_Number" "P6SMBJ5.0CA")
+    (property "Datasheet_Link" "https://www.mouser.de/datasheet/2/849/p6smbj65-2578601.pdf")
+    (property "compAreaTopHeight" 2.4)
+)
+
+

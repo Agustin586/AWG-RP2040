@@ -1,0 +1,16 @@
+.P6SMBJ5.0CA :1 ;ESD Suppressors / TVS Diodes TVS, SMB,  150C,  600W, Bidir
+DIONM5437X240N
+*STM D
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN P6SMBJ5.0CA
+~!Mouser Part Number (637-P6SMBJ5.0CA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/P6SMBJ5.0CA?qs=OlC7AqGiEDl52k1IDrEg7g%3D%3D)
+~!Manufacturer_Name (Diotec)
+~!Manufacturer_Part_Number (P6SMBJ5.0CA)
+~!Link Datasheet (https://www.mouser.de/datasheet/2/849/p6smbj65-2578601.pdf)
+~!Height (2.4mm)
+~!3D_Model (P6SMBJ5.0CA)
+P6SMBJ5.0CA
+1.1!U 2.1!U 

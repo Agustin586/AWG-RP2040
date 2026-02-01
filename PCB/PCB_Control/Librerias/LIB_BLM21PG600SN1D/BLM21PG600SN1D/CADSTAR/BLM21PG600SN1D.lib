@@ -1,0 +1,16 @@
+.BLM21PG600SN1D :1 ;Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm (805), 60 impedance at 100 MHz
+BLM21AG102BH1J
+*STM FL
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN BLM21PG600SN1D
+~!Mouser Part Number (81-BLM21P600S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21PG600SN1D?qs=LbqjZSvnDswFXSg06XQ50A%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (BLM21PG600SN1D)
+~!Link Datasheet (https://www.murata.com/en-us/products/productdetail?partno=BLM21PG600SN1%23)
+~!Height (1.05mm)
+~!3D_Model (BLM21PG600SN1D)
+BLM21PG600SN1D
+1.1!U 2.1!U 

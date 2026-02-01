@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5227161_2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "5227161-2" (!) = "", "52271612", "Other", "571-5227161-2", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5227161-2?qs=GSeC4G%252BEqEVBN3%2FeI6hwoQ%3D%3D", "Body Features: Body Material Zinc | Body Plating Material Nickel | Configuration Features: Number of Positions 1 | PCB Mount Orientation Right Angle | Number of Coaxial Contacts 1 | Contact Features: RF Connector Center Contact Plating Material Tin | RF Connector Center Contact Plating Thickness 5080 MICIN | RF Connector Center Contact Underplating Material Nickel | RF Connector Center Contact Material Phosphor Bronze | Dimensions: Profile Height from PCB .625 INCH | Mounting Post Length 3.48 MM | RF Connec", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307191_BNC_Connectors&DocType=Catalog%20Section&DocLang=English&PartCntxt=5227161-2&DocFormat=pdf", "15.88 mm"
+END_PART
+
+END.

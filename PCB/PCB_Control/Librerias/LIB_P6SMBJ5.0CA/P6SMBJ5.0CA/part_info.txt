@@ -1,0 +1,9 @@
+Manufacturer=Diotec
+PartNumber=P6SMBJ5.0CA
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Diodes Moulded Non Polarised
+PinCount=2
+Version=1.1
+Released=2023-06-30 06:58:32
+Downloaded=2026-02-01 04:29:46
+3D=Y

@@ -1,0 +1,17 @@
+.5413879-2 :1 ;BNC RF Interface, Jack, 50 ohm, Bayonet, 4 GHz Operating Frequency, Cable-to-Board, 1 Position, Printed Circuit Board, Board Mount / Panel Mount
+"54138792"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=G1
+*PLB 1="1" 2="MH1" 3="MH2" 4="GND"
+*MXP 4
+*DFN 5413879-2
+~!Mouser Part Number (571-5413879-2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5413879-2?qs=dJbzCyn%252BCFbDLsMjA0NFtQ%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (5413879-2)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5413879&DocType=Customer%20Drawing&DocLang=English&PartCntxt=5413879-2&DocFormat=pdf)
+~!Height (12.95mm)
+~!3D_Model (5413879-2)
+"5413879-2"
+1.1!U 2.1!U 3.1!U 4.1!U 

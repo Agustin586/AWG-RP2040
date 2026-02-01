@@ -1,0 +1,16 @@
+.SI5351A-B-GTR :1 ;Clock Generator 10MHz to 100MHz-IN 160MHz-OUT 10-Pin MSOP T/R
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="XA" 3="XB" 4="SCL" 5="SDA" 6="CLK2" 7="VDDO" 8="GND" 9="CLK1" 10="CLK0"
+*MXP 10
+*DFN SI5351A-B-GTR
+~!Mouser Part Number (634-SI5351A-B-GTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SI5351A-B-GTR?qs=p9T7GgSe1IEYql%252BRMAlVcw%3D%3D)
+~!Manufacturer_Name (Skyworks)
+~!Manufacturer_Part_Number (SI5351A-B-GTR)
+~!Link Datasheet (https://www.mouser.de/datasheet/2/472/Si5351_B-2507774.pdf)
+~!Height (1.1mm)
+~!3D_Model (SI5351A-B-GTR)
+SI5351A-B-GTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

@@ -1,0 +1,142 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5227161-2"
+   (description "Body Features: Body Material Zinc | Body Plating Material Nickel | Configuration Features: Number of Positions 1 | PCB Mount Orientation Right Angle | Number of Coaxial Contacts 1 | Contact Features: RF Connector Center Contact Plating Material Tin | RF Connector Center Contact Plating Thickness 5080 MICIN | RF Connector Center Contact Underplating Material Nickel | RF Connector Center Contact Material Phosphor Bronze | Dimensions: Profile Height from PCB .625 INCH | Mounting Post Length 3.48 MM | RF Connec")
+   (family "CON")
+   (package "52271612")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307191_BNC_Connectors&DocType=Catalog%20Section&DocLang=English&PartCntxt=5227161-2&DocFormat=pdf")
+   (attribute "Geometry.Height" "15.88mm")
+   (attribute "Mouser Part Number" "571-5227161-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5227161-2?qs=GSeC4G%252BEqEVBN3%2FeI6hwoQ%3D%3D")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "5227161-2")
+   (gate
+    (symbol "5227161-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "5227161-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "52271612"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -6.05 9.8)
+      (pt 11.13 9.8)
+      (pt 11.13 -3.92)
+      (pt -6.05 -3.92)
+      (pt -6.05 9.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.625 32.01)
+      (pt 12.13 32.01)
+      (pt 12.13 -4.92)
+      (pt -7.625 -4.92)
+      (pt -7.625 32.01))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 9.8)
+      (pt 0 31.01)
+      (pt 5.08 31.01)
+      (pt 5.08 9.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 9.8)
+      (pt 0 31.01)
+      (pt 5.08 31.01)
+      (pt 5.08 9.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -6.05 6.8)
+      (pt -6.05 9.8)
+      (pt 11.13 9.8)
+      (pt 11.13 -3.92)
+      (pt -6.05 -3.92)
+      (pt -6.05 3.3))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg MH1 (pt -5.080 5.080) (padstack 3))
+   (leg MH2 (pt 7.620 5.080) (padstack 4))
+   (padstack 0
+    (hole 0.97)
+    (plated true)
+    (pad (layer TCOP) (round 1.509))
+    (pad (layer INNER) (round 1.509))
+    (pad (layer BCOP) (round 1.509))
+   )
+   (padstack 3
+    (hole 2.06)
+    (plated true)
+    (pad (layer TCOP) (round 3.090))
+    (pad (layer INNER) (round 3.090))
+    (pad (layer BCOP) (round 3.090))
+   )
+   (padstack 4
+    (hole 2.06)
+    (plated true)
+    (pad (layer TCOP) (round 3.090))
+    (pad (layer INNER) (round 3.090))
+    (pad (layer BCOP) (round 3.090))
+   )
+   (model "5227161-2.stp"
+    (euler 90 0 180)
+    (offset 2.25 31.329999923706055 8.380000114440918)
+   )
+  )
+ )
+)

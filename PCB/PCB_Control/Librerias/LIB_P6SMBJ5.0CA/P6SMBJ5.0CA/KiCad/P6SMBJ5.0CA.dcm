@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P6SMBJ5.0CA
+D ESD Suppressors / TVS Diodes TVS, SMB,  150C,  600W, Bidir
+K
+F https://www.mouser.de/datasheet/2/849/p6smbj65-2578601.pdf
+$ENDCMP
+#
+#End Doc Library

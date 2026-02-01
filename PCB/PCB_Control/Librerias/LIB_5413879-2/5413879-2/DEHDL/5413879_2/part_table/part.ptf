@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5413879_2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "5413879-2" (!) = "", "54138792", "Other", "571-5413879-2", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5413879-2?qs=dJbzCyn%252BCFbDLsMjA0NFtQ%3D%3D", "BNC RF Interface, Jack, 50 ohm, Bayonet, 4 GHz Operating Frequency, Cable-to-Board, 1 Position, Printed Circuit Board, Board Mount / Panel Mount", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5413879&DocType=Customer%20Drawing&DocLang=English&PartCntxt=5413879-2&DocFormat=pdf", "12.95 mm"
+END_PART
+
+END.

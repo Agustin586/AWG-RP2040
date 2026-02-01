@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP23S17-E/SS
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=5.1
+Released=2015-04-16 09:48:08
+Downloaded=2026-02-01 16:17:21
+3D=Y

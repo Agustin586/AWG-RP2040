@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI5351A_B_GTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Skyworks", "SI5351A-B-GTR" (!) = "", "SOP50P490X110-10N", "Small Outline Packages", "634-SI5351A-B-GTR", "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SI5351A-B-GTR?qs=p9T7GgSe1IEYql%252BRMAlVcw%3D%3D", "Clock Generator 10MHz to 100MHz-IN 160MHz-OUT 10-Pin MSOP T/R", "https://www.mouser.de/datasheet/2/472/Si5351_B-2507774.pdf", "1.1 mm"
+END_PART
+
+END.

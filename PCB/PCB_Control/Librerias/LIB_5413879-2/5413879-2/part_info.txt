@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=5413879-2
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=3.9
+Released=2024-11-28 11:12:34
+Downloaded=2026-01-31 16:20:40
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BLM21PG600SN1D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "BLM21PG600SN1D" (!) = "", "BLM21AG102BH1J", "Other", "81-BLM21P600S", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21PG600SN1D?qs=LbqjZSvnDswFXSg06XQ50A%3D%3D", "Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm (805), 60 impedance at 100 MHz", "https://www.murata.com/en-us/products/productdetail?partno=BLM21PG600SN1%23", "1.05 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'P6SMBJ5.0CA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diotec", "P6SMBJ5.0CA" (!) = "", "DIONM5437X240N", "Diodes Moulded Non Polarised", "637-P6SMBJ5.0CA", "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/P6SMBJ5.0CA?qs=OlC7AqGiEDl52k1IDrEg7g%3D%3D", "ESD Suppressors / TVS Diodes TVS, SMB,  150C,  600W, Bidir", "https://www.mouser.de/datasheet/2/849/p6smbj65-2578601.pdf", "2.4 mm"
+END_PART
+
+END.
