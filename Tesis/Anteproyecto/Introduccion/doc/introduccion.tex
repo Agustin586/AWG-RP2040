@@ -1,49 +1,71 @@
 \section{Introducción}
-Un generador de formas de onda arbitrarias (\textbf{AWG}) es un instrumento capaz de sintetizar señales periódicas a partir de un conjunto discreto de muestras, permitiendo generar formas de onda convencionales (senoidal, cuadrada, triangular) y formas arbitrarias definidas por el usuario como puede verse en las Figuras \ref{fig:senoidal} y \ref{fig:gauss} . La calidad de la señal obtenida depende principalmente del método de síntesis empleado, de la resolución del conversor digital-analógico (\textbf{DAC}), del reloj de referencia y del acondicionamiento analógico de salida.
+Un generador de funciones es un dispositivo que se encarga de producir diversas formas de onda, de acuerdo a un conjunto de parámetros establecidos previamente. Se tienen dos tipos: aquellos que únicamente permiten generar señales \textbf{convencionales} (senoidal, cuadrada y triangular) y otros, denominados \textbf{AWG} (Arbitrary Waveform Generator) que, como su nombre lo indica, permiten generar formas de onda \textbf{arbitrarias}. Dentro de las soluciones comerciales que existen actualmente, la gran mayoría optan por realizar un producto enfocado a este último tipo. Existen diversas formas de implementarse que se dividen en generadores que utilizan como núcleo principal un integrado DDS específico y otros que utilizan FPGAs. En el caso de los generadores implementados mediante \textbf{FPGA}, la arquitectura interna reproduce conceptualmente el funcionamiento de un \textbf{DDS} (Direct Digital Synthesis), integrando bloques como acumuladores de fase, memoria para almacenamiento de muestras y lógica de control. Sin embargo, a diferencia de los dispositivos DDS dedicados, la conversión digital–analógica debe realizarse mediante un \textbf{DAC} externo de alta velocidad, lo que incrementa la complejidad del sistema y el número de componentes requeridos.
+
+Si bien el uso de FPGA ofrece una elevada flexibilidad y permite alcanzar frecuencias de salida superiores, esta solución implica un mayor esfuerzo de diseño tanto a nivel de hardware como de firmware, además de requerir un cuidadoso tratamiento del reloj, la integridad de señal y la sincronización entre bloques. Estas características hacen que las soluciones basadas en FPGA resulten especialmente adecuadas para aplicaciones de muy altas prestaciones o diseños altamente específicos.
+
+En el contexto del presente proyecto, orientado al desarrollo de un generador de funciones/arbitrario compacto, de bajo costo y con alta estabilidad en frecuencia y fase, la utilización de un DDS dedicado resulta una solución más adecuada. Este enfoque permite integrar en un único circuito las funciones críticas de generación de señal, reduciendo la complejidad del sistema, el tiempo de desarrollo y los riesgos asociados al diseño, sin comprometer las prestaciones necesarias para aplicaciones de laboratorio e industriales.
+
+%Un generador de formas de onda arbitrarias (\textbf{AWG}) es un instrumento capaz de sintetizar señales periódicas a partir de un conjunto discreto de muestras digitales, permitiendo generar formas de onda convencionales (senoidal, cuadrada, triangular) y formas arbitrarias definidas por el usuario. La calidad de la señal obtenida depende principalmente del método de síntesis empleado, de la resolución del conversor digital-analógico (\textbf{DAC}), del reloj de referencia y del acondicionamiento analógico de salida.
+
+%\begin{figure}[H]
+%	\centering
+%	\begin{minipage}{0.49\textwidth}
+%		\centering
+%		\includegraphics[width=\linewidth]{Introduccion/img/triangular.png}
+%		\caption{Señal senoidal convencional.}
+%		\label{fig:senoidal}
+%	\end{minipage}\hfill
+%	\begin{minipage}{0.49\textwidth}
+%		\centering
+%		\includegraphics[width=\linewidth]{Introduccion/img/pulso_gauseano.png}
+%		\caption{Señal de Pulso Gausseano arbitraria.}
+%		\label{fig:gauss}
+%	\end{minipage}
+%\end{figure}
+
+%El presente proyecto propone el diseño e implementación de un generador de funciones/arbitrario utilizando como núcleo de generación un sistema \textbf{DDS} (\textit{Direct Digital Synthesis}) dedicado. Este enfoque permite definir con precisión frecuencia, fase y amplitud, simplificando además la reproducción estable de señales en un amplio rango de frecuencias. 
+
+
+\subsection{Síntesis Digital Directa}
+La síntesis digital directa (DDS) es un método para producir una forma de onda analógica, generalmente una onda sinusoidal, mediante la generación de una señal digital variable en el tiempo y la posterior conversión de digital a analógico. Dado que las operaciones de un dispositivo DDS son principalmente digitales, este ofrece una rápida conmutación entre frecuencias de salida, una excelente resolución de frecuencia y un amplio espectro de frecuencias.
+
+La generación de formas de onda de diversas frecuencias y perfiles de manera precisa, se ha convertido en un requisito clave en diversas industrias. Por ejemplo en la generación de fuentes ágiles de frecuencias variable con bajo ruido de fase y buen rendimiento de espurias en el área de la comunicaciones, equipos de prueba industriales o biomédicos, en lo cual la compacidad y bajo coste son consideraciones de diseño importantes.
+
+Para la generación de frecuencias existen diversas técnicas basadas en lazos de enganche de fase (PLL), hasta la programación dinámica de salidas de convertidores de digital a analógicos (DAC) para generar formas de onda arbitrarias a frecuencias bajas. Sin embargo la generación mediante la técnica de DDS gana mayor aceptación dado que los dispositivos permiten integrar en un solo chip todas las características necesarias para la generación de formas de onda de salida analógicas programables de manera sencilla, con alta resolución y precisión. Logrando que sean aptas para la mayoría de las aplicaciones industriales.
+
+
+Un ejemplo de un dispositivo DDS es el \textbf{AD9833} que funciona a 5.5V con una frecuencia de reloj de 25 MHz, consumiendo una potencia máxima de 30 mW. Una imagen ilustrativa del dispositivo se presenta a continuación.
 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{0.49\textwidth}
-		\centering
-		\includegraphics[width=\linewidth]{Introduccion/img/triangular.png}
-		\caption{Señal senoidal convencional.}
-		\label{fig:senoidal}
-	\end{minipage}\hfill
-	\begin{minipage}{0.49\textwidth}
-		\centering
-		\includegraphics[width=\linewidth]{Introduccion/img/pulso_gauseano.png}
-		\caption{Señal de Pulso Gausseano arbitraria.}
-		\label{fig:gauss}
-	\end{minipage}
+	\includegraphics[width=0.5\linewidth]{Introduccion/img/dds}
+	\caption{El AD9833 es un generador de forma de onda de un solo chip.}
+	\label{fig:dds}
 \end{figure}
 
-El presente proyecto propone el diseño e implementación de un generador de funciones/arbitrario basado en un microcontrolador de la familia Raspberry Pi (\textbf{RP2040}) como unidad de control, utilizando como núcleo de generación un sistema \textbf{DDS} (\textit{Direct Digital Synthesis}) dedicado. Este enfoque permite definir con precisión frecuencia, fase y amplitud (en la medida en que la etapa analógica lo permita), simplificando además la reproducción estable de señales en un amplio rango de frecuencias. A continuación se presenta una imagen ilustrativa del pinout específico del microcontrolador a utilizar.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{Introduccion/img/raspberry-pi-pico-w-pinout}
-	\caption{Raspberry Pi Pico W Pinout.}
-	\label{fig:raspberry-pi-pico-w-pinout}
-\end{figure}
-
-Como antecedente, se desarrollaron dos versiones previas del sistema basadas en la generación digital mediante periféricos del microcontrolador y un \textbf{DAC} implementado con una red resistiva \textbf{R-2R} como la que puede verse en la Figura \ref{fig:r2r-4bits-2}. Dichas versiones se consideran parte del recorrido del proyecto y resulta útil como referencia comparativa y validación de conceptos; sin embargo, la nueva etapa se centra en la implementación con \textbf{DDS} dedicado y su cadena analógica asociada. Estas dos versiones fueron realizadas como parte de las materias de \textit{Dispositivos y Circuitos Electrónicos IV} y \textit{Sistemas Embebidos Avanzados II}.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.5\linewidth]{Introduccion/img/r2r-4bits-2}
-	\caption{DAC R-2R de 4 Bits. Este tipo de DAC permite tener un valor de tensión de acuerdo a la cantidad de bits habilitados y su ponderación. La resolución (mínima representación de valor de tensión) depende de la cantidad de bits. Con 4 bits y una alimentación de 3V3 la resolución es de 206 mV.}
-	\label{fig:r2r-4bits-2}
-\end{figure}
-
-En las secciones siguientes se presentan la motivación del desarrollo, los objetivos, el alcance, la arquitectura propuesta, el análisis comparativo con soluciones comerciales y la metodología de ensayo para verificar el cumplimiento de especificaciones.
+Una de las principales ventaja de este tipo de dispositivo es que solo necesitan un reloj externo para generar onda sinusoidales simples y además se programan mediante una interfaz periférica serial (SPI) de alta velocidad, la cual es bastante común en los integrados actuales. Además presentan bajo consumo, bajo coste y encapsulado compacto lo que lo hacen ideal para aplicaciones en donde la potencia máxima y el tamaño son elementos claves a la hora de diseñar.
 
 \newpage
 
-\section{Motivación}
-En el ámbito académico y de laboratorio, los generadores de funciones y AWG constituyen herramientas fundamentales para la verificación y caracterización de circuitos analógicos y digitales, el ensayo de sistemas embebidos, y la validación de respuestas temporales y espectrales. Sin embargo, el acceso a instrumental con prestaciones adecuadas suele estar condicionado por el costo de adquisición, la disponibilidad en el laboratorio y las limitaciones de cantidad de equipos para prácticas con múltiples estudiantes.
+\section{Propuesta de proyecto}
+En el presente proyecto se propone realizar un generador de funciones/arbitrario, que tenga como núcleo principal de síntesis un dispositivo DDS. Este instrumento, así como el osciloscopio, constituyen herramientas esenciales en un laboratorio de electrónica, dado que permiten al desarrollador ensayar diversos circuitos y ver como estos responden ante diversas excitaciones.
 
-Si bien existen alternativas comerciales de bajo costo, su relación costo/prestaciones no siempre resulta adecuada para actividades de laboratorio específicas, particularmente cuando se requiere reproducibilidad, control fino de parámetros (frecuencia, fase, amplitud y offset), y la posibilidad de incorporar o modificar funcionalidades de acuerdo con necesidades didácticas o de investigación. En este contexto, el desarrollo de un generador propio permite adaptar el instrumento a requerimientos concretos, documentar su diseño y promover la formación integral en electrónica analógica, digital, firmware y validación experimental. Con lo cual cualquier estudiante o persona del ámbito académico podría replicarlo e incluso mejorarlo.
+El DDS que utilizaremos para poder hacer esto es el integrado proporcionado por Analog Devices \textbf{AD9102}. Elegimos este en particular, frente a otros como el \textbf{AD9833} (previamente mencionado), dado que provee un módulo de RAM, lo cual nos permite utilizarlo para cargar un conjunto de muestras y lograr en esencia un \textit{Generador de Funciones Arbitrarias}. En la Figura \ref{fig:ddsad9102} puede verse su diagrama en bloques.
 
-Adicionalmente, el proyecto se apoya en las primeras dos versiones funcionales desarrolladas previamente, que permitió validar conceptos de síntesis digital y estrategias de control mediante el microcontrolador. A partir de dicha experiencia, se propone como motivación técnica central la migración hacia una arquitectura basada en DDS dedicado, con el objetivo de mejorar estabilidad, control de parámetros y desempeño de señal, complementándolo con una etapa analógica de acondicionamiento y protección adecuada para uso de laboratorio.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{Introduccion/img/DDS_AD9102}
+	\caption{Diagrama en bloques del sintetizador digital directo AD9102.}
+	\label{fig:ddsad9102}
+\end{figure}
 
-En síntesis, este proyecto busca aportar una solución de instrumentación documentada y replicable, que resulte útil tanto como herramienta práctica de laboratorio, así como también una plataforma de aprendizaje para el diseño de sistemas mixtos (digital y analógico). De esta forma permite al desarrollador adquirir diversos conceptos de aprendizaje que abarcan desde lo técnico en el \textbf{área de la electrónica}, como el diseño de circuitos impresos (\textbf{PCB}), esquemáticos, cálculos de componentes, lectura de hoja de datos, elección de componentes adecuados para alta velocidad, así como también en el \textbf{área de diseño gráfico} como la implementación de una pantalla a color TFT y diseño de gabinete en 3D.
+
+Para esto mismo presentamos en la siguiente sub-sección  los diversos equipos que se encuentran presentes en el mercado para poder adquirirlos. La idea del proyecto consiste en poder lograr un equipo similar a estos de bajo coste, educativo y replicable.
+%\section{Motivación}
+%En el ámbito académico y de laboratorio, los generadores de funciones y AWG constituyen herramientas fundamentales para la verificación y caracterización de circuitos analógicos y digitales, el ensayo de sistemas embebidos, y la validación de respuestas temporales y espectrales. Sin embargo, el acceso a instrumental con prestaciones adecuadas suele estar condicionado por el costo de adquisición, la disponibilidad en el laboratorio y las limitaciones de cantidad de equipos para prácticas con múltiples estudiantes.
+%
+%Si bien existen alternativas comerciales de bajo costo, su relación costo/prestaciones no siempre resulta adecuada para actividades de laboratorio específicas, particularmente cuando se requiere reproducibilidad, control fino de parámetros (frecuencia, fase, amplitud y offset), y la posibilidad de incorporar o modificar funcionalidades de acuerdo con necesidades didácticas o de investigación. En este contexto, el desarrollo de un generador propio permite adaptar el instrumento a requerimientos concretos, documentar su diseño y promover la formación integral en electrónica analógica, digital, firmware y validación experimental. Con lo cual cualquier estudiante o persona del ámbito académico podría replicarlo e incluso mejorarlo.
+%
+%Adicionalmente, el proyecto se apoya en las primeras dos versiones funcionales desarrolladas previamente, que permitió validar conceptos de síntesis digital y estrategias de control mediante el microcontrolador. A partir de dicha experiencia, se propone como motivación técnica central la migración hacia una arquitectura basada en DDS dedicado, con el objetivo de mejorar estabilidad, control de parámetros y desempeño de señal, complementándolo con una etapa analógica de acondicionamiento y protección adecuada para uso de laboratorio.
+%
+%En síntesis, este proyecto busca aportar una solución de instrumentación documentada y replicable, que resulte útil tanto como herramienta práctica de laboratorio, así como también una plataforma de aprendizaje para el diseño de sistemas mixtos (digital y analógico). De esta forma permite al desarrollador adquirir diversos conceptos de aprendizaje que abarcan desde lo técnico en el \textbf{área de la electrónica}, como el diseño de circuitos impresos (\textbf{PCB}), esquemáticos, cálculos de componentes, lectura de hoja de datos, elección de componentes adecuados para alta velocidad, así como también en el \textbf{área de diseño gráfico} como la implementación de una pantalla a color TFT y diseño de gabinete en 3D.

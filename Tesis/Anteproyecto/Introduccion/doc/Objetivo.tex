@@ -46,7 +46,7 @@ El proyecto comprende el diseño, implementación y validación de un generador 
 	\item Diseño e implementación de la forma de onda convencional/arbitraria utilizando como unidad principal de control el RP2040 y como sintetizador de señal el AD9102.
 	\item Diseño e implementación de la etapa analógica de salida para acondicionamiento de la señal (ajuste de amplitud y offset) y adaptación a condiciones típicas de carga de laboratorio (50~\(\Omega\) / alta impedancia).
 	\item Diseño e implementación de la etapa de alimentación del instrumento desde red eléctrica convencional, generando los rieles necesarios e incorporando protecciones básicas.
-	\item Diseño e implementación de la placa de panel/interfaz física (display táctil, controles y conectores) para operación local del equipo.
+	\item Diseño e implementación de la placa de panel/interfaz física (display\footnote{Si bien el hardware quedará hecho para que se implemente una pantalla diferente se hará uso de la pantalla Nextion 2.4 in que formaba parte de las versiones anteriores.}, controles y conectores) para operación local del equipo.
 	\item Implementación de hardware y/o conexionado necesario para posible uso como laboratorio remoto.
 \end{itemize}
 
@@ -67,7 +67,7 @@ El proyecto comprende el diseño, implementación y validación de un generador 
 \begin{itemize}
 	\item Elaboración y ejecución de ensayos de validación con instrumental de laboratorio (osciloscopio, multímetro, etc), que incluya medición de frecuencia, amplitud y offset comparando el resultado configurado/deseado contra el medido.
 	
-	\item Elaboración de resultados medibles en el dominio frecuencial, que permitan determinar la calidad de la señal obtenida a la salida.
+%	\item Elaboración de resultados medibles en el dominio frecuencial, que permitan determinar la calidad de la señal obtenida a la salida.
 	
 	\item Documentación técnica del sistema (hardware y firmware), que incluya cálculos; elecciones de componentes; explicación de etapas de desarrollo a nivel de hardware, así como también a nivel de firmware; resultados obtenidos y consideraciones de uso.
 	
@@ -81,7 +81,7 @@ El proyecto comprende el diseño, implementación y validación de un generador 
 	
 	\item Las prestaciones finales (rango de frecuencia, amplitud máxima, distorsión, espurias, etc) estarán condicionadas por el núcleo DDS, el reloj de referencia y la etapa analógica de salida, definiéndose especificaciones conservadoras y verificables.
 	
-	\item La implementación del número de canales de salida dependerán en gran medida del presupuesto y tiempo definidos en el proceso de desarrollo. Sin embargo a nivel de firmware el equipo debería estar estructurado de manera tal que puedan agregarse canales de salida como si fueran un objeto mas de una clase base.
+	\item La implementación del número de canales de salida dependerán en gran medida del presupuesto y tiempo definidos en el proceso de desarrollo. Sin embargo a nivel de firmware/hardware el equipo debería estar estructurado de manera tal que pueda agregar otro canal de salida.
 	
 	\item La implementación de interfaz/es de usuario para uso de independiente del display principal, quedan condicionadas al tiempo estipulado para el total del proyecto.
 	

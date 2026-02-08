@@ -1,5 +1,7 @@
+\newpage
+
 \section{Metodología de ensayo y validación}
-La metodología de ensayo propuesta tiene como objetivo verificar el cumplimiento de las especificaciones funcionales y de desempeño del generador de funciones/arbitrario, tanto en el dominio temporal como en el dominio frecuencial. Se definen el instrumental, las condiciones de medición, los ensayos y los criterios de aceptación.
+La metodología de ensayo propuesta tiene como objetivo verificar el cumplimiento de las especificaciones funcionales y de desempeño del generador de funciones/arbitrario, en el dominio temporal. Se definen el instrumental, las condiciones de medición, los ensayos y los criterios de aceptación.
 
 \subsection{Instrumental y condiciones de medición}
 Los ensayos se realizarán bajo condiciones ambientales de laboratorio. Se utilizará el siguiente instrumental:
@@ -13,51 +15,164 @@ Los ensayos se realizarán bajo condiciones ambientales de laboratorio. Se utili
 \subsection{Ensayos funcionales}
 Se verificará el correcto funcionamiento de las funciones principales:
 \begin{itemize}
-	\item \textbf{Generación de formas de onda:} senoidal, cuadrada, triangular/rampa, pulso y arbitraria.
-	\item \textbf{Configuración de parámetros:} frecuencia, amplitud, offset DC, duty cycle y fase (si aplica).
+	\item \textbf{Generación de formas de onda:} El usuario deberá seleccionar la función de \textit{Tipo de señal} que permitirá cambiar entre las formas de ondas almacenadas previamente senoidal, cuadrada, triangular/rampa, pulso, electrocardiograma, diente de sierra, gausseana, etc.
+	\item \textbf{Configuración de parámetros:} El usuario debe seleccionar el parámetro a configurar según corresponda frecuencia, amplitud, offset DC, duty cycle y fase. Con el encoder le permitirá ir variando el valor de cada uno y mediante botones de selección podrá cambiar el multiplicador.
 	\item \textbf{Visualización de Configuraciones:} definida a través de la interfaz de visualización que se use (display o PC).
-	\item Verificación de interfaz de control (USB/serial/Ethernet) y respuesta a comandos (si aplica).
+	\item Verificación de interfaz de control (USB/serial/Ethernet) y respuesta a comandos.
 \end{itemize}
 
 El resultado satisfactorio de esta etapa radica en la posibilidad de que el usuario/desarrollador pueda manejar de forma correcta las configuraciones mencionadas y que estas se vean claramente representadas en la interfaz de visualización elegida.
 
-\subsection{Ensayos de frecuencia y resolución}
-Se evaluará la exactitud y resolución de frecuencia mediante puntos de prueba representativos (por ejemplo 1\,kHz, 10\,kHz, 100\,kHz, 300 KHz, 500 KHz, 700 KHz, 1\,MHz, 5\,MHz, 10\,MHz y frecuencia máxima del equipo):
+%\subsection{Ensayos de frecuencia y resolución}
+%Se evaluará la exactitud y resolución de frecuencia mediante puntos de prueba representativos (por ejemplo 1\,kHz, 10\,kHz, 100\,kHz, 300 KHz, 500 KHz, 700 KHz, 1\,MHz, 5\,MHz, 10\,MHz y frecuencia máxima del equipo):
+%
+%\begin{itemize}
+%%	\item \textbf{Error de frecuencia:} $\Delta f = f_\text{medida} - f_\text{programada}$ (si es posible en base a la calidad del instrumental usado).
+%	\item \textbf{Resolución efectiva:} menor cambio programable observable en la salida (igual que item anterior).
+%\end{itemize}
+%
+%Como criterio de aceptación se adoptará un error máximo permitido en frecuencia (en ppm o en \%), definido en función de los objetivos del proyecto y del oscilador de referencia utilizado.
 
-\begin{itemize}
-	\item \textbf{Error de frecuencia:} $\Delta f = f_\text{medida} - f_\text{programada}$ (si es posible en base a la calidad del instrumental usado).
-	\item \textbf{Resolución efectiva:} menor cambio programable observable en la salida (igual que item anterior).
-\end{itemize}
+\subsection{Ensayos de tipo de señal, frecuencia, amplitud y offset}
+En esta sección de presentan todos los tipos de ensayos que van a realizarse, con el fin de darle la mayor caracterización al equipo que se va a realizar. Cada ensayo debe hacerse para cada una de las señales convencionales (senoidal, cuadrada, triangular) y además para alguna arbitraria cargada con una cantidad de muestras definida.
 
-Como criterio de aceptación se adoptará un error máximo permitido en frecuencia (en ppm o en \%), definido en función de los objetivos del proyecto y del oscilador de referencia utilizado.
+\subsubsection{Ensayo de frecuencia}
+Para realizar este ensayo el usuario deberá seleccionar primeramente el tipo de canal que quiere configurar y presionar OK. Luego mediante el encoder rotativo y los botones de cambio de multiplicador, deberá moverlos de acuerdo a la frecuencia que quiera a salida según la tabla proporcionada.
 
-\subsection{Ensayos de amplitud y offset}
-Se medirán amplitud y offset tanto en High-Z como con carga de 50\,$\Omega$:
+\begin{table}[H]
+	\centering
+	\label{tab:freq_set_meas}
+	\begin{tabular}{|l|c|r|l|}
+		\hline
+		Tipo de se\~nal & $f_{set}$ & $f_{med}$ & Observaciones \\ \hline
+		& 1\,Hz      &  & \\ \hline
+		& 10\,Hz     &  & \\ \hline
+		& 100\,Hz    &  & \\ \hline
+		& 1\,kHz     &  & \\ \hline
+		& 10\,kHz    &  & \\ \hline
+		& 100\,kHz   &  & \\ \hline
+		& 1\,MHz     &  & \\ \hline
+		& 3\,MHz     &  & \\ \hline
+		& 5\,MHz     &  & \\ \hline
+		& 10\,MHz    &  & \\ \hline
+		& 15\,MHz    &  & \\ \hline
+		& 20\,MHz    &  & \\ \hline
+		& 25\,MHz    &  & \\ \hline
+	\end{tabular}
+	\caption{\textbf{Ensayo frecuencia:} frecuencia configurada vs frecuencia medida ($V_{pp}$ de 20\,V, $V_{off}=0$).}
+\end{table}
 
-\begin{itemize}
-	\item Amplitud de salida (Vpp y/o Vrms) versus valor programado.
-	\item Offset DC versus valor programado.
-\end{itemize}
+\subsubsection{Ensayo de amplitud}
+Para dicho ensayo el usuario primeramente deberá seleccionar el canal que quiere cambiar la amplitud de salida en Volts de pico a pico o Volts de pico. Una vez seleccionada deberá hacer uso del encoder y botones de cambio de multiplicador para poder ajustar el valor final definido por la siguiente tabla.
 
-El criterio de aceptación se definirá mediante un error relativo y/o absoluto máximo (por ejemplo $\pm(1\%$ a $3\%)$).
+\begin{table}[H]
+	\centering
+	\label{tab:amp_set_meas}
+	\begin{tabular}{|l|r|r|r|l|}
+		\hline
+		Tipo de se\~nal & $V_{pp,set}$ & $V_{pp,med}$ & $V_{off,med}$ & Observaciones \\ \hline
+		& 0.2\,V  &  &  & \\ \hline
+		& 0.5\,V  &  &  & \\ \hline
+		& 1.0\,V  &  &  & \\ \hline
+		& 2.0\,V  &  &  & \\ \hline
+		& 5.0\,V  &  &  & \\ \hline
+		& 10.0\,V &  &  & \\ \hline
+		& 15.0\,V &  &  & \\ \hline
+		& 20.0\,V &  &  & \\ \hline
+	\end{tabular}
+	\caption{\textbf{Ensayo amplitud:} amplitud configurada vs amplitud medida (frecuencia 10\,kHz, $V_{off}=0$).}
+\end{table}
 
-\subsection{Integridad de señal en el dominio temporal}
-Para cada forma de onda, especialmente a frecuencias elevadas, se evaluará:
+\subsubsection{Ensayo de offset}
+El procedimiento es el mismo que los ensayos anteriores, seleccionando en este caso el boton de cambio de offset o señal de DC.
 
-\begin{itemize}
-	\item \textbf{Para senoidal:} ruido observable, estabilidad y distorsión.
-	\item \textbf{Para cuadrada/pulso:} tiempos de subida y bajada (10--90\%), overshoot/undershoot para ciertas frecuencias seleccionadas, duty real versus duty programado.
-\end{itemize}
+\begin{table}[H]
+	\centering
+	\label{tab:offset_set_meas}
+	\begin{tabular}{|l|r|r|r|l|}
+		\hline
+		Tipo de se\~nal & $V_{off,set}$ & $V_{off,med}$ & $V_{pp,med}$ & Observaciones \\ \hline
+		& -5.0\,V &  &  & \\ \hline
+		& -4.0\,V &  &  & \\ \hline
+		& -3.0\,V &  &  & \\ \hline
+		& -2.0\,V &  &  & \\ \hline
+		& -1.0\,V &  &  & \\ \hline
+		& -0.5\,V &  &  & \\ \hline
+		& 0.0\,V  &  &  & \\ \hline
+		& +0.5\,V &  &  & \\ \hline
+		& +1.0\,V &  &  & \\ \hline
+		& +2.0\,V &  &  & \\ \hline
+		& +3.0\,V &  &  & \\ \hline
+		& +4.0\,V &  &  & \\ \hline
+		& +5.0\,V &  &  & \\ \hline
+	\end{tabular}
+	\caption{\textbf{Ensayo offset:} offset configurado vs offset medido (frecuencia 10\,kHz, $V_{pp}$ fijo).}
+\end{table}
 
-Dado que se trata de un proyecto final a nivel educativo y no un dispositivo comercial, la validación de la etapa será en función de los resultados obtenidos.
+\subsubsection{Ensayo de planitud}
+A diferencia de los ensayos anteriores el usuario ahora deberá configurar tanto la amplitud en un valor definido (preferentemente el máximo) e ir incrementando la frecuencia y visualizar la tensión de salida máxima. Esto se hace con el fin de poder ver que tan estable es la salida frente a diferentes frecuencias y a su vez las limitaciones propias del equipo. Además al hacerlo tanto para alta impedancia como baja impedancia las condiciones serán distintas ya que en baja impedancia la exigencia será mucho mayor.
 
-\subsection{Ensayos espectrales (armónicos, THD, SFDR)}
-Se caracterizará la calidad espectral mediante FFT del osciloscopio o analizador de espectro. Para una senoidal (por ejemplo 1\,MHz y 10\,MHz) se evaluará:
+\begin{table}[H]
+	\centering
+	\label{tab:sine_flatness_basic}
+	\begin{tabular}{|c |r| l|}
+		\hline
+		$f$ & $V_{pp,med}$ & Condición (Hi-Z / 50$\Omega$) \\
+		\hline
+		1\,kHz    &  & \\ \hline
+		10\,kHz   &  & \\ \hline
+		100\,kHz  &  & \\ \hline
+		1\,MHz    &  & \\ \hline
+		5\,MHz    &  & \\ \hline
+		10\,MHz   &  & \\ \hline
+		20\,MHz   &  & \\
+		\hline
+		25\,MHz   &  & \\
+		\hline
+	\end{tabular}
+	\caption{\textbf{Ensayo senoidal:} amplitud medida vs frecuencia.}
+\end{table}
 
-\begin{itemize}
-	\item Niveles de armónicos (2º, 3º, etc.).
-	\item THD o THD+N (si el instrumento lo permite).
-	\item SFDR: diferencia entre el tono fundamental y el mayor espurio.
-\end{itemize}
+\subsubsection{Ensayos específicos}
+Incluyen todos los ensayos que depende exclusivamente del tipo de señal.
 
-Se verificará que el contenido espectral sea consistente con la forma cargada y que no existan espurios dominantes no esperados. En caso de aparecer mencionarlos y dar una breve justificación.
+\begin{table}[H]
+	\centering
+	\label{tab:square_duty_rise}
+	\begin{tabular}{|c| r| r| r| c| r| r| l|}
+		\hline
+		$f_{set}$ & $f_{med}$ &
+		$V_{pp,set}$ & $V_{pp,med}$ &
+		Duty$_{set}$ & Duty$_{med}$ &
+		$t_r$ / $t_f$ &
+		Obs. \\
+		\hline
+		1\,kHz   &  & 1.0\,V &  & 50\% &  &  & \\ \hline
+		100\,kHz &  & 1.0\,V &  & 50\% &  &  & \\ \hline
+		1\,MHz   &  & 1.0\,V &  & 50\% &  &  & \\
+		\hline
+	\end{tabular}
+	\caption{Ensayo específico: señal cuadrada (duty y tiempos).}
+\end{table}
+
+
+%\subsection{Integridad de señal en el dominio temporal}
+%Para cada forma de onda, especialmente a frecuencias elevadas, se evaluará:
+%
+%\begin{itemize}
+%	\item \textbf{Para senoidal:} ruido observable, estabilidad y distorsión.
+%	\item \textbf{Para cuadrada/pulso:} tiempos de subida y bajada (10--90\%), overshoot/undershoot para ciertas frecuencias seleccionadas, duty real versus duty programado.
+%\end{itemize}
+%
+%Dado que se trata de un proyecto final a nivel educativo y no un dispositivo comercial, la validación de la etapa será en función de los resultados obtenidos.
+
+%\subsection{Ensayos espectrales (armónicos, THD, SFDR)}
+%Se caracterizará la calidad espectral mediante FFT del osciloscopio o analizador de espectro. Para una senoidal (por ejemplo 1\,MHz y 10\,MHz) se evaluará:
+%
+%\begin{itemize}
+%	\item Niveles de armónicos (2º, 3º, etc.).
+%	\item THD o THD+N (si el instrumento lo permite).
+%	\item SFDR: diferencia entre el tono fundamental y el mayor espurio.
+%\end{itemize}
+%
+%Se verificará que el contenido espectral sea consistente con la forma cargada y que no existan espurios dominantes no esperados. En caso de aparecer mencionarlos y dar una breve justificación.
