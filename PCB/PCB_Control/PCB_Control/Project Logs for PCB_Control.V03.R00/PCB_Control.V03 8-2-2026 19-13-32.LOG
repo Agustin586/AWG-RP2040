@@ -1,0 +1,1206 @@
+Change Component Footprint: Designator=C72 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C73 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C74 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C75 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C76 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C77 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C78 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C79 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C80 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C82 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C136 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C137 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C138 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C139 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C140 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C141 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C150 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C151 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C152 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C153 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C154 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=C155 Old Footprint=FP-CC0805-EB-MFG New Footprint=FP-CC0805-EB-MFG
+Change Component Footprint: Designator=U10 Old Footprint=FP-K10-1-IPC_A New Footprint=FP-K10-1-IPC_A
+Change Component Footprint: Designator=C68 Old Footprint=WCAP-ASLI_D6.3H7.7 New Footprint=WCAP-ASLI_D6.3H7.7
+Change Component Footprint: Designator=C69 Old Footprint=WCAP-ASLI_D6.3H7.7 New Footprint=WCAP-ASLI_D6.3H7.7
+Added Component: Designator=TP1(PAD_RND_1MM)
+Added Component: Designator=TP2(PAD_RND_1MM)
+Added Component: Designator=TP3(PAD_RND_1MM)
+Added Component: Designator=TP4(PAD_RND_1MM)
+Added Component: Designator=TP5(PAD_RND_1MM)
+Added Component: Designator=TP6(PAD_RND_1MM)
+Added Component: Designator=TP7(PAD_RND_1MM)
+Added Component: Designator=TP8(PAD_RND_1MM)
+Added Component: Designator=TP9(PAD_RND_1MM)
+Added Component: Designator=TP10(PAD_RND_1MM)
+Added Component: Designator=TP11(PAD_RND_1MM)
+Added Component: Designator=TP12(PAD_RND_1MM)
+Added Component: Designator=TP13(PAD_RND_1MM)
+Added Component: Designator=TP14(PAD_RND_1MM)
+Added Component: Designator=TP15(PAD_RND_1MM)
+Added Component: Designator=TP16(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP17(PAD_RND_1MM)
+Added Component: Designator=TP18(PAD_RND_1MM)
+Added Component: Designator=TP19(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP20(PAD_RND_1MM)
+Added Component: Designator=TP21(PAD_RND_1MM)
+Added Component: Designator=TP22(PAD_RND_1MM)
+Added Component: Designator=TP23(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP24(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP25(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP26(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP27(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP28(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP29(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP30(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP31(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP32(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP33(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP34(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP35(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP36(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP37(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP38(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP39(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP40(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP41(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP42(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP43(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP44(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP45(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP46(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP47(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP48(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP49(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP50(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP51(PAD_RND_1MM)
+Added Component: Designator=TP52(PAD_RND_1MM)
+Added Component: Designator=TP53(PAD_RND_1MM)
+Added Component: Designator=TP54(PAD_RND_1MM)
+Added Component: Designator=TP55(PAD_RND_1MM)
+Added Component: Designator=TP56(PAD_RND_1MM)
+Added Component: Designator=TP57(PAD_RND_1MM)
+Added Component: Designator=TP58(PAD_RND_1MM)
+Added Component: Designator=TP59(PAD_RND_1MM)
+Added Component: Designator=TP60(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP61(PAD_RND_1MM)
+Added Component: Designator=TP62(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP63(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP64(PAD_RND_1MM)
+Added Component: Designator=TP65(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP66(PAD_RND_1MM)
+Added Component: Designator=TP67(PAD_RND_1MM)
+Added Component: Designator=TP68(PAD_RND_1MM)
+Added Component: Designator=TP69(PAD_RND_1MM)
+Added Component: Designator=TP70(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP71(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP72(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP73(KSTN-5003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "3 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.08 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "80 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Current"; Value = "600 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01 lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.25 inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP74(PAD_RND_1MM)
+Added Component: Designator=TP75(PAD_RND_1MM)
+Added Component: Designator=TP76(PAD_RND_1MM)
+Added Component: Designator=TP77(PAD_RND_1MM)
+Added Pin To Net: NetName=+A5V Pin=TP1-1
+Added Pin To Net: NetName=+A3V3 Pin=TP2-1
+Added Pin To Net: NetName=+5V_CONN Pin=TP3-1
+Added Pin To Net: NetName=+3V3_CONN Pin=TP4-1
+Added Pin To Net: NetName=-A5V Pin=TP5-1
+Added Pin To Net: NetName=-A15V Pin=TP6-1
+Added Pin To Net: NetName=+3V3 Pin=TP7-1
+Added Pin To Net: NetName=+5V Pin=TP8-1
+Added Pin To Net: NetName=+15V Pin=TP9-1
+Added Pin To Net: NetName=-5V Pin=TP10-1
+Added Pin To Net: NetName=-15V Pin=TP11-1
+Added Pin To Net: NetName=+A15V Pin=TP12-1
+Added Pin To Net: NetName=AGND Pin=TP13-1
+Added Pin To Net: NetName=MCU_TESTEN Pin=TP14-1
+Added Pin To Net: NetName=AO1_VOUT_Amplificador1 Pin=TP15-1
+Added Pin To Net: NetName=AMPL_VOUT_Amplificador1 Pin=TP16-1
+Added Pin To Net: NetName=AO2_VOUT_Amplificador1 Pin=TP17-1
+Added Pin To Net: NetName=AO1_VOUT_Amplificador2 Pin=TP18-1
+Added Pin To Net: NetName=AMPL_VOUT_Amplificador2 Pin=TP19-1
+Added Pin To Net: NetName=AO2_VOUT_Amplificador2 Pin=TP20-1
+Added Pin To Net: NetName=MCU_GPIO24 Pin=TP21-1
+Added Pin To Net: NetName=NetB17_32 Pin=TP22-1
+Added Pin To Net: NetName=MCU_GPIO12 Pin=TP23-1
+Added Pin To Net: NetName=MCU_GPIO13 Pin=TP24-1
+Added Pin To Net: NetName=MCU_GPIO3 Pin=TP25-1
+Added Pin To Net: NetName=MCU_GPIO4 Pin=TP26-1
+Added Pin To Net: NetName=MCU_GPIO2 Pin=TP27-1
+Added Pin To Net: NetName=SI5351_CLK0 Pin=TP28-1
+Added Pin To Net: NetName=SI5351_CLK1 Pin=TP29-1
+Added Pin To Net: NetName=DDS_REFIO_CH1 Pin=TP30-1
+Added Pin To Net: NetName=DDS_REFIO_CH2 Pin=TP31-1
+Added Pin To Net: NetName=MCU_GPIO11 Pin=TP32-1
+Added Pin To Net: NetName=MCU_GPIO14 Pin=TP33-1
+Added Pin To Net: NetName=MCU_GPIO15 Pin=TP34-1
+Added Pin To Net: NetName=MCU_GPIO16 Pin=TP35-1
+Added Pin To Net: NetName=MCU_GPIO0 Pin=TP36-1
+Added Pin To Net: NetName=MCU_GPIO1 Pin=TP37-1
+Added Pin To Net: NetName=MCU_GPIO5 Pin=TP38-1
+Added Pin To Net: NetName=MCU_GPIO9 Pin=TP39-1
+Added Pin To Net: NetName=MCU_GPIO20 Pin=TP40-1
+Added Pin To Net: NetName=MCU_GPIO17 Pin=TP41-1
+Added Pin To Net: NetName=MCU_GPIO18 Pin=TP42-1
+Added Pin To Net: NetName=MCU_GPIO26 Pin=TP43-1
+Added Pin To Net: NetName=MCU_GPIO21 Pin=TP44-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_P Pin=TP45-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1 Pin=TP46-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_N Pin=TP47-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_P Pin=TP48-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2 Pin=TP49-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_N Pin=TP50-1
+Added Pin To Net: NetName=MCP4725_VOUT_DAC_OFFSET_CANAL1 Pin=TP51-1
+Added Pin To Net: NetName=MCP4725_VOUT_DAC_OFFSET_CANAL2 Pin=TP52-1
+Added Pin To Net: NetName=+5V Pin=TP53-1
+Added Pin To Net: NetName=NetC69_1 Pin=TP54-1
+Added Pin To Net: NetName=USB0_P Pin=TP55-1
+Added Pin To Net: NetName=USB0_N Pin=TP56-1
+Added Pin To Net: NetName=MCU_QSPI_SS Pin=TP57-1
+Added Pin To Net: NetName=MCU_XIN Pin=TP58-1
+Added Pin To Net: NetName=MCU_XOUT Pin=TP59-1
+Added Pin To Net: NetName=DAC_DC_VIN_Offset1 Pin=TP60-1
+Added Pin To Net: NetName=DSA_VOUT_ADAPTADA_Offset1 Pin=TP61-1
+Added Pin To Net: NetName=OFFSET_VOUT_Amplificador1 Pin=TP62-1
+Added Pin To Net: NetName=DAC_DC_VIN_Offset2 Pin=TP63-1
+Added Pin To Net: NetName=DSA_VOUT_ADAPTADA_Offset2 Pin=TP64-1
+Added Pin To Net: NetName=OFFSET_VOUT_Amplificador2 Pin=TP65-1
+Added Pin To Net: NetName=OPA41971_-IN_A Pin=TP66-1
+Added Pin To Net: NetName=OPA41971_+IN_A Pin=TP67-1
+Added Pin To Net: NetName=NetB12_6 Pin=TP68-1
+Added Pin To Net: NetName=NetB12_5 Pin=TP69-1
+Added Pin To Net: NetName=PE4312_RFIN_Atenuador_Digital_Pasos1 Pin=TP70-1
+Added Pin To Net: NetName=DSA_VOUT_Offset1 Pin=TP71-1
+Added Pin To Net: NetName=PE4312_RFIN_Atenuador_Digital_Pasos2 Pin=TP72-1
+Added Pin To Net: NetName=DSA_VOUT_Offset2 Pin=TP73-1
+Added Pin To Net: NetName=DAC8562_VOUTA Pin=TP74-1
+Added Pin To Net: NetName=NetR125_1 Pin=TP75-1
+Added Pin To Net: NetName=DAC8562_VOUTB Pin=TP76-1
+Added Pin To Net: NetName=NetR129_1 Pin=TP77-1
+Added Member To Class: ClassName=Alimentacion Member=Component TP1 (TP6) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP2 (TP7) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP3 (TP20) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP4 (TP21) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP5 (TP8) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP6 (TP9) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP7 (TP1) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP8 (TP2) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP9 (TP3) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP10 (TP4) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP11 (TP5) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP12 (TP10) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP13 (TP11) TP_NOBOM
+Added Member To Class: ClassName=Alimentacion Member=Component TP14 (TP12) TP_NOBOM
+Added Member To Class: ClassName=Amplificador1 Member=Component TP15 (TP58) TP_NOBOM
+Added Member To Class: ClassName=Amplificador1 Member=Component TP16 (TP59) 5003
+Added Member To Class: ClassName=Amplificador1 Member=Component TP17 (TP60) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP18 (TP58) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP19 (TP59) 5003
+Added Member To Class: ClassName=Amplificador2 Member=Component TP20 (TP60) TP_NOBOM
+Added Member To Class: ClassName=DDS_CANAL1 Member=Component TP21 (TP47) TP_NOBOM
+Added Member To Class: ClassName=DDS_CANAL2 Member=Component TP22 (TP47) TP_NOBOM
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP23 (TP22) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP24 (TP23) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP25 (TP24) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP26 (TP25) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP27 (TP26) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP28 (TP27) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP29 (TP28) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP30 (TP29) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP31 (TP30) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP32 (TP31) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP33 (TP32) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP34 (TP33) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP35 (TP34) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP36 (TP35) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP37 (TP36) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP38 (TP37) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP39 (TP38) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP40 (TP39) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP41 (TP40) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP42 (TP41) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP43 (TP42) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP44 (TP43) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple1 Member=Component TP45 (TP44) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple1 Member=Component TP46 (TP45) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple1 Member=Component TP47 (TP46) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple2 Member=Component TP48 (TP44) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple2 Member=Component TP49 (TP45) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple2 Member=Component TP50 (TP46) 5003
+Added Member To Class: ClassName=DAC_OFFSET_CANAL1 Member=Component TP51 (TP50) TP_NOBOM
+Added Member To Class: ClassName=DAC_OFFSET_CANAL2 Member=Component TP52 (TP50) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP53 (TP13) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP54 (TP14) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP55 (TP15) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP56 (TP16) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP57 (TP17) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP58 (TP18) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP59 (TP19) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP60 (TP55) 5003
+Added Member To Class: ClassName=Offset1 Member=Component TP61 (TP56) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP62 (TP57) 5003
+Added Member To Class: ClassName=Offset2 Member=Component TP63 (TP55) 5003
+Added Member To Class: ClassName=Offset2 Member=Component TP64 (TP56) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP65 (TP57) 5003
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP66 (TP51) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP67 (TP52) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP68 (TP53) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP69 (TP54) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP70 (TP48) 5003
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP71 (TP49) 5003
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP72 (TP48) 5003
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP73 (TP49) 5003
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component TP74 (TP61) TP_NOBOM
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component TP75 (TP62) TP_NOBOM
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component TP76 (TP63) TP_NOBOM
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component TP77 (TP64) TP_NOBOM

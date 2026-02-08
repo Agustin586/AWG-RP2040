@@ -1,0 +1,16 @@
+.DAC8562SDGSR :1 ;16-bit, dual-channel, low-power, ultra-low glitch, voltage output DAC with 2.5V, 4ppm/C reference
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VOUTA" 2="VOUTB" 3="GND" 4="'LDAC'" 5="'CLR'" 6="'SYNC'" 7="SCLK" 8="DIN" 9="AVDD" 10="VREFIN/VREFOUT"
+*MXP 10
+*DFN DAC8562SDGSR
+~!Mouser Part Number (595-DAC8562SDGSR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC8562SDGSR?qs=L4ss%2FyqpMWQjhHzbOFnTNg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DAC8562SDGSR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/dac8562)
+~!Height (1.1mm)
+~!3D_Model (DAC8562SDGSR)
+DAC8562SDGSR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

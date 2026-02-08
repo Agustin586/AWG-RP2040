@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAC8562SDGSR
+D 16-bit, dual-channel, low-power, ultra-low glitch, voltage output DAC with 2.5V, 4ppm/C reference
+K
+F http://www.ti.com/lit/gpn/dac8562
+$ENDCMP
+#
+#End Doc Library

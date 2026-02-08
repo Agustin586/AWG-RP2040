@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DAC8562SDGSR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2020-03-29 02:35:49
+Downloaded=2026-02-08 13:51:45
+3D=Y

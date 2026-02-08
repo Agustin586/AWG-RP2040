@@ -1,0 +1,94 @@
+Removed Member From Class: ClassName=Memoria EEPROM Member=C107
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=C114
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=C124
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=C178
+Removed Member From Class: ClassName=Memoria EEPROM Member=R87
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=R93
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=R101
+Removed Member From Class: ClassName=DDS1 Member=R114
+Removed Member From Class: ClassName=DDS2 Member=R116
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=R126
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=R134
+Added Component: Designator=B6(SOT95P280X145-6N)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "USBLC6-2SC6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-USBLC6-2SC6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB6_1 Pin=B6-1
+Added Pin To Net: NetName=MCU_TESTEN Pin=B6-2
+Added Pin To Net: NetName=NetB6_3 Pin=B6-3
+Added Pin To Net: NetName=USB0_N Pin=B6-4
+Added Pin To Net: NetName=NetB6_5 Pin=B6-5
+Added Pin To Net: NetName=USB0_P Pin=B6-6
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component B6 (B1) USBLC6-2SC6
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C107 (C65) C0805
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C109 (C67) 100n
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C111 (C69) 100n
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component C113 (C42) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component C115 (C44) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component C117 (C46) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component C119 (C48) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component C121 (C50) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component C123 (C52) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component C125 (C43) 0.1u
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component C127 (C45) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component C129 (C47) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component C131 (C49) 100p
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component C133 (C51) 0.1u
+Added Member To Class: ClassName=RELOJ_SI5351 Member=Component C135 (C53) 100n
+Added Member To Class: ClassName=DDS1 Member=Component C137 (C18) 100n
+Added Member To Class: ClassName=DDS1 Member=Component C139 (C20) 100n
+Added Member To Class: ClassName=DDS1 Member=Component C141 (C22) 100n
+Added Member To Class: ClassName=DDS1 Member=Component C143 (C24) 8.2p
+Added Member To Class: ClassName=DDS1 Member=Component C145 (C26) 100n
+Added Member To Class: ClassName=DDS1 Member=Component C147 (C28) 100n
+Added Member To Class: ClassName=DDS1 Member=Component C149 (C30) 100n
+Added Member To Class: ClassName=DDS2 Member=Component C151 (C18) 100n
+Added Member To Class: ClassName=DDS2 Member=Component C153 (C20) 100n
+Added Member To Class: ClassName=DDS2 Member=Component C155 (C22) 100n
+Added Member To Class: ClassName=DDS2 Member=Component C157 (C24) 8.2p
+Added Member To Class: ClassName=DDS2 Member=Component C159 (C26) 100n
+Added Member To Class: ClassName=DDS2 Member=Component C161 (C28) 100n
+Added Member To Class: ClassName=DDS2 Member=Component C163 (C30) 100n
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component C165 (C55) 100n
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component C167 (C57) 100n
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component C169 (C59) 100n
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C171 (C116) 1u
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C173 (C118) 1u
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C175 (C120) 1u
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C177 (C122) 1u
+Added Member To Class: ClassName=Memoria EEPROM Member=Component C179 (C124) 1u
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R46 (R11) 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R47 (R12) 10K
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R48 (R13) 0R
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component R87 (R61) R0805
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component R88 (R62) R0805
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component R90 (R64) R0805
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component R92 (R35) 0 Ohm
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component R94 (R37) 0 Ohm
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component R96 (R39) 10K
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component R98 (R41) 0 Ohm
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component R100 (R43) 0 Ohm
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component R102 (R36) 0 Ohm
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component R104 (R38) 0 Ohm
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component R106 (R40) 10K
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component R108 (R42) 0 Ohm
+Added Member To Class: ClassName=DDS1 Member=Component R110 (R25) 10K 0.1%
+Added Member To Class: ClassName=DDS1 Member=Component R112 (R27) 249 0.1%
+Added Member To Class: ClassName=DDS2 Member=Component R113 (R25) 10K 0.1%
+Added Member To Class: ClassName=DDS2 Member=Component R115 (R27) 249 0.1%
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R117 (R45) 120R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R119 (R47) 120R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R121 (R49) R0805
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R123 (R51) 82R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R125 (R53) 82R
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component R127 (R95) 5K
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component R129 (R97) 10K 0.1%
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component R131 (R99) 5K
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component R133 (R101) 10K 0.1%
+Added Member To Class: ClassName=Memoria EEPROM Member=Component R135 (R103) 0R
+Added Member To Class: ClassName=Memoria EEPROM Member=Component R137 (R105) 0R
+Added Member To Class: ClassName=Memoria EEPROM Member=Component R139 (R107) 0R
+Added Member To Class: ClassName=Memoria EEPROM Member=Component R141 (R109) 0R

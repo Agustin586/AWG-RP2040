@@ -1,0 +1,20 @@
+Added Component: Designator=C179(CAP_0805)
+Add component (AddParameter): Name = "Dielectric"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R141(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AGND Pin=C179-1
+Added Pin To Net: NetName=NetB12_7 Pin=R141-1
+Added Pin To Net: NetName=NetB12_10 Pin=B12-10
+Added Pin To Net: NetName=NetB12_10 Pin=C179-2
+Added Pin To Net: NetName=NetB12_10 Pin=R141-2
+Added Net: Name=NetB12_10
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C179 (C124) C0805
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component R141 (R109) R0805
