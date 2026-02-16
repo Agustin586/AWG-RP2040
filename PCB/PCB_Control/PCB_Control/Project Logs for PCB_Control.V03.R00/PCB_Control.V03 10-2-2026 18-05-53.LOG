@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCU_TESTEN Pin=R62-1
+Removed Pin From Net: NetName=MCU_TESTEN Pin=R64-1
+Added Pin To Net: NetName=AGND Pin=R62-1
+Added Pin To Net: NetName=AGND Pin=R64-1

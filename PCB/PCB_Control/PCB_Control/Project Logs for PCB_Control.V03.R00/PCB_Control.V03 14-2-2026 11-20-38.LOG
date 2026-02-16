@@ -1,0 +1,159 @@
+Removed Pin From Net: NetName=AMPL_VOUT_Amplificador2 Pin=TP18-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_P Pin=TP44-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1 Pin=TP45-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_N Pin=TP46-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_P Pin=TP47-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_N Pin=TP49-1
+Removed Pin From Net: NetName=DAC_DC_VIN_Offset1 Pin=TP59-1
+Removed Pin From Net: NetName=OFFSET_VOUT_Amplificador1 Pin=TP61-1
+Removed Pin From Net: NetName=DAC_DC_VIN_Offset2 Pin=TP62-1
+Removed Pin From Net: NetName=OFFSET_VOUT_Amplificador2 Pin=TP64-1
+Removed Pin From Net: NetName=PE4312_RFIN_Atenuador_Digital_Pasos1 Pin=TP69-1
+Removed Pin From Net: NetName=DSA_VOUT_Offset1 Pin=TP70-1
+Removed Pin From Net: NetName=PE4312_RFIN_Atenuador_Digital_Pasos2 Pin=TP71-1
+Removed Pin From Net: NetName=DSA_VOUT_Offset2 Pin=TP72-1
+Removed Member From Class: ClassName=Amplificador2 Member=TP18
+Removed Member From Class: ClassName=Conversor_Diff_A_Simple1 Member=TP44
+Removed Member From Class: ClassName=Conversor_Diff_A_Simple1 Member=TP45
+Removed Member From Class: ClassName=Conversor_Diff_A_Simple2 Member=TP47
+Removed Member From Class: ClassName=Offset2 Member=TP62
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=TP69
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=TP70
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos2 Member=TP71
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos2 Member=TP72
+Change Component Footprint: Designator=TP15 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP46 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP47 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP48 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP49 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP59 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP62 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Footprint: Designator=TP64 Old Footprint=KSTN-5003 New Footprint=PAD_RND_1MM
+Change Component Comment : Designator=TP15 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP46 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP47 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP48 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP49 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP59 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP62 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Comment : Designator=TP64 Old Comment=5003 New Comment=TP_NOBOM
+Change Component Designator: OldDesignator=TP16 NewDesignator=TP17
+Change Component Designator: OldDesignator=TP17 NewDesignator=TP18
+Change Component Designator: OldDesignator=TP19 NewDesignator=TP21
+Change Component Designator: OldDesignator=TP20 NewDesignator=TP22
+Change Component Designator: OldDesignator=TP21 NewDesignator=TP23
+Change Component Designator: OldDesignator=TP22 NewDesignator=TP24
+Change Component Designator: OldDesignator=TP23 NewDesignator=TP25
+Change Component Designator: OldDesignator=TP24 NewDesignator=TP26
+Change Component Designator: OldDesignator=TP25 NewDesignator=TP27
+Change Component Designator: OldDesignator=TP26 NewDesignator=TP28
+Change Component Designator: OldDesignator=TP27 NewDesignator=TP29
+Change Component Designator: OldDesignator=TP28 NewDesignator=TP30
+Change Component Designator: OldDesignator=TP29 NewDesignator=TP31
+Change Component Designator: OldDesignator=TP30 NewDesignator=TP32
+Change Component Designator: OldDesignator=TP31 NewDesignator=TP33
+Change Component Designator: OldDesignator=TP32 NewDesignator=TP34
+Change Component Designator: OldDesignator=TP33 NewDesignator=TP35
+Change Component Designator: OldDesignator=TP34 NewDesignator=TP36
+Change Component Designator: OldDesignator=TP35 NewDesignator=TP37
+Change Component Designator: OldDesignator=TP36 NewDesignator=TP38
+Change Component Designator: OldDesignator=TP37 NewDesignator=TP39
+Change Component Designator: OldDesignator=TP38 NewDesignator=TP40
+Change Component Designator: OldDesignator=TP39 NewDesignator=TP41
+Change Component Designator: OldDesignator=TP40 NewDesignator=TP42
+Change Component Designator: OldDesignator=TP41 NewDesignator=TP43
+Change Component Designator: OldDesignator=TP42 NewDesignator=TP44
+Change Component Designator: OldDesignator=TP43 NewDesignator=TP45
+Change Component Designator: OldDesignator=TP60 NewDesignator=TP61
+Change Component Designator: OldDesignator=TP63 NewDesignator=TP66
+Change Component Designator: OldDesignator=TP65 NewDesignator=TP69
+Change Component Designator: OldDesignator=TP66 NewDesignator=TP70
+Change Component Designator: OldDesignator=TP67 NewDesignator=TP71
+Change Component Designator: OldDesignator=TP68 NewDesignator=TP72
+Change Component Designator: OldDesignator=TP73 NewDesignator=TP81
+Change Component Designator: OldDesignator=TP74 NewDesignator=TP82
+Change Component Designator: OldDesignator=TP75 NewDesignator=TP83
+Change Component Designator: OldDesignator=TP76 NewDesignator=TP84
+Change Component Kind : Designator=TP64 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP62 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP59 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP49 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP48 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP47 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP46 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP15 Old Kind=Standard New Kind=Standard (No BOM)
+Change Managed Component Library Link : Designator=TP15 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP46 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP47 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP48 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP49 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP59 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP62 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change Managed Component Library Link : Designator=TP64 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=624F7DBD-3812-4FF2-BD87-C8427B7B2ABA New ItemGUID= Old RevisionGUID=EBADE364-504F-4F75-ABA7-3C197908D269 New RevisionGUID=
+Change component parameters: Designator = "TP15" ("TP48"); Footprint = "KSTN-5003"; UniqueID = "\GVEGLZFQ\SYICPXTF\HDXCXNNV" ("\GVEGLZFQ\SYICPXTF\HDXCXNNV")
+Change component parameters: Designator = "TP46" ("TP30"); Footprint = "KSTN-5003"; UniqueID = "\GVEGLZFQ\BBAIBELJ\WDIZCFMB" ("\GVEGLZFQ\BBAIBELJ\WDIZCFMB")
+Change component parameters: Designator = "TP47" ("TP31"); Footprint = "KSTN-5003"; UniqueID = "\GVEGLZFQ\BBAIBELJ\ZTZWZKIH" ("\GVEGLZFQ\BBAIBELJ\ZTZWZKIH")
+Change component parameters: Designator = "TP48" ("TP30"); Footprint = "KSTN-5003"; UniqueID = "\EHUXUXAI\BBAIBELJ\WDIZCFMB" ("\EHUXUXAI\BBAIBELJ\WDIZCFMB")
+Change component parameters: Designator = "TP49" ("TP31"); Footprint = "KSTN-5003"; UniqueID = "\EHUXUXAI\BBAIBELJ\ZTZWZKIH" ("\EHUXUXAI\BBAIBELJ\ZTZWZKIH")
+Change component parameters: Designator = "TP59" ("TP42"); Footprint = "KSTN-5003"; UniqueID = "\GVEGLZFQ\SNZZTAYW\HZDYNUSS" ("\GVEGLZFQ\SNZZTAYW\HZDYNUSS")
+Change component parameters: Designator = "TP62" ("TP45"); Footprint = "KSTN-5003"; UniqueID = "\GVEGLZFQ\SNZZTAYW\QPSPRQEY" ("\GVEGLZFQ\SNZZTAYW\QPSPRQEY")
+Change component parameters: Designator = "TP64" ("TP42"); Footprint = "KSTN-5003"; UniqueID = "\EHUXUXAI\SNZZTAYW\HZDYNUSS" ("\EHUXUXAI\SNZZTAYW\HZDYNUSS")
+Added Component: Designator=TP16(PAD_RND_1MM)
+Added Component: Designator=TP19(PAD_RND_1MM)
+Added Component: Designator=TP20(PAD_RND_1MM)
+Added Component: Designator=TP60(PAD_RND_1MM)
+Added Component: Designator=TP63(PAD_RND_1MM)
+Added Component: Designator=TP65(PAD_RND_1MM)
+Added Component: Designator=TP67(PAD_RND_1MM)
+Added Component: Designator=TP68(PAD_RND_1MM)
+Added Component: Designator=TP73(PAD_RND_1MM)
+Added Component: Designator=TP74(PAD_RND_1MM)
+Added Component: Designator=TP75(PAD_RND_1MM)
+Added Component: Designator=TP76(PAD_RND_1MM)
+Added Component: Designator=TP77(PAD_RND_1MM)
+Added Component: Designator=TP78(PAD_RND_1MM)
+Added Component: Designator=TP79(PAD_RND_1MM)
+Added Component: Designator=TP80(PAD_RND_1MM)
+Added Pin To Net: NetName=GND Pin=TP16-1
+Added Pin To Net: NetName=AMPL_VOUT_Amplificador2 Pin=TP19-1
+Added Pin To Net: NetName=GND Pin=TP20-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1 Pin=TP46-1
+Added Pin To Net: NetName=GND Pin=TP47-1
+Added Pin To Net: NetName=GND Pin=TP49-1
+Added Pin To Net: NetName=GND Pin=TP59-1
+Added Pin To Net: NetName=DAC_DC_VIN_Offset1 Pin=TP60-1
+Added Pin To Net: NetName=OFFSET_VOUT_Amplificador1 Pin=TP62-1
+Added Pin To Net: NetName=GND Pin=TP63-1
+Added Pin To Net: NetName=GND Pin=TP64-1
+Added Pin To Net: NetName=DAC_DC_VIN_Offset2 Pin=TP65-1
+Added Pin To Net: NetName=OFFSET_VOUT_Amplificador2 Pin=TP67-1
+Added Pin To Net: NetName=GND Pin=TP68-1
+Added Pin To Net: NetName=GND Pin=TP73-1
+Added Pin To Net: NetName=PE4312_RFIN_Atenuador_Digital_Pasos1 Pin=TP74-1
+Added Pin To Net: NetName=DSA_VOUT_Offset1 Pin=TP75-1
+Added Pin To Net: NetName=GND Pin=TP76-1
+Added Pin To Net: NetName=GND Pin=TP77-1
+Added Pin To Net: NetName=PE4312_RFIN_Atenuador_Digital_Pasos2 Pin=TP78-1
+Added Pin To Net: NetName=DSA_VOUT_Offset2 Pin=TP79-1
+Added Pin To Net: NetName=GND Pin=TP80-1
+Added Member To Class: ClassName=Offset1 Member=Component C91 (C77) 10u
+Added Member To Class: ClassName=Offset1 Member=Component C92 (C78) 100n
+Added Member To Class: ClassName=Offset1 Member=Component R75 (R69) 49.9 0.1%
+Added Member To Class: ClassName=Offset1 Member=Component R76 (R70) 0 Ohm
+Added Member To Class: ClassName=Amplificador1 Member=Component TP17 (TP50) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP20 (TP49) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP21 (TP50) TP_NOBOM
+Added Member To Class: ClassName=Conversor_Diff_A_Simple1 Member=Component TP47 (TP31) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP62 (TP45) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP63 (TP46) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP65 (TP43) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP67 (TP45) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP68 (TP46) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP73 (TP33) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP74 (TP34) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP75 (TP35) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP76 (TP36) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP77 (TP33) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP78 (TP34) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP79 (TP35) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP80 (TP36) TP_NOBOM

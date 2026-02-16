@@ -1,0 +1,30 @@
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=D17
+Removed Member From Class: ClassName=SALIDA_BNC Member=D17
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=D18
+Removed Member From Class: ClassName=SALIDA_BNC Member=D18
+Added Component: Designator=C180(CAP_0805)
+Add component (AddParameter): Name = "Dielectric"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C181(CAP_0805)
+Add component (AddParameter): Name = "Dielectric"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-A15V Pin=C180-1
+Added Pin To Net: NetName=GND Pin=C180-2
+Added Pin To Net: NetName=+A15V Pin=C181-1
+Added Pin To Net: NetName=GND Pin=C181-2
+Added Member To Class: ClassName=Alimentacion Member=Component C180 (C125) 100n
+Added Member To Class: ClassName=Alimentacion Member=Component C181 (C126) 100n
+Added Member To Class: ClassName=SALIDA_BNC Member=Component D11 (D7) 1N4148WSF-7
+Added Member To Class: ClassName=SALIDA_BNC Member=Component D12 (D8) 1N4148WSF-7
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component D13 (D1) BLUE
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component D14 (D2) GREEN
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component D15 (D3) MBR120VLSFT1G
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component D16 (D4) MBR120VLSFT1G

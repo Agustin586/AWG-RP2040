@@ -1,52 +1,65 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{dentgen2019_funktionsgeneratorv2_frontpanel_sch}
-Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
-\newblock Funktionsgenerator version 2: Frontpanel (frontpanelv2).
-\newblock Esquem{\'a}tico (PDF) exportado desde archivo de dise{\~n}o
-  \texttt{.SchDoc}.
-\newblock Fecha exacta no indicada en el PDF; referencia interna:
-  \texttt{FrontpanelV2.SchDoc}.
+\bibitem{ADI_AD9102_Datasheet}
+{Analog Devices}.
+\newblock {\em AD9102: 12-Bit, 180 MSPS TxDAC with On-Chip Pattern Generator}.
+\newblock Datasheet.
 
-\bibitem{dentgen2019_funktionsgeneratorv2_hauptplatine_sch}
-Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
-\newblock Funktionsgenerator version 2: Hauptplatine (mainboard).
-\newblock Esquem{\'a}tico (PDF) exportado desde archivo de dise{\~n}o.
-\newblock Fecha exacta no indicada en el PDF; esquem{\'a}tico de la placa
-  principal (DDS, etapas anal{\'o}gicas, etc.).
+\bibitem{ADI_LT8471_Datasheet}
+{Analog Devices}.
+\newblock {\em LT8471: Dual Multitopology DC/DC Converters with 2A Switches and
+  Synchronization}.
+\newblock Datasheet.
 
-\bibitem{dentgen2019_funktionsgeneratorv2_netzteil_sch}
-Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
-\newblock Funktionsgenerator version 2: Netzteilplatine (powersupplyv2).
-\newblock Esquem{\'a}tico (PDF) exportado desde archivo de dise{\~n}o
-  \texttt{.SchDoc}.
-\newblock Fecha exacta no indicada en el PDF; referencia interna:
-  \texttt{PowerSupplyV2.sch}.
+\bibitem{TI_LMH6612_Datasheet}
+Texas Instruments.
+\newblock {\em LMH6611/LMH6612: Single Supply 345 MHz Rail-to-Rail Output
+  Amplifiers}.
+\newblock Datasheet.
 
-\bibitem{dentgen2019_funktionsgeneratorv2_projektdoku}
-Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
-\newblock Funktionsgenerator version 2: Projektdokumentation.
+\bibitem{TI_THS4271D_Datasheet}
+Texas Instruments.
+\newblock {\em THS4271: Low Noise, High Slew Rate, Unity Gain Stable Voltage
+  Feedback Amplifier}.
+\newblock Datasheet.
 
-\bibitem{dentgen_frauschlaeger_taugenbeck_funktionsgenerator_2019}
-Manuel Dentgen, Tobias Frauenschl{\"a}ger, and Thomas Taugenbeck.
-\newblock Funktionsgenerator auf basis des ad9102, 2019.
-\newblock GitHub repository. Consultado: 21 ene 2026.
+\bibitem{TI_THS3091_Datasheet}
+Texas Instruments.
+\newblock {\em THS3091: THS309x High-Voltage, Low-Distortion, Current-Feedback
+  Operational Amplifiers}, 2023.
+\newblock Datasheet.
 
-\bibitem{dds2022_montaje_electronico_completo}
-Hernán Fisella.
-\newblock Montaje electr{\'o}nico dds completo: esquem{\'a}ticos (dds / control
-  de amplitud y offset).
-\newblock Documento PDF.
+\bibitem{Microchip_24LC1025_Datasheet}
+{Microchip Technology Inc.}
+\newblock {\em 24LC1025/24AA1025: 1024 Kbit I\textsuperscript{2}C Serial
+  EEPROM}.
+\newblock Datasheet.
 
-\bibitem{peterson_stitching_vias_2023}
-Zachariah Peterson.
-\newblock Todo lo que necesitas saber sobre las vías de unión en una pcb,
-  April 2023.
-\newblock Creado: 9 dic 2022. Consultado: 21 ene 2026.
+\bibitem{Microchip_MCP23S17_Datasheet}
+{Microchip Technology Inc.}
+\newblock {\em MCP23017/MCP23S17: 16-Bit I/O Expander with Serial Interface}.
+\newblock Datasheet.
 
-\bibitem{genfunciones2025_rpipico_pdf}
-Agustin Zuliani.
-\newblock Generador de funciones: Documentaci{\'o}n/esquem{\'a}tico (rpi pico).
-\newblock Documento PDF.
+\bibitem{Microchip_MCP4725_Datasheet}
+{Microchip Technology Inc.}
+\newblock {\em MCP4725: 12-Bit Digital-to-Analog Converter with EEPROM Memory}.
+\newblock Datasheet.
+
+\bibitem{pSemi_PE4312_Datasheet}
+{pSemi Corporation}.
+\newblock {\em PE4312: UltraCMOS\textsuperscript{\textregistered} RF Digital
+  Step Attenuator (6-bit, 31.5 dB, 1 MHz--4 GHz)}.
+\newblock Datasheet.
+
+\bibitem{RaspberryPi_RP2040_Datasheet}
+{Raspberry Pi Ltd}.
+\newblock {\em RP2040 Datasheet}.
+\newblock Datasheet.
+
+\bibitem{Skyworks_Si5351_Datasheet}
+{Skyworks Solutions, Inc.}
+\newblock {\em Si5351A/B/C-B: I\textsuperscript{2}C-Programmable Any-Frequency
+  CMOS Clock Generator + VCXO}.
+\newblock Datasheet.
 
 \end{thebibliography}

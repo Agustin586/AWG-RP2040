@@ -11,33 +11,35 @@
 \contentsline {subsection}{\numberline {3.2}Especificaciones de forma de onda}{9}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Implementación}{10}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Hardware}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Diagrama en bloques de la placa de control}{11}{subsection.4.2}%
-\contentsline {paragraph}{AD9102 (DDS):}{11}{subsection.4.2}%
-\contentsline {paragraph}{Transimpedancia diferencial:}{11}{subsection.4.2}%
-\contentsline {paragraph}{Conversor diferencial a simple:}{11}{subsection.4.2}%
-\contentsline {paragraph}{Atenuador digital por pasos:}{11}{subsection.4.2}%
-\contentsline {paragraph}{Etapa de Offset:}{12}{subsection.4.2}%
-\contentsline {paragraph}{Amplificador:}{12}{subsection.4.2}%
-\contentsline {paragraph}{Generador de clock y conversor a LVPCEL:}{12}{subsection.4.2}%
-\contentsline {paragraph}{EEPROM:}{13}{subsection.4.2}%
-\contentsline {paragraph}{Expansor GPIOs:}{13}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Diagrama en bloques de la placa de alimentación}{13}{subsection.4.3}%
-\contentsline {paragraph}{Fuente de alimentación de 24V:}{13}{subsection.4.3}%
-\contentsline {paragraph}{LT8471:}{13}{subsection.4.3}%
-\contentsline {paragraph}{LDO 3.3V:}{13}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Firmware}{13}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Programación orientada a Objetos}{14}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Diagrama en bloques del Firmware}{14}{subsubsection.4.4.2}%
-\contentsline {paragraph}{Principal-RTOS:}{14}{subsubsection.4.4.2}%
-\contentsline {paragraph}{Control de Periféricos:}{15}{subsubsection.4.4.2}%
-\contentsline {paragraph}{Selección de Configuración:}{15}{subsubsection.4.4.2}%
-\contentsline {paragraph}{Configuración del Hardware:}{15}{subsubsection.4.4.2}%
-\contentsline {section}{\numberline {5}Metodología de ensayo y validación}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Instrumental y condiciones de medición}{16}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Ensayos funcionales}{16}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ensayos de tipo de señal, frecuencia, amplitud y offset}{17}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Ensayo de frecuencia}{17}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Ensayo de amplitud}{17}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Ensayo de offset}{18}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Ensayo de planitud}{18}{subsubsection.5.3.4}%
-\contentsline {subsubsection}{\numberline {5.3.5}Ensayos específicos}{19}{subsubsection.5.3.5}%
+\contentsline {subsection}{\numberline {4.2}Diagrama en bloques de la placa de control}{12}{subsection.4.2}%
+\contentsline {paragraph}{AD9102 (DDS):}{12}{subsection.4.2}%
+\contentsline {paragraph}{Microcontrolador:}{12}{subsection.4.2}%
+\contentsline {paragraph}{Transimpedancia diferencial:}{12}{figure.8}%
+\contentsline {paragraph}{Conversor diferencial a simple:}{12}{figure.8}%
+\contentsline {paragraph}{Atenuador digital por pasos:}{12}{figure.8}%
+\contentsline {paragraph}{Etapa de Offset:}{13}{figure.8}%
+\contentsline {paragraph}{Amplificador:}{14}{figure.8}%
+\contentsline {paragraph}{Generador de clock y conversor a LVPCEL:}{14}{figure.8}%
+\contentsline {paragraph}{EEPROM:}{14}{figure.8}%
+\contentsline {paragraph}{Expansor GPIOs:}{14}{figure.8}%
+\contentsline {paragraph}{Filtros:}{15}{figure.8}%
+\contentsline {subsection}{\numberline {4.3}Diagrama en bloques de la placa de alimentación}{15}{subsection.4.3}%
+\contentsline {paragraph}{Fuente de alimentación de 24V:}{15}{subsection.4.3}%
+\contentsline {paragraph}{LT8471:}{15}{subsection.4.3}%
+\contentsline {paragraph}{LDO 3.3V:}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Firmware}{15}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Programación orientada a Objetos}{15}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Diagrama en bloques del Firmware}{17}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Principal-RTOS:}{17}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Control de Periféricos:}{17}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Selección de Configuración:}{17}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Configuración del Hardware:}{18}{subsubsection.4.4.2}%
+\contentsline {section}{\numberline {5}Metodología de ensayo y validación}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Instrumental y condiciones de medición}{19}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Ensayos funcionales}{19}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ensayos de tipo de señal, frecuencia, amplitud y offset}{20}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Ensayo de frecuencia}{20}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Ensayo de amplitud}{20}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Ensayo de offset}{21}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Ensayo de planitud}{21}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}Ensayos específicos}{22}{subsubsection.5.3.5}%

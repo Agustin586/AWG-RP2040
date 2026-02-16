@@ -1,0 +1,48 @@
+Removed Member From Class: ClassName=Offset1 Member=TP66
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=TP81
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=TP82
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=TP83
+Removed Member From Class: ClassName=Atenuador_Digital_Pasos1 Member=TP84
+Added Member To Class: ClassName=Amplificador1 Member=Component TP16 (TP49) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP18 (TP47) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP19 (TP48) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP20 (TP49) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP21 (TP50) TP_NOBOM
+Added Member To Class: ClassName=DDS_CANAL1 Member=Component TP22 (TP32) TP_NOBOM
+Added Member To Class: ClassName=DDS_CANAL2 Member=Component TP23 (TP32) TP_NOBOM
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP24 (TP1) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP25 (TP2) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP26 (TP3) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP27 (TP4) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP28 (TP5) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP29 (TP6) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP30 (TP7) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP31 (TP8) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP32 (TP9) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP33 (TP10) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP34 (TP11) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP35 (TP12) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP36 (TP13) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP37 (TP14) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP38 (TP15) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP39 (TP16) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP40 (TP17) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP41 (TP18) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP42 (TP19) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP43 (TP20) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP44 (TP21) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP45 (TP22) 5003
+Added Member To Class: ClassName=Offset1 Member=Component TP60 (TP43) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP61 (TP44) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP63 (TP46) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP65 (TP43) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP67 (TP45) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP68 (TP46) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP69 (TP38) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP70 (TP39) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP71 (TP40) TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP72 (TP41) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP73 (TP33) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP74 (TP34) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP75 (TP35) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP76 (TP36) TP_NOBOM

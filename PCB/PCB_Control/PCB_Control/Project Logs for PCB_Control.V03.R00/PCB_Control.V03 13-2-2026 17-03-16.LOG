@@ -1,0 +1,35 @@
+Removed Member From Class: ClassName=Amplificador2 Member=TP16
+Removed Member From Class: ClassName=DDS_CANAL2 Member=TP20
+Removed Member From Class: ClassName=Conversor_Diff_A_Simple2 Member=TP46
+Removed Member From Class: ClassName=DAC_OFFSET_CANAL2 Member=TP50
+Removed Member From Class: ClassName=Offset2 Member=TP61
+Added Member To Class: ClassName=Amplificador1 Member=Component TP14 (TP44) TP_NOBOM
+Added Member To Class: ClassName=Amplificador1 Member=Component TP15 (TP45) 5003
+Added Member To Class: ClassName=Amplificador2 Member=Component TP17 (TP44) TP_NOBOM
+Added Member To Class: ClassName=Amplificador2 Member=Component TP19 (TP46) TP_NOBOM
+Added Member To Class: ClassName=DDS_CANAL2 Member=Component TP21 (TP33) TP_NOBOM
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP23 (TP2) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP25 (TP4) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP27 (TP6) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP29 (TP8) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP31 (TP10) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP33 (TP12) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP35 (TP14) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP37 (TP16) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP39 (TP18) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP41 (TP20) 5003
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP43 (TP22) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple1 Member=Component TP45 (TP31) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple2 Member=Component TP47 (TP30) 5003
+Added Member To Class: ClassName=Conversor_Diff_A_Simple2 Member=Component TP49 (TP32) 5003
+Added Member To Class: ClassName=DAC_OFFSET_CANAL2 Member=Component TP51 (TP36) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP54 (TP25) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP56 (TP27) TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP58 (TP29) TP_NOBOM
+Added Member To Class: ClassName=Offset1 Member=Component TP60 (TP42) TP_NOBOM
+Added Member To Class: ClassName=Offset2 Member=Component TP62 (TP41) 5003
+Added Member To Class: ClassName=Offset2 Member=Component TP64 (TP43) 5003
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP66 (TP38) TP_NOBOM
+Added Member To Class: ClassName=Atenuador_Digital_Pasos1 Member=Component TP70 (TP35) 5003
+Added Member To Class: ClassName=Atenuador_Digital_Pasos2 Member=Component TP72 (TP35) 5003
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component TP74 (TP61) TP_NOBOM

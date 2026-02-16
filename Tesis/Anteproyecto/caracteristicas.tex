@@ -16,7 +16,7 @@ Con el fin de poder evaluar el equipo que se quiere llegar a obtener definimos u
 \begin{itemize}
 	\item \textbf{Tensión de pico a pico máxima:} $V_{pp} = $ 20 Vpp en High-Z y $V_{pp}$ = 10 Vpp en 50 $\Omega$.
 	\item \textbf{Tensión de pico máxima:} $V_{p} = $ 15\,V en High-Z y $V_{p}$ = 7.5\,V en 50 $\Omega$.
-	\item \textbf{Corriente máxima permitida a la salida:} $I_{omax}$ = $\pm$620 mA.
+	\item \textbf{Corriente máxima permitida a la salida:} $I_{omax}$ = $\pm$620 mA (provista por el amplificador operacional de salida).
 	\item \textbf{Frecuencia máxima de salida:} $f_{max} \simeq$ 15 MHz-Senoidal, 10 MHz-Cuadrada/Triangular, 10 Mhz-Arbitraria (16 muestras por ciclo).
 	\item \textbf{Frecuencia de muestreo máxima:} $180$ MSa/S.
 	\item \textbf{Impedancia de salida:} $Z_o$ de 50 $\Omega$.
@@ -28,12 +28,20 @@ En este aparto se menciona cual va a ser la forma/estrategia de implementación 
 \subsection{Hardware}
 Para comenzar con la descripción del propio hardware presentamos a continuación los diagramas de bloques del mismo, con el fin de poder tener una mirada mas global de lo que debe realizarse en el dispositivo final para lograr las especificaciones propuestas anteriormente. Se presentan el DB de la \textbf{Placa de Control} y la \textbf{Placa de Alimentación} que son las mas importantes.
 
-\begin{figure}[H]
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.8\linewidth]{img/AWG_DDS.pdf}
+%	\caption{Diagrama en bloques del Hardware del Generador de Funciones Arbitrarias de la Placa de Control.}
+%	\label{fig:awgdds}
+%\end{figure}
+
+\begin{sidewaysfigure}
 	\centering
-	\includegraphics[width=0.8\linewidth]{img/AWG_DDS.pdf}
+	\includegraphics[width=\textheight]{img/AWG_DDS.pdf}
 	\caption{Diagrama en bloques del Hardware del Generador de Funciones Arbitrarias de la Placa de Control.}
 	\label{fig:awgdds}
-\end{figure}
+\end{sidewaysfigure}
+
 
 \begin{figure}[H]
 	\centering
@@ -46,45 +54,57 @@ Se procede a continuación con la explicación detallada de cada diagrama en blo
 
 \subsection{Diagrama en bloques de la placa de control}
 
-\paragraph{AD9102 (DDS):} Este integrado es el núcleo principal de generación de formas de onda. Para utilizarlo es necesario tener un reloj con una frecuencia máxima permitida de 180 MHz. Como puede observarse en la imagen, ingresan además la comunicación \textbf{SPI}, necesaria para poder programar el integrado y un valor de \textbf{tensión de referencia}, utilizado para la generación de la señal. Como salida este integrado es capaz de producir un conjunto de señales de corriente diferencial, esto último es muy común en dispositivos de salida de alta velocidad como es el caso de DACs que pueden producir valores de tensiones a frecuencias de muestreo en el orden de los cientos de mega Hertz.
+\paragraph{AD9102 (DDS):}\cite{ADI_AD9102_Datasheet} Este integrado es el núcleo principal de generación de formas de onda. Para utilizarlo es necesario tener un reloj con una frecuencia máxima permitida de 180 MHz. Como puede observarse en la imagen, ingresan además la comunicación \textbf{SPI}, necesaria para poder programar el integrado y un valor de \textbf{tensión de referencia}, utilizado para la generación de la señal. Como salida este integrado es capaz de producir un conjunto de señales de corriente diferencial, esto último es muy común en dispositivos de salida de alta velocidad como es el caso de DACs que pueden producir valores de tensiones a frecuencias de muestreo en el orden de los cientos de mega Hertz.
 
-\paragraph{Transimpedancia diferencial:} Esta etapa se encarga de convertir el valor de \textit{corriente diferencial} en un valor de \textit{tensión diferencial}, de acuerdo a un valor adecuado de resistencias.
+\paragraph{Microcontrolador:} Una parte importante de la placa de control, es el microcontrolador que vamos a utilizar, el cual se va a encargar de manejar la lógica central de nuestro instrumento. De esta manera el microcontrolador funciona como el cerebro y el DDS como el corazón de nuestro equipo, enviando el conjunto de comandos necesarios para que se generen las señales que correspondan. En particular utilizamos el \textbf{RP2040} \cite{RaspberryPi_RP2040_Datasheet}, dado que se trata de un integrado que posee una velocidad de trabajo de hasta 130 MHz y una amplia memoria RAM. Elegimos este en comparación con otro, como el ESP32, dado que se poseía de antemano mayor experiencia con este por trabajos previos y además un dispositivo de depuración SWD ya adquirido. El pinout se dicho microcontrolador en su placa de desarrollo se muestra en la Figura \ref{fig:raspberry-pi-pico-w-pinout}.
 
-\paragraph{Conversor diferencial a simple:} Una vez que se tiene un valor de tensión diferencial, es necesario convertirlo a un valor simple de salida, esto es especialmente necesario dado que en un conector BNC únicamente se tiene un solo pin de señal. En esta etapa también se produce una pre-amplificación para la salida final.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{Introduccion/img/raspberry-pi-pico-w-pinout}
+	\caption{}
+	\label{fig:raspberry-pi-pico-w-pinout}
+\end{figure}
 
-\paragraph{Atenuador digital por pasos:} Una características importante, es que el usuario pueda variar la amplitud de salida en un rango delimitado por las especificaciones del equipo. Para esto mismo se optó por producir una variación de amplitud con un \textit{ajuste grueso }y un \textit{ajuste fino}. El ajuste grueso se realiza en esta etapa mediante un Atenuador Digital por Pasos (\textbf{DSA}), que es ampliamente utilizado en \textbf{RF}. En los generadores comerciales (antiguos o económicos) es común tener un conjunto de relés que van conmutando de manera de generar una atenuación determinada con rangos de resistencias. Si bien puede implementarse esa solución, el problema es que ocupa mucho espacio y depende en gran medida de la resistencias elegidas, dada por su distorsión, tolerancia, etc. Por esto mismo la propuesta de utilizar un \textbf{DSA}, aunque es mas costosa, es una solución mas acorde y precisa. En particular luego de un proceso de investigación se va a hacer uso del DSA PE4312 que provee varios rangos de atenuación que van desde los 0.5 db hasta los 30.5 db y trabaja hasta una frecuencia de 4 GHz, con lo que queda cubierto para todo el rango de frecuencias especificadas.
 
-\paragraph{Etapa de Offset:} Una vez que se tiene la forma de onda acoplada en AC y con un valor de atenuación correspondiente, es necesario aplicarle, si corresponde, el valor de DC que el usuario configure. Para esto mismo se hace uso de un conversor de digital a analógico de la marca Texas Instruments \textbf{MCP4725}. Este \textbf{DAC }posee una sola salida con \textbf{resolución de 12 bits }y es manipulado por \textbf{I2C}. Dado que se tienen dos canales es necesario utilizar dos integrados de estos, uno para canal. Además una especificación importante es que el usuario tiene la posibilidad de ingresar un valor de continua tanto positivo como negativo, sin embargo el valor de tensión que produce a la salida del DAC mencionado únicamente es positivo. Entonces es necesario un circuito de adaptación que permita convertir este valor positivo, en un valor de tipo bipolar. Cabe aclarar que existen comercialmente DACs que permiten obtener a su salida un valor de tensión bipolar, pero el costo de estos es tan alto que supera con creces el obtenido al comprar los componentes necesarios para el circuito convertidor antes mencionado mas el MCP4725.
+\paragraph{Transimpedancia diferencial:} Esta etapa se encarga de convertir el valor de \textit{corriente diferencial} en un valor de \textit{tensión diferencial}, de acuerdo a un valor adecuado de resistencias. Se implementará con el uso de un amplificador operacional de gran ancho de banda (al igual que el resto que nombraremos a futuro), en particular usamos el \textbf{LMH6612} \cite{TI_LMH6612_Datasheet}.
 
-\paragraph{Amplificador:} En esta última etapa se realiza una amplificación final que encadena un conjunto de acondicionamientos de señal previos. Además, como se mencionó en las especificaciones del comienzo la impedancia de salida, $Z_o = 50 \ \Omega$ y la corriente de salida máxima, $I_{omax} = \pm 620$ mA. Para lograr esto mismo se hace uso de dos amplificadores operacionales de uso particular en generadores de funciones arbitrarias, estos integrados son el \textbf{THS3091} y son utilizados en configuración inversora con una impedancia de salida de 100 $\Omega$ y corriente máxima de $\pm$310 mA, cada uno. Con lo cual es necesario unir las salidas para lograr las especificaciones mencionadas.
+\paragraph{Conversor diferencial a simple:} Una vez que se tiene un valor de tensión diferencial, es necesario convertirlo a un valor simple de salida, esto es especialmente necesario dado que en un conector BNC únicamente se tiene un solo pin de señal. En esta etapa también se produce una pre-amplificación para la salida final. Para su implementación se hace uso del \textbf{THS4271D} \cite{TI_THS4271D_Datasheet}, que posee un ancho de banda de 1.4 GHz y Slew Rate de 1000 V/$\mu$s.
 
-\paragraph{Generador de clock y conversor a LVPCEL:} Como se mencionó en la primera etapa del DDS, es necesario utilizar un reloj para sincronización interna del propio integrado. Por esto mismo se hace uso de un generador de reloj con el circuito integrado conocido SI5351. Este permite producir frecuencias cuadradas desde 2 KHz hasta 260 MHz, utilizando únicamente un oscilador de 25 MHz a 27 MHz y comunicación I2C.
+\paragraph{Atenuador digital por pasos:} Una características importante, es que el usuario pueda variar la amplitud de salida en un rango delimitado por las especificaciones del equipo. Para esto mismo se optó por producir una variación de amplitud con un \textit{ajuste grueso }y un \textit{ajuste fino}. El ajuste grueso se realiza en esta etapa mediante un Atenuador Digital por Pasos (\textbf{DSA}), que es ampliamente utilizado en \textbf{RF}. En los generadores comerciales (antiguos o económicos) es común tener un conjunto de relés que van conmutando de manera de generar una atenuación determinada con rangos de resistencias. Si bien puede implementarse esa solución, el problema es que ocupa mucho espacio y depende en gran medida de la resistencias elegidas, dada por su distorsión, tolerancia, etc. Por esto mismo la propuesta de utilizar un \textbf{DSA}, aunque es mas costosa, es una solución mas acorde y precisa. En particular luego de un proceso de investigación se va a hacer uso del DSA \textbf{PE4312} \cite{pSemi_PE4312_Datasheet} que provee varios rangos de atenuación que van desde los 0.5 db hasta los 30.5 db y trabaja hasta una frecuencia de 4 GHz, con lo que queda cubierto para todo el rango de frecuencias especificadas.
 
-\paragraph{EEPROM:} La idea principal detrás de esta etapa de hardware es poder darle la opción al usuario de guardar un conjunto de parámetros tales como configuraciones preliminares, últimos valores configurados, tablas de muestras (para generar formas de onda arbitrarias), etc.
+\paragraph{Etapa de Offset:} Una vez que se tiene la forma de onda acoplada en AC y con un valor de atenuación correspondiente, es necesario aplicarle, si corresponde, el valor de DC que el usuario configure. Para esto mismo se hace uso de un conversor de digital a analógico de la marca Texas Instruments \textbf{MCP4725} \cite{Microchip_MCP4725_Datasheet}. Este \textbf{DAC }posee una sola salida con \textbf{resolución de 12 bits }y es manipulado por \textbf{I2C}. Dado que se tienen dos canales es necesario utilizar dos integrados de estos, uno para canal. Además una especificación importante es que el usuario tiene la posibilidad de ingresar un valor de continua tanto positivo como negativo, sin embargo el valor de tensión que produce a la salida del DAC mencionado únicamente es positivo. Entonces es necesario un circuito de adaptación que permita convertir este valor positivo, en un valor de tipo bipolar. Cabe aclarar que existen comercialmente DACs que permiten obtener a su salida un valor de tensión bipolar, pero el costo de estos es tan alto que supera con creces el obtenido al comprar los componentes necesarios para el circuito convertidor antes mencionado mas el \textbf{MCP4725}.
 
-\paragraph{Expansor GPIOs:} En el \textbf{panel frontal} se encuentran el conjunto de botoneras, encoder, display y demás periféricos que interactúan con el usuario, siendo este parte del hardware necesario para una interfaz hombre máquina (\textbf{HMI}). La función principal del expansor de gpios es poder manipular un conjunto de 16 pulsadores que realizan diferentes funciones. En este sentido el panel frontal tiene la forma del generador de funciones basado en DDS FY6900 presentado anteriormente.
+\paragraph{Amplificador:} Esta última etapa consiste en una amplificación final de la señal previa, con una ganancia que permita obtener a su salida una amplitud máxima de 20 Vpp y 5 Vp de offset. Además, como se mencionó en las especificaciones del comienzo la impedancia de salida, $Z_o = 50 \ \Omega$ y la corriente de salida máxima, $I_{omax} = \pm 620$ mA. Para esto mismo se hace uso de dos amplificadores operacionales \textbf{THS3091} \cite{TI_THS3091_Datasheet}. Cada uno puede proveer una corriente máxima de $\pm$310 mA y a la salida de cada AO se le añade una resistencia en serie de 100 $\Omega$ al 0.1\%. Luego cada salida es unida para lograr lo antes mencionado.
+
+\paragraph{Generador de clock y conversor a LVPCEL:} Como se mencionó en la primera etapa del DDS, es necesario utilizar un reloj para sincronización interna del propio integrado. Por esto mismo se hace uso de un generador de reloj con el circuito integrado conocido \textbf{SI5351} \cite{Skyworks_Si5351_Datasheet}. Este permite producir frecuencias cuadradas desde 2 KHz hasta 260 MHz, utilizando únicamente un oscilador de 25 MHz a 27 MHz y comunicación I2C.
+
+\paragraph{EEPROM:} La idea principal detrás de esta etapa de hardware es poder darle la opción al usuario de guardar un conjunto de parámetros tales como configuraciones preliminares, últimos valores configurados, tablas de muestras (para generar formas de onda arbitrarias), etc. En este caso particular se hace uso de la memoria \textbf{24LC1025T} \cite{Microchip_24LC1025_Datasheet}, dado que posee un espacio de 128 KB, lo que nos permitirá guardar una gran cantidad de formas de onda arbitrarias, así como también configuraciones extras.
+
+\paragraph{Expansor GPIOs:} En el \textbf{panel frontal} se encuentran el conjunto de botoneras, encoder, display y demás periféricos que interactúan con el usuario, siendo este parte del hardware necesario para una interfaz hombre máquina (\textbf{HMI}). La función principal del expansor de gpios es poder manipular un conjunto de 16 pulsadores que realizan diferentes funciones. En este sentido el panel frontal tiene la forma del generador de funciones basado en DDS FY6900 presentado anteriormente. En este caso se hace uso del integrado conocido \textbf{MCP23S17} \cite{Microchip_MCP23S17_Datasheet}, el cual es muy utilizado como expansor de puertos en dispositivos PLC, lo que lo convierte en una de las razones principales por la cual fue elegido.
+
+\paragraph{Filtros:} Dado que se tiene un circuito del tipo \textit{señales mixtas} (porque poseemos señales digitales y analógicas), debemos de alguna manera filtrar las oscilaciones producidas debido a las conmutaciones generadas por componentes de la etapa digital (comunicaciones spi, i2c, uart, entre otras), con respecto a la etapa analógica. En efecto la función principal de este bloque consiste en aislar la alimentación de la etapa digital y la analógica.
 
 \subsection{Diagrama en bloques de la placa de alimentación}
 
 \paragraph{Fuente de alimentación de 24V:} La placa de alimentación es alimentada con una fuente de tipo conmutada de 24V. Se utilizó este tipo de fuente en particular, dado que es de bajo coste y con alta eficiencia en comparación con un fuente lineal.
 
-\paragraph{LT8471:} Estos módulos son los encargados de producir los rieles de tensión necesarios para utilizar en la placa de control y poder generar la amplitud de salida configurada por el usuario. Como se menciona en la especificaciones el máximo valor de amplitud de pico es de 15 V para un carga de alta impedancia (High-Z). Con lo cual debemos generar rieles de alimentación de $\pm$15 V y $\pm$5 V para pre-amplificación. Además es necesario alimentar circuitos integrados digitales, tales como microcontrolador, memoria eeprom, dacs, etc. Con lo cual es necesario un riel extra de 3.3 V. Cada integrado LT8471 es capaz de generar dos rieles simétricos, por lo que es necesario dos integrados para poder generar los niveles adecuados.
+\paragraph{LT8471:} Estos módulos son los encargados de producir los rieles de tensión necesarios para utilizar en la placa de control y poder generar la amplitud de salida configurada por el usuario. Como se menciona en la especificaciones el máximo valor de amplitud de pico es de 15 V para un carga de alta impedancia (High-Z). Con lo cual debemos generar rieles de alimentación de $\pm$15 V y $\pm$5 V para pre-amplificación. Además es necesario alimentar circuitos integrados digitales, tales como microcontrolador, memoria eeprom, dacs, etc. Con lo cual es necesario un riel extra de 3.3 V. Cada integrado \textbf{LT8471} \cite{ADI_LT8471_Datasheet} es capaz de generar dos rieles simétricos, por lo que es necesario dos integrados para poder generar los niveles adecuados.
 
 \paragraph{LDO 3.3V:} Por último se tiene un regulador de baja caída de tensión (\textbf{LDO}), el cual es capaz de generar un nivel de tensión adecuado para los integrados de la etapa digital.
 
 \subsection{Firmware}
 Para concluir con la forma de implementación se hace referencia a la estructura de programación que debe seguirse con el objetivo de mantener un código que sea legible y escalable. Por esto mismo se procedió a realizar un diagrama en bloques que se muestra a continuación. Posteriormente describiremos a grandes rasgos que hace cada etapa.
 
-\begin{figure}[H]
+\begin{sidewaysfigure}
 	\centering
 	\includegraphics[
-	width=0.8\linewidth,
+	width=\textheight, % usa el "alto" de la página porque está rotada
 	clip,
 	trim={0cm 5cm 0cm 0cm}
 	]{img/Firmware_DB.drawio}
 	\caption{Diagrama en bloques del firmware.}
 	\label{fig:firmwaredb}
-\end{figure}
+\end{sidewaysfigure}
 
 \subsubsection{Programación orientada a Objetos}
 La Programación Orientada a Objetos (\textbf{POO}) es un paradigma de programación basado en organizar el software/firmware alrededor de ``objetos'' (datos) y sus comportamientos (métodos), en lugar de funciones lógicas. Reduce errores, promueve la reutilización de código y facilita el mantenimiento de sistemas complejos mediante conceptos como \textit{clases, herencia, encapsulamiento} y \textit{polimorfismo}. 
@@ -92,7 +112,7 @@ La Programación Orientada a Objetos (\textbf{POO}) es un paradigma de programac
 En el caso de nuestro proyecto la programación orientada a objetos nos va a ser de gran utilidad, porque nos permite poder tener una representación de un ``objeto'' que va a representar algo físico en nuestro circuito. Dicho de otra manera cada objeto va a ser una porción del hardware. Por ejemplo podríamos tener un objeto del tipo \textbf{amplitud}, que cuando el usuario varíe un conjunto de parámetros, esto se vea reflejado en enviar un conjunto de señales al atenuador digital por pasos (DSA), para que la amplitud máxima de la señal de salida varíe. Entonces teniendo este concepto en mente procedemos a la explicación del diagrama en bloques del firmware, Figura \ref{fig:firmwaredb}.
 
 \subsubsection{Diagrama en bloques del Firmware}
-En este sección se explicarán los elementos más importantes del diagrama en bloques.
+En este sección se explicarán los elementos más importantes del diagrama en bloques, que pueden visualizarse en la Figura \ref{fig:firmwaredb}.
 
 \paragraph{Principal-RTOS:} Este bloque representa la jerarquía mas alta del código. Se encuentran las configuraciones, declaraciones de objetos y lógica principal. Como se menciona en el nombre puede verse que se va a utilizar un RTOS (a definir), una justificación clara de esto, es que nos permite poder hacer uso de tareas que se ejecuten en forma \textbf{concurrente}. Un ejemplo de estas tareas son la mostradas en color rosa \textbf{TAREA ENCODER}, \textbf{TAREA MONITOREO PULSADORES}, \textbf{TAREA DISPLAY}. Esto nos permite en cierta manera manejar diferentes periféricos de forma paralela, evaluar si hubo cambios o generarlos, si fuese necesario, sin la necesidad de hacer grandes fragmentos de código, dado que son elementos físicos completamente diferentes.
 
