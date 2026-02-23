@@ -1,0 +1,118 @@
+Removed Pin From Net: NetName=MCU_GPIO20 Pin=R42-1
+Removed Pin From Net: NetName=MCU_GPIO21 Pin=R44-1
+Removed Pin From Net: NetName=MCU_GPIO0 Pin=TP34-1
+Removed Pin From Net: NetName=MCU_GPIO2 Pin=TP35-1
+Removed Pin From Net: NetName=MCU_GPIO3 Pin=TP36-1
+Removed Pin From Net: NetName=MCU_GPIO4 Pin=TP37-1
+Removed Pin From Net: NetName=MCU_GPIO1 Pin=TP38-1
+Removed Pin From Net: NetName=MCU_GPIO20 Pin=TP41-1
+Removed Pin From Net: NetName=MCU_GPIO21 Pin=TP45-1
+Removed Pin From Net: NetName=MCU_GPIO2 Pin=U9-4
+Removed Pin From Net: NetName=MCU_GPIO3 Pin=U9-5
+Removed Pin From Net: NetName=MCU_GPIO4 Pin=U9-6
+Removed Pin From Net: NetName=MCU_GPIO12 Pin=U9-15
+Removed Pin From Net: NetName=MCU_GPIO13 Pin=U9-16
+Added Component: Designator=R168(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R169(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R170(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R171(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R172(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R173(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R174(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R175(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R176(RES_0805)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP85(PAD_RND_1MM)
+Added Pin To Net: NetName=MCU_GPIO2 Pin=R168-1
+Added Pin To Net: NetName=MCU_GPIO3 Pin=R169-1
+Added Pin To Net: NetName=MCU_GPIO4 Pin=R170-1
+Added Pin To Net: NetName=MCU_GPIO12 Pin=R171-1
+Added Pin To Net: NetName=MCU_GPIO13 Pin=R172-1
+Added Pin To Net: NetName=MCU_GPIO0 Pin=R173-2
+Added Pin To Net: NetName=MCU_GPIO1 Pin=R174-2
+Added Pin To Net: NetName=MCU_GPIO20 Pin=R175-2
+Added Pin To Net: NetName=MCU_GPIO21 Pin=R176-2
+Added Pin To Net: NetName=MCU_GPIO29 Pin=TP85-1
+Change Net Name : Old Net Name=MCU_GPIO2 New Net Name=SPI_CLK
+Change Net Name : Old Net Name=MCU_GPIO3 New Net Name=SPI_MOSI
+Change Net Name : Old Net Name=MCU_GPIO4 New Net Name=SPI_MISO
+Change Net Name : Old Net Name=MCU_GPIO12 New Net Name=I2C_SDA
+Change Net Name : Old Net Name=MCU_GPIO13 New Net Name=I2C_SCL
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Added Pin To Net: NetName=MCU_GPIO2 Pin=R168-2
+Added Pin To Net: NetName=MCU_GPIO2 Pin=TP35-1
+Added Pin To Net: NetName=MCU_GPIO2 Pin=U9-4
+Added Net: Name=MCU_GPIO2
+Added Pin To Net: NetName=MCU_GPIO3 Pin=R169-2
+Added Pin To Net: NetName=MCU_GPIO3 Pin=TP36-1
+Added Pin To Net: NetName=MCU_GPIO3 Pin=U9-5
+Added Net: Name=MCU_GPIO3
+Added Pin To Net: NetName=MCU_GPIO4 Pin=R170-2
+Added Pin To Net: NetName=MCU_GPIO4 Pin=TP37-1
+Added Pin To Net: NetName=MCU_GPIO4 Pin=U9-6
+Added Net: Name=MCU_GPIO4
+Added Pin To Net: NetName=MCU_GPIO12 Pin=R171-2
+Added Pin To Net: NetName=MCU_GPIO12 Pin=U9-15
+Added Net: Name=MCU_GPIO12
+Added Pin To Net: NetName=MCU_GPIO13 Pin=R172-2
+Added Pin To Net: NetName=MCU_GPIO13 Pin=U9-16
+Added Net: Name=MCU_GPIO13
+Added Pin To Net: NetName=UART0_RX Pin=R174-1
+Added Pin To Net: NetName=UART0_RX Pin=TP38-1
+Added Net: Name=UART0_RX
+Added Pin To Net: NetName=UART0_TX Pin=R173-1
+Added Pin To Net: NetName=UART0_TX Pin=TP34-1
+Added Net: Name=UART0_TX
+Added Pin To Net: NetName=UART1_RX Pin=R44-1
+Added Pin To Net: NetName=UART1_RX Pin=R176-1
+Added Pin To Net: NetName=UART1_RX Pin=TP45-1
+Added Net: Name=UART1_RX
+Added Pin To Net: NetName=UART1_TX Pin=R42-1
+Added Pin To Net: NetName=UART1_TX Pin=R175-1
+Added Pin To Net: NetName=UART1_TX Pin=TP41-1
+Added Net: Name=UART1_TX
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R168 (R136) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R169 (R137) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R170 (R138) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R171 (R139) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R172 (R140) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R173 (R141) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R174 (R142) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R175 (R143) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R176 (R144) 22R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP85 (TP68) TP_NOBOM

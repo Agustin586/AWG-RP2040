@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/811332/1857803/2.50/14/3/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c144.6_h89" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="35.03937007874">
+    <padshape layer="TOP" shape="round" width="56.929133858267" height="56.929133858267" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="64.803149606298" height="64.803149606298" />
+    <padshape layer="INNER" shape="round" width="56.929133858267" height="56.929133858267" />
+    <padshape layer="BOTTOM" shape="round" width="56.929133858267" height="56.929133858267" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="64.803149606298" height="64.803149606298" />
+  </padstyle>
+  <padstyle name="s144.6_h89" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="35.03937007874">
+    <padshape layer="TOP" shape="square" width="56.929133858267" height="56.929133858267" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="64.803149606298" height="64.803149606298" />
+    <padshape layer="INNER" shape="square" width="56.929133858267" height="56.929133858267" />
+    <padshape layer="BOTTOM" shape="square" width="56.929133858267" height="56.929133858267" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="64.803149606298" height="64.803149606298" />
+  </padstyle>
+  <padstyle name="c153_h102" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="40.15748031496">
+    <padshape layer="TOP" shape="round" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="68.110236220472" height="68.110236220472" />
+    <padshape layer="INNER" shape="round" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="BOTTOM" shape="round" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="68.110236220472" height="68.110236220472" />
+  </padstyle>
+  <padstyle name="c235.5_h157" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="61.811023622046">
+    <padshape layer="TOP" shape="round" width="92.71653543307" height="92.71653543307" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="100.5905511811" height="100.5905511811" />
+    <padshape layer="INNER" shape="round" width="92.71653543307" height="92.71653543307" />
+    <padshape layer="BOTTOM" shape="round" width="92.71653543307" height="92.71653543307" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="100.5905511811" height="100.5905511811" />
+  </padstyle>
+  <padstyle name="c160.7_h321.5" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="126.5748031496">
+    <padshape layer="TOP" shape="round" width="63.267716535432" height="63.267716535432" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="71.141732283464" height="71.141732283464" />
+    <padshape layer="INNER" shape="round" width="63.267716535432" height="63.267716535432" />
+    <padshape layer="BOTTOM" shape="round" width="63.267716535432" height="63.267716535432" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="71.141732283464" height="71.141732283464" />
+  </padstyle>
+  <footprint name="SI60118F" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s144.6_h89" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c144.6_h89" originx="49.999999999999" originy="99.999999999999" rotation="90" />
+    <pcbpin number="3" name="3" style="c144.6_h89" originx="99.999999999999" originy="0" rotation="90" />
+    <pcbpin number="4" name="4" style="c144.6_h89" originx="150" originy="99.999999999999" rotation="90" />
+    <pcbpin number="5" name="5" style="c144.6_h89" originx="200" originy="0" rotation="90" />
+    <pcbpin number="6" name="6" style="c144.6_h89" originx="250" originy="99.999999999999" rotation="90" />
+    <pcbpin number="7" name="7" style="c144.6_h89" originx="300" originy="0" rotation="90" />
+    <pcbpin number="8" name="8" style="c144.6_h89" originx="350" originy="99.999999999999" rotation="90" />
+    <pcbpin number="9" name="9" style="c153_h102" originx="-85.826771653542" originy="-409.84251968503" rotation="90" />
+    <pcbpin number="10" name="10" style="c153_h102" originx="14.173228346457" originy="-409.84251968503" rotation="90" />
+    <pcbpin number="11" name="11" style="c153_h102" originx="335.82677165354" originy="-409.84251968503" rotation="90" />
+    <pcbpin number="12" name="12" style="c153_h102" originx="435.82677165354" originy="-409.84251968503" rotation="90" />
+    <pcbpin number="13" name="MH1" style="c235.5_h157" originx="-129.92125984252" originy="-129.92125984252" rotation="90" />
+    <pcbpin number="14" name="MH2" style="c235.5_h157" originx="479.92125984251" originy="-129.92125984252" rotation="90" />
+    <pcbpin number="15" name="MH3" style="c160.7_h321.5" originx="-49.999999999999" originy="-250" rotation="90" />
+    <pcbpin number="16" name="MH4" style="c160.7_h321.5" originx="400" originy="-250" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-142.51968503937" originy="-679.13385826771" endx="492.51968503936" endy="-679.13385826771" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="492.51968503936" originy="-679.13385826771" endx="492.51968503936" endy="170.86614173228" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="492.51968503936" originy="170.86614173228" endx="-142.51968503937" endy="170.86614173228" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-142.51968503937" originy="170.86614173228" endx="-142.51968503937" endy="-679.13385826771" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-220.15748031496" originy="210.62992125984" endx="570.15748031495" endy="210.62992125984" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="570.15748031495" originy="210.62992125984" endx="570.15748031495" endy="-718.50393700787" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="570.15748031495" originy="-718.50393700787" endx="-220.15748031496" endy="-718.50393700787" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-220.15748031496" originy="-718.50393700787" endx="-220.15748031496" endy="210.62992125984" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-142.51968503937" originy="-679.13385826771" endx="-167.51968503937" endy="-600.39370078739" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-167.51968503937" originy="-600.39370078739" endx="-167.51968503937" endy="-600.39370078739" width="3.9370078740157" />
+    <arc layer="TOP_ASSEMBLY" originx="101.83070866142" originy="-514.8622047244" startangle="-162.4" sweepangle="-32.4" radius="282.61811023622" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-171.45669291338" originy="-442.91338582677" endx="-155.70866141732" endy="-395.66929133858" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-155.70866141732" originy="-395.66929133858" endx="-155.70866141732" endy="-383.85826771653" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="492.51968503936" originy="-679.13385826771" endx="517.51968503936" endy="-600.39370078739" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="517.51968503936" originy="-600.39370078739" endx="517.51968503936" endy="-600.39370078739" width="3.9370078740157" />
+    <arc layer="TOP_ASSEMBLY" originx="248.16929133858" originy="-514.8622047244" startangle="-17.6" sweepangle="32.4" radius="282.61811023622" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="521.45669291338" originy="-442.91338582677" endx="505.70866141732" endy="-395.66929133858" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="505.70866141732" originy="-395.66929133858" endx="505.70866141732" endy="-383.85826771653" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-142.51968503937" originy="-679.13385826771" endx="-167.51968503937" endy="-600.39370078739" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-167.51968503937" originy="-600.39370078739" endx="-167.51968503937" endy="-600.39370078739" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="101.83070866142" originy="-514.8622047244" startangle="-162.4" sweepangle="-32.4" radius="282.61811023622" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-171.45669291338" originy="-442.91338582677" endx="-155.70866141732" endy="-395.66929133858" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-155.70866141732" originy="-395.66929133858" endx="-155.70866141732" endy="-383.85826771653" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="492.51968503936" originy="-679.13385826771" endx="517.51968503936" endy="-600.39370078739" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="517.51968503936" originy="-600.39370078739" endx="517.51968503936" endy="-600.39370078739" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="248.16929133858" originy="-514.8622047244" startangle="-17.6" sweepangle="32.4" radius="282.61811023622" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="521.45669291338" originy="-442.91338582677" endx="505.70866141732" endy="-395.66929133858" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="505.70866141732" originy="-395.66929133858" endx="505.70866141732" endy="-383.85826771653" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-142.51968503937" originy="-190.94488188976" endx="-142.51968503937" endy="-679.13385826771" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-142.51968503937" originy="-679.13385826771" endx="492.51968503936" endy="-679.13385826771" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="492.51968503936" originy="-679.13385826771" endx="492.51968503936" endy="-190.94488188976" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-142.51968503937" originy="-64.960629921259" endx="-142.51968503937" endy="171.25984251968" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-142.51968503937" originy="171.25984251968" endx="492.51968503936" endy="171.25984251968" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="492.51968503936" originy="171.25984251968" endx="492.51968503936" endy="-64.960629921259" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-173.22834645669" originy="0" endx="-173.22834645669" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-175.1968503937" originy="0" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-177.16535433071" originy="0" endx="-177.16535433071" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-175.1968503937" originy="0" startangle="-180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="SI-60118-F" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1200" endy="100" width="0" />
+    <line originx="1200" originy="-700" endx="1200" endy="100" width="0" />
+    <line originx="1200" originy="-700" endx="200" endy="-700" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-700" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="TD+" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="TCT" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="TD-" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="-300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="RD+" />
+      <text name="pindes" originx="140" originy="-280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="200" originy="-400" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-400" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="RCT" />
+      <text name="pindes" originx="140" originy="-380" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="5" />
+    </sympin>
+    <sympin number="6" originx="200" originy="-500" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-500" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="RD-" />
+      <text name="pindes" originx="140" originy="-480" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="6" />
+    </sympin>
+    <sympin number="7" originx="200" originy="-600" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-600" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="NC_1" />
+      <text name="pindes" originx="140" originy="-580" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="7" />
+    </sympin>
+    <sympin number="8" originx="1200" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_2" />
+      <text name="pindes" originx="1260" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="8" />
+    </sympin>
+    <sympin number="9" originx="1200" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="A_GREEN_1" />
+      <text name="pindes" originx="1260" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="9" />
+    </sympin>
+    <sympin number="10" originx="1200" originy="-200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="-200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="K_GREEN_1" />
+      <text name="pindes" originx="1260" originy="-180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="10" />
+    </sympin>
+    <sympin number="11" originx="1200" originy="-300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="-300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="A_GREEN_2" />
+      <text name="pindes" originx="1260" originy="-280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="11" />
+    </sympin>
+    <sympin number="12" originx="1200" originy="-400" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="-400" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="K_GREEN_2" />
+      <text name="pindes" originx="1260" originy="-380" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="12" />
+    </sympin>
+    <sympin number="13" originx="1200" originy="-500" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="-500" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="MH1" />
+      <text name="pindes" originx="1260" originy="-480" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="MH1" />
+    </sympin>
+    <sympin number="14" originx="1200" originy="-600" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1170" originy="-600" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="MH2" />
+      <text name="pindes" originx="1260" originy="-580" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="MH2" />
+    </sympin>
+  </symbol>
+  <component name="SI-60118-F" designatorprefix="J" height="598.81889763779" footprint="SI60118F">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="TD+" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="TCT" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="TD-" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="RD+" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="RCT" />
+    <comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="RD-" />
+    <comppin designator="7" sympin="7" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_1" />
+    <comppin designator="8" sympin="8" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_2" />
+    <comppin designator="9" sympin="9" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A_GREEN_1" />
+    <comppin designator="10" sympin="10" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K_GREEN_1" />
+    <comppin designator="11" sympin="11" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A_GREEN_2" />
+    <comppin designator="12" sympin="12" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K_GREEN_2" />
+    <comppin designator="MH1" sympin="13" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MH1" />
+    <comppin designator="MH2" sympin="14" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MH2" />
+    <attached_symbol gate="1" name="SI-60118-F" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <pinmap designator="6" footprintpin="6" />
+    <pinmap designator="7" footprintpin="7" />
+    <pinmap designator="8" footprintpin="8" />
+    <pinmap designator="9" footprintpin="9" />
+    <pinmap designator="10" footprintpin="10" />
+    <pinmap designator="11" footprintpin="11" />
+    <pinmap designator="12" footprintpin="12" />
+    <pinmap designator="MH1" footprintpin="13" />
+    <pinmap designator="MH2" footprintpin="14" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://componentsearchengine.com/Datasheets/1/SI-60118-F.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="MagJack 10/100BASE-T | 1X1 | G/G | -40 to 85C | Tab Down | RoHS " />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="530-SI-60118-F" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.com/Search/ProductDetail.aspx?qs=SRYZG9HaIQ1pVFtjOaj56g%3d%3d" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="BelFuse" />
+    <text name="Manufacturer_Part_Number" originx="1250" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SI-60118-F" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,3 @@
+Added Rule: Name=Schematic Differential Pairs Routing
+Change Rule Scope 1 : Old Scope=InNetClass('Power') New Scope=InNetClass('POWER')
+Added Class: Name=USB

@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=Power Member=NetC71_1
+Change Net Name : Old Net Name=NetC71_1 New Net Name=LDO_OUT
+Added Member To Class: ClassName=Power Member=Wire LDO_OUT
+Added Member To Class: ClassName=Power Member=Wire VBUS
+Added Rule: Name=Schematic Clearance Constraint_1
+Added Rule: Name=Schematic Polygon Connect Style_1
+Added Rule: Name=Schematic Routing Via Style_1
+Added Rule: Name=Schematic Width Constraint_1

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=AMPL_VOUT_Amplificador1 Pin=RLY1-4
+Removed Pin From Net: NetName=AMPL_VOUT_Amplificador2 Pin=RLY2-4
+Added Pin To Net: NetName=AMPL_VOUT_Amplificador2 Pin=RLY1-4
+Added Pin To Net: NetName=AMPL_VOUT_Amplificador1 Pin=RLY2-4

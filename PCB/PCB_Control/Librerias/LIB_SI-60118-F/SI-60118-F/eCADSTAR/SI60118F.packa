@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SI-60118-F"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-14-07:02:48)
+    (mountForm default
+        (footprintRef "SI60118F")
+        (spec "System")
+    )
+)

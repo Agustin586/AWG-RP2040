@@ -1,0 +1,18 @@
+Removed Member From Class: ClassName=MCU_GPIO[0..29] Member=I2C_SCL
+Removed Member From Class: ClassName=MCU_GPIO[0..29] Member=I2C_SDA
+Removed Member From Class: ClassName=MCU_GPIO[0..29] Member=SPI_CLK
+Removed Member From Class: ClassName=MCU_GPIO[0..29] Member=SPI_MISO
+Removed Member From Class: ClassName=MCU_GPIO[0..29] Member=SPI_MOSI
+Added Class: Name=Power
+Added Member To Class: ClassName=MCU_GPIO[0..29] Member=Element[2]: MCU_GPIO
+Added Member To Class: ClassName=MCU_GPIO[0..29] Member=Element[3]: MCU_GPIO
+Added Member To Class: ClassName=MCU_GPIO[0..29] Member=Element[4]: MCU_GPIO
+Added Member To Class: ClassName=MCU_GPIO[0..29] Member=Element[12]: MCU_GPIO
+Added Member To Class: ClassName=MCU_GPIO[0..29] Member=Element[13]: MCU_GPIO
+Added Rule: Name=Schematic Clearance Constraint
+Added Rule: Name=Schematic Clearance Constraint_1
+Added Rule: Name=Schematic Polygon Connect Style
+Added Rule: Name=Schematic Polygon Connect Style_1
+Added Rule: Name=Schematic Routing Via Style
+Added Rule: Name=Schematic Routing Via Style_1
+Added Rule: Name=Schematic Width Constraint

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ESDS312DBVR
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2019-10-15 14:49:29
+Downloaded=2026-02-21 00:55:41
+3D=Y

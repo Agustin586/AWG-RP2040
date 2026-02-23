@@ -1,0 +1,6 @@
+Added Member To Class: ClassName=Power Member=Wire -A15V
+Added Member To Class: ClassName=Power Member=Wire GND
+Added Rule: Name=Schematic Clearance Constraint_2
+Added Rule: Name=Schematic Polygon Connect Style_2
+Added Rule: Name=Schematic Routing Via Style_2
+Added Rule: Name=Schematic Width Constraint_1

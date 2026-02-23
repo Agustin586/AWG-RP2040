@@ -1,0 +1,9 @@
+Manufacturer=BelFuse
+PartNumber=SI-60118-F
+PartCategory=Connector
+PackageCategory=Other
+PinCount=14
+Version=3.8
+Released=2017-11-27 12:33:40
+Downloaded=2026-02-21 13:22:30
+3D=Y

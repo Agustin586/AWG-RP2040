@@ -1,0 +1,16 @@
+.ESDS312DBVR :1 ;3.6V Data-Line Surge and 30kV ESD Protection Diode Array
+SOT95P280X145-5N
+*STM D
+*NGS
+*PLB 1="NC_1" 2="GND" 3="NC_2" 4="I/O1" 5="I/O2"
+*MXP 5
+*DFN ESDS312DBVR
+~!Mouser Part Number (595-ESDS312DBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS312DBVR?qs=byeeYqUIh0PGNqB7QuJpTA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ESDS312DBVR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/esds312)
+~!Height (1.45mm)
+~!3D_Model (ESDS312DBVR)
+ESDS312DBVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

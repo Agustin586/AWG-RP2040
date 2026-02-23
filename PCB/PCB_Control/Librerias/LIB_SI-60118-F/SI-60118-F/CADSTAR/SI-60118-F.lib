@@ -1,0 +1,17 @@
+.SI-60118-F :1 ;MagJack 10/100BASE-T | 1X1 | G/G | -40 to 85C | Tab Down | RoHS 
+SI60118F
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=MH1 14=MH2
+*PLB 1="TD+" 2="TCT" 3="TD-" 4="RD+" 5="RCT" 6="RD-" 7="NC_1" 8="NC_2" 9="A_GREEN_1" 10="K_GREEN_1" 11="A_GREEN_2" 12="K_GREEN_2" 13="MH1" 14="MH2"
+*MXP 16
+*DFN SI-60118-F
+~!Mouser Part Number (530-SI-60118-F)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/ProductDetail.aspx?qs=SRYZG9HaIQ1pVFtjOaj56g%3d%3d)
+~!Manufacturer_Name (BelFuse)
+~!Manufacturer_Part_Number (SI-60118-F)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/SI-60118-F.pdf)
+~!Height (15.21mm)
+~!3D_Model (SI-60118-F)
+SI-60118-F
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

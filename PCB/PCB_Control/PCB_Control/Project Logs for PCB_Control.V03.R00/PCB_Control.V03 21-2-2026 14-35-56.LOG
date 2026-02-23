@@ -1,0 +1,313 @@
+Removed Member From Class: ClassName=Ethernet Member=B6_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=B10_Offset2
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=C2
+Removed Member From Class: ClassName=Ethernet Member=C18_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C19_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C20_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C21_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C22_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C23_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C24_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C25_DDS1
+Removed Member From Class: ClassName=Ethernet Member=C26_DDS1
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=C33_Conversor_Diff_A_Simple2
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=C35_Conversor_Diff_A_Simple2
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=C37_Conversor_Diff_A_Simple2
+Removed Member From Class: ClassName=Ethernet Member=C41_Conversor_Diff_A_Simple1
+Removed Member From Class: ClassName=RELOJ_SI5351 Member=C41_Conversor_Diff_A_Simple1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C42_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=C42_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C43_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C44_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Memoria EEPROM Member=C44_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C45_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Ethernet Member=C45_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C46_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Ethernet Member=C46_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=C47_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Ethernet Member=C47_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Ethernet Member=C48_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=C49_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Ethernet Member=C49_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Ethernet Member=C50_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=C51_Atenuador_Digital_Pasos1
+Removed Member From Class: ClassName=Ethernet Member=C51_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Ethernet Member=C52_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Ethernet Member=C54
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=C62_DAC_OFFSET_CANAL1
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=C62_DAC_OFFSET_CANAL2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C63
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C63
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C64
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C66
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C68
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C70
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C71_Offset2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C71_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C72_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C73_Offset2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C73_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C74_Offset2
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=C75_Offset1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C75_Offset2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C75_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C76_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C77_Offset2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C77_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C78_Offset1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C78_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C79_Offset1
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C79_Offset1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C79_Offset2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C79_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C80_Offset1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=C80_Offset2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C91
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=C107
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D1
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D3
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D4
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D5
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D6
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D7
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=D8
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=FB2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=J2
+Removed Member From Class: ClassName=SALIDA_BNC Member=J8
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=R10
+Removed Member From Class: ClassName=Ethernet Member=R10
+Removed Member From Class: ClassName=Ethernet Member=R21_DDS1
+Removed Member From Class: ClassName=Ethernet Member=R21_DDS2
+Removed Member From Class: ClassName=Ethernet Member=R22_DDS1
+Removed Member From Class: ClassName=Ethernet Member=R22_DDS2
+Removed Member From Class: ClassName=Ethernet Member=R23_DDS1
+Removed Member From Class: ClassName=Ethernet Member=R23_DDS2
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=R26_Conversor_Diff_A_Simple2
+Removed Member From Class: ClassName=Ethernet Member=R38_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Ethernet Member=R39_Atenuador_Digital_Pasos2
+Removed Member From Class: ClassName=Ethernet Member=R44
+Removed Member From Class: ClassName=Ethernet Member=R46
+Removed Member From Class: ClassName=Ethernet Member=R48
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=R50_DAC_OFFSET_CANAL1
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=R53
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=R54
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=R55
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=R57
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R57
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=R58
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=R60
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R60
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=R62_Offset2
+Removed Member From Class: ClassName=SALIDA_BNC Member=R63_Offset1
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=R64_Offset2
+Removed Member From Class: ClassName=SALIDA_BNC Member=R65_Offset1
+Removed Member From Class: ClassName=SALIDA_BNC Member=R66_Offset1
+Removed Member From Class: ClassName=ConexionesPanelFrontal/Perifericos Member=R66_Offset2
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R67_Amplificador1
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R68_Amplificador1
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=R68_Amplificador1
+Removed Member From Class: ClassName=Ethernet Member=R68_Amplificador1
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R68_Amplificador2
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R70_Amplificador1
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=R70_Amplificador2
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R72_Amplificador1
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=R72_Amplificador2
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=R74
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R89
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=R91
+Removed Member From Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=R91
+Removed Member From Class: ClassName=Ethernet Member=R91
+Removed Member From Class: ClassName=Ethernet Member=R92
+Removed Member From Class: ClassName=Ethernet Member=R93
+Removed Member From Class: ClassName=Ethernet Member=R94
+Removed Member From Class: ClassName=Ethernet Member=R95
+Removed Member From Class: ClassName=Ethernet Member=R96
+Removed Member From Class: ClassName=Ethernet Member=R97
+Removed Member From Class: ClassName=Ethernet Member=R98
+Removed Member From Class: ClassName=Ethernet Member=R99
+Removed Member From Class: ClassName=Ethernet Member=R100
+Removed Member From Class: ClassName=Ethernet Member=R101
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=TP1
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=TP3
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=TP5
+Removed Member From Class: ClassName=MICROCONTROLADOR RP2040 Member=TP6
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=TP15
+Removed Member From Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=TP17
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=TP23
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=TP25
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=TP27
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=TP32_DDS_CANAL1
+Removed Member From Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=TP42_Offset2
+Removed Member From Class: ClassName=Alimentacion y Filtro Member=TP45_Offset1
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=TP47_Amplificador2
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=TP49_Amplificador1
+Removed Member From Class: ClassName=Control-Principal.V03.R00 Member=TP49_Amplificador2
+Removed Member From Class: ClassName=Memoria EEPROM Member=U3
+Add Component: Footprint Not Found FP-MTLW-102-07-G-S-230-MFG
+Add Pin To Net: Unknown Pin: Pin J10-1
+Add Pin To Net: Unknown Pin: Pin J10-2
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component B11 MCP23S17-E_SS
+Added Member To Class: ClassName=Ethernet Member=Component B13 W5500
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C1 10u
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C3 2.2uF
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C5 100n
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C7 100n
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C9 100n
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C11 100n
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C13 100n
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C15 100n
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component C17 15p
+Added Member To Class: ClassName=RELOJ_SI5351 Member=Component C53 100n
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component C55 100n
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component C57 100n
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component C59 100n
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C65 C0805
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C67 100n
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component C69 100n
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component C89 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C92 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C93 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C94 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C95 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C96 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C97 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C98 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C99 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C100 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C101 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C102 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C103 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C104 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C105 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C106 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C108 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C110 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C112 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C113 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C114 10u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C115 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C116 100n
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component C117 100n
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C118 1u
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C120 1u
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C122 1u
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component C124 1u
+Added Member To Class: ClassName=Memoria EEPROM Member=Component C126 1u
+Added Member To Class: ClassName=Ethernet Member=Component C127 100n
+Added Member To Class: ClassName=Ethernet Member=Component C128 22n
+Added Member To Class: ClassName=Ethernet Member=Component C129 6.8n
+Added Member To Class: ClassName=Ethernet Member=Component C130 6.8n
+Added Member To Class: ClassName=Ethernet Member=Component C131 1n 2KV
+Added Member To Class: ClassName=Ethernet Member=Component C132 10n
+Added Member To Class: ClassName=Ethernet Member=Component C133 15p
+Added Member To Class: ClassName=Ethernet Member=Component C134 100n
+Added Member To Class: ClassName=Ethernet Member=Component C135 100n
+Added Member To Class: ClassName=Ethernet Member=Component C136 100n
+Added Member To Class: ClassName=Ethernet Member=Component C137 100n
+Added Member To Class: ClassName=Ethernet Member=Component C138 100n
+Added Member To Class: ClassName=Ethernet Member=Component C139 100n
+Added Member To Class: ClassName=Ethernet Member=Component C140 100n
+Added Member To Class: ClassName=Ethernet Member=Component C141 10u
+Added Member To Class: ClassName=Ethernet Member=Component C142 10u
+Added Member To Class: ClassName=Ethernet Member=Component C143 100n
+Added Member To Class: ClassName=Ethernet Member=Component C144 10n
+Added Member To Class: ClassName=Ethernet Member=Component C145 4.7u
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D9 ESD9B3.3ST5G
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D10 SMF5.0AT1G
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D11 SMF5.0AT1G
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D12 SMBJ15A
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D13 GREEN
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D14 GREEN
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D15 GREEN
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D16 GREEN
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D17 GREEN
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component D18 SMBJ15A
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component FB1 MPZ1608S331ATA00
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component FB3 FB0805
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component FB5 FB0805
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component J1 USB4105-GF-A
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component J3 SSQ-103-01-T-S
+Added Member To Class: ClassName=SALIDA_BNC Member=Component J4 5413879-2
+Added Member To Class: ClassName=SALIDA_BNC Member=Component J5 5413879-2
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component J6 SBH11-PBPC-D08-ST-BK
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component J7 NEXTION_PINS
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component J9 SBH11-PBPC-D08-ST-BK
+Add Class Member: Failed to add class member : Component J10 MTLW-102-07-G-S-230
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R1 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R3 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R4 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R5 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R6 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R7 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R9 0R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R11 10K
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component R13 1K
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component R15 5K1 1%
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component R17 1K 1%
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component R19 DFN
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R40 120R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R41 120R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R42 120R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R43 120R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R45 R0805
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R47 82R
+Added Member To Class: ClassName=CONVERSOR_CMOS_A_LVPECL Member=Component R49 82R
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component R59 R0805
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component R61 R0805
+Added Member To Class: ClassName=SALIDA_BNC Member=Component R73 1K 1%
+Added Member To Class: ClassName=SALIDA_BNC Member=Component R75 1K 1%
+Added Member To Class: ClassName=SALIDA_BNC Member=Component R76 50 Ohm
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component R77 0 Ohm
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component R79 0 Ohm
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component R81 0 Ohm
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component R83 10K
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component R84 10K
+Added Member To Class: ClassName=ConexionesPanelFrontal/Perifericos Member=Component R85 0 Ohm
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component R87 1K
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component R88 1K
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component R90 1K
+Added Member To Class: ClassName=Ethernet Member=Component R108 10K
+Added Member To Class: ClassName=Ethernet Member=Component R109 10K
+Added Member To Class: ClassName=Ethernet Member=Component R110 10K
+Added Member To Class: ClassName=Ethernet Member=Component R111 10K
+Added Member To Class: ClassName=Ethernet Member=Component R112 10K
+Added Member To Class: ClassName=Ethernet Member=Component R113 10K
+Added Member To Class: ClassName=Ethernet Member=Component R114 10K
+Added Member To Class: ClassName=Ethernet Member=Component R115 10K
+Added Member To Class: ClassName=Ethernet Member=Component R116 10K
+Added Member To Class: ClassName=Ethernet Member=Component R117 49.9R
+Added Member To Class: ClassName=Ethernet Member=Component R118 49.9R
+Added Member To Class: ClassName=Ethernet Member=Component R119 49.9R
+Added Member To Class: ClassName=Ethernet Member=Component R120 330R
+Added Member To Class: ClassName=Ethernet Member=Component R121 330R
+Added Member To Class: ClassName=Ethernet Member=Component R122 10K
+Added Member To Class: ClassName=Ethernet Member=Component R123 10K
+Added Member To Class: ClassName=Ethernet Member=Component R124 33R
+Added Member To Class: ClassName=Ethernet Member=Component R125 33R
+Added Member To Class: ClassName=Ethernet Member=Component R126 49.9R
+Added Member To Class: ClassName=Ethernet Member=Component R127 49.9R 1%
+Added Member To Class: ClassName=Ethernet Member=Component R128 33R
+Added Member To Class: ClassName=Ethernet Member=Component R129 33R
+Added Member To Class: ClassName=Ethernet Member=Component R130 1M
+Added Member To Class: ClassName=Ethernet Member=Component R131 22 R
+Added Member To Class: ClassName=Ethernet Member=Component R132 12K4 1%
+Added Member To Class: ClassName=Ethernet Member=Component R133 22 R
+Added Member To Class: ClassName=Ethernet Member=Component R134 0 R
+Added Member To Class: ClassName=Ethernet Member=Component R135 0 R
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP16 TP_NOBOM
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP18 TP_NOBOM
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP20 TP_NOBOM
+Added Member To Class: ClassName=Control-Principal.V03.R00 Member=Component TP22 TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP24 TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP26 TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP28 TP_NOBOM
+Added Member To Class: ClassName=MICROCONTROLADOR RP2040 Member=Component TP29 TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP38 TP_NOBOM
+Added Member To Class: ClassName=DAC_BIPOLAR_CH1-CH2 Member=Component TP40 TP_NOBOM
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component TP52 TP_NOBOM
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component TP54 TP_NOBOM
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component TP56 TP_NOBOM
+Added Member To Class: ClassName=Alimentacion y Filtro Member=Component TP62 TP_NOBOM
+Added Member To Class: ClassName=Referencia Tension/Ajuste Fino Amplitud - DDS Member=Component TP64 TP_NOBOM
+Added Member To Class: ClassName=Memoria EEPROM Member=Component U9 24LC1025T-E/SN

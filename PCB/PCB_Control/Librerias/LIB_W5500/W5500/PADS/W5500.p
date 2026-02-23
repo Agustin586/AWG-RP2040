@@ -1,0 +1,65 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+W5500 QFP50P900X900X160-48N I ANA 7 1 0 0 0
+TIMESTAMP 2026.02.20.19.18.43
+"Mouser Part Number" 950-W5500
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/WIZnet/W5500?qs=2vh%252B45pPFtzthUpYPd4pqA%3D%3D
+"Manufacturer_Name" WIZnet Inc
+"Manufacturer_Part_Number" W5500
+"Description" Ethernet ICs 3in1 Enet Controller TCP/IP +MAC+PHY
+"Datasheet Link" http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v106e_141230.pdf
+"Geometry.Height" 1.6mm
+GATE 1 48 0
+W5500
+1 0 U TXN
+2 0 U TXP
+3 0 U AGND_1
+4 0 U AVDD_1
+5 0 U RXN
+6 0 U RXP
+7 0 U DNC
+8 0 U AVDD_2
+9 0 U AGND_2
+10 0 U EXRES1
+11 0 U AVDD_3
+12 0 U NC_1
+13 0 U NC_2
+14 0 U AGND_3
+15 0 U AVDD_4
+16 0 U AGND_4
+17 0 U AVDD_5
+18 0 U VBG
+19 0 U AGND_5
+20 0 U TOCAP
+21 0 U AVDD_6
+22 0 U 1V2O
+23 0 U RSVD_1
+24 0 U SPDLED
+36 0 U INTN
+35 0 U MOSI
+34 0 U MISO
+33 0 U SCLK
+32 0 U SCSN
+31 0 U XO
+30 0 U XI/CLKIN
+29 0 U GND
+28 0 U VDD
+27 0 U ACTLED
+26 0 U DUPLED
+25 0 U LINKLED
+48 0 U AGND_6
+47 0 U NC_4
+46 0 U NC_3
+45 0 U PMODE0
+44 0 U PMODE1
+43 0 U PMODE2
+42 0 U RSVD_6
+41 0 U RSVD_5
+40 0 U RSVD_4
+39 0 U RSVD_3
+38 0 U RSVD_2
+37 0 U RSTN
+
+*END*
+*REMARK* SamacSys ECAD Model
+331124/1857803/2.50/48/3/Integrated Circuit

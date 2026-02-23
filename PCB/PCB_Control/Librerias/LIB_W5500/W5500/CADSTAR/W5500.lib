@@ -1,0 +1,17 @@
+.W5500 :1 ;Ethernet ICs 3in1 Enet Controller TCP/IP +MAC+PHY
+QFP50P900X900X160-48N
+*STM IC
+*NGS
+*PLB 1="TXN" 2="TXP" 3="AGND_1" 4="AVDD_1" 5="RXN" 6="RXP" 7="DNC" 8="AVDD_2" 9="AGND_2" 10="EXRES1" 11="AVDD_3" 12="NC_1" 13="NC_2" 14="AGND_3" 15="AVDD_4" 16="AGND_4" 17="AVDD_5" 18="VBG" 19="AGND_5" 20="TOCAP" 21="AVDD_6" 22="1V2O" 23="RSVD_1" 24="SPDLED" 25="LINKLED" 26="DUPLED" 27="ACTLED" 28="VDD" 29="GND" 30="XI/CLKIN" 31="XO" 32="SCSN" 33="SCLK" 34="MISO" 35="MOSI" 36="INTN" 37="RSTN" 38="RSVD_2" 39="RSVD_3" 40="RSVD_4" 41="RSVD_5" 42="RSVD_6" &
+43="PMODE2" 44="PMODE1" 45="PMODE0" 46="NC_3" 47="NC_4" 48="AGND_6"
+*MXP 48
+*DFN W5500
+~!Mouser Part Number (950-W5500)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/WIZnet/W5500?qs=2vh%252B45pPFtzthUpYPd4pqA%3D%3D)
+~!Manufacturer_Name (WIZnet Inc)
+~!Manufacturer_Part_Number (W5500)
+~!Link Datasheet (http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v106e_141230.pdf)
+~!Height (1.6mm)
+~!3D_Model (W5500)
+W5500
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 

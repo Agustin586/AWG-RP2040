@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI_60118_F'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "BelFuse", "SI-60118-F" (!) = "", "SI60118F", "Other", "530-SI-60118-F", "https://www.mouser.com/Search/ProductDetail.aspx?qs=SRYZG9HaIQ1pVFtjOaj56g%3d%3d", "MagJack 10/100BASE-T | 1X1 | G/G | -40 to 85C | Tab Down | RoHS ", "https://componentsearchengine.com/Datasheets/1/SI-60118-F.pdf", "15.21 mm"
+END_PART
+
+END.

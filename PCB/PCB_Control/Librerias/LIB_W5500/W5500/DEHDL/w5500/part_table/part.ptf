@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W5500'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "IOUT_MAX", "IOUT_MIN", "IGND", "RCA", "RJC", "TECHNOLOGY", "VDD_MAX", "VDD_MIN", "IDD", "IDDQ";
+{========================================================================================}
+ "WIZnet Inc", "W5500" (!) = "", "QFP50P900X900X160-48N", "Quad Flat Packages", "950-W5500", "https://www.mouser.co.uk/ProductDetail/WIZnet/W5500?qs=2vh%252B45pPFtzthUpYPd4pqA%3D%3D", "Ethernet ICs 3in1 Enet Controller TCP/IP +MAC+PHY", "http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v106e_141230.pdf", "1.6 mm", "85", "", "", "", "TCP/IP ETHERNET CONTROLLER SMD", "LQFP-48", "", "", "", "", "", "", "", "4.6", "-0.5", "132m", ""
+END_PART
+
+END.

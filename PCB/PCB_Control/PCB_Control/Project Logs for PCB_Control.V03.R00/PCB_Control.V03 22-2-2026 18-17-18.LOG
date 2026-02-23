@@ -1,0 +1,5 @@
+Added Member To Class: ClassName=Power Member=Wire NetC71_1
+Added Rule: Name=Schematic Clearance Constraint
+Added Rule: Name=Schematic Polygon Connect Style
+Added Rule: Name=Schematic Routing Via Style
+Added Rule: Name=Schematic Width Constraint

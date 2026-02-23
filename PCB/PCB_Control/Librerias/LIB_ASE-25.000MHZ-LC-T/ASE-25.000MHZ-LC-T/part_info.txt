@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ASE-25.000MHZ-LC-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=7.2
+Released=2019-01-11 01:12:31
+Downloaded=2026-02-20 19:44:52
+3D=Y
