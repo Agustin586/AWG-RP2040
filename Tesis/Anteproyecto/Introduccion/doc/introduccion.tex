@@ -1,9 +1,17 @@
 \section{Introducción}
-Un generador de funciones es un dispositivo que se encarga de producir diversas formas de onda, de acuerdo a un conjunto de parámetros establecidos previamente. Se tienen dos tipos: aquellos que únicamente permiten generar señales \textbf{convencionales} (senoidal, cuadrada y triangular) y otros, denominados \textbf{AWG} (Arbitrary Waveform Generator) que, como su nombre lo indica, permiten generar formas de onda \textbf{arbitrarias}. Dentro de las soluciones comerciales que existen actualmente, la gran mayoría optan por realizar un producto enfocado a este último tipo. Existen diversas formas de implementarse que se dividen en generadores que utilizan como núcleo principal un integrado DDS específico y otros que utilizan FPGAs. En el caso de los generadores implementados mediante \textbf{FPGA}, la arquitectura interna reproduce conceptualmente el funcionamiento de un \textbf{DDS} (Direct Digital Synthesis), integrando bloques como acumuladores de fase, memoria para almacenamiento de muestras y lógica de control. Sin embargo, a diferencia de los dispositivos DDS dedicados, la conversión digital–analógica debe realizarse mediante un \textbf{DAC} externo de alta velocidad, lo que incrementa la complejidad del sistema y el número de componentes requeridos.
+%Un generador de funciones es un dispositivo que se encarga de producir diversas formas de onda, de acuerdo a un conjunto de parámetros establecidos previamente. Se tienen dos tipos: aquellos que únicamente permiten generar señales \textbf{convencionales} (senoidal, cuadrada y triangular) y otros, denominados \textbf{AWG} (Arbitrary Waveform Generator) que, como su nombre lo indica, permiten generar formas de onda \textbf{arbitrarias}. Dentro de las soluciones comerciales que existen actualmente, la gran mayoría optan por realizar un producto enfocado a este último tipo. Existen diversas formas de implementarse que se dividen en generadores que utilizan como núcleo principal un integrado \textbf{DDS específico} y otros que utilizan \textbf{FPGAs}. En el caso de los generadores implementados mediante \textbf{FPGA}, la arquitectura interna reproduce conceptualmente el funcionamiento de un \textbf{DDS} (Direct Digital Synthesis), integrando bloques como acumuladores de fase, memoria para almacenamiento de muestras y lógica de control. Sin embargo, a diferencia de los dispositivos DDS dedicados, la conversión digital–analógica debe realizarse mediante un \textbf{DAC} \textbf{externo} \textbf{de alta velocidad}, lo que incrementa la complejidad del sistema y el número de componentes requeridos.
+%
+%Si bien el uso de FPGA ofrece una elevada flexibilidad y permite alcanzar frecuencias de salida superiores, esta solución implica un mayor esfuerzo de diseño tanto a nivel de hardware como de firmware, además de requerir un cuidadoso tratamiento del reloj, la integridad de señal y la sincronización entre bloques. En vez un DDS dedicado ofrece una integración mas particular, donde el usuario lo elije de acuerdo a lo que busca realizar, reduciendo la complejidad y el tiempo de desarrollo.
+%
+%El desarrollo del equipo se plantea sobre una arquitectura de Síntesis Digital Directa (DDS), debido a su capacidad de ofrecer alta resolución en frecuencia, estabilidad y control preciso de fase, manteniendo un nivel de complejidad acorde a un producto compacto de laboratorio. Este enfoque permite integrar en un único circuito las funciones críticas de generación de señal, reduciendo la complejidad del sistema, el tiempo de desarrollo y los riesgos asociados al diseño, sin comprometer las prestaciones necesarias para aplicaciones de laboratorio e industriales.
 
-Si bien el uso de FPGA ofrece una elevada flexibilidad y permite alcanzar frecuencias de salida superiores, esta solución implica un mayor esfuerzo de diseño tanto a nivel de hardware como de firmware, además de requerir un cuidadoso tratamiento del reloj, la integridad de señal y la sincronización entre bloques. Estas características hacen que las soluciones basadas en FPGA resulten especialmente adecuadas para aplicaciones de muy altas prestaciones o diseños altamente específicos.
+Un generador de funciones es un instrumento capaz de producir diversas formas de onda en función de un conjunto de parámetros configurables por el usuario. Estos equipos pueden clasificarse en generadores convencionales, que permiten obtener señales como senoidal, cuadrada y triangular, y generadores arbitrarios (\textbf{AWG}), que habilitan la síntesis de formas de onda definidas mediante un conjunto discreto de muestras digitales.
 
-En el contexto del presente proyecto, orientado al desarrollo de un generador de funciones/arbitrario compacto, de bajo costo y con alta estabilidad en frecuencia y fase, la utilización de un DDS dedicado resulta una solución más adecuada. Este enfoque permite integrar en un único circuito las funciones críticas de generación de señal, reduciendo la complejidad del sistema, el tiempo de desarrollo y los riesgos asociados al diseño, sin comprometer las prestaciones necesarias para aplicaciones de laboratorio e industriales.
+En la actualidad, la mayoría de los instrumentos de laboratorio de media prestación incorporan capacidades de generación arbitraria, ampliando significativamente las posibilidades de ensayo y caracterización de sistemas electrónicos.
+
+El presente desarrollo se basa en una arquitectura de \textbf{Síntesis Digital Directa (DDS)}, técnica de generación que permite obtener señales analógicas a partir del cálculo digital de muestras y su posterior conversión digital–analógica. Esta metodología ofrece elevada resolución en frecuencia, control preciso de fase, estabilidad y repetibilidad, constituyendo una solución adecuada para instrumentación electrónica de laboratorio.
+
+A partir de este enfoque, el proyecto propone el diseño e implementación de un generador de funciones arbitrarias de doble canal, orientado a cumplir las especificaciones técnicas definidas en las secciones siguientes.
 
 %Un generador de formas de onda arbitrarias (\textbf{AWG}) es un instrumento capaz de sintetizar señales periódicas a partir de un conjunto discreto de muestras digitales, permitiendo generar formas de onda convencionales (senoidal, cuadrada, triangular) y formas arbitrarias definidas por el usuario. La calidad de la señal obtenida depende principalmente del método de síntesis empleado, de la resolución del conversor digital-analógico (\textbf{DAC}), del reloj de referencia y del acondicionamiento analógico de salida.
 
@@ -26,41 +34,138 @@ En el contexto del presente proyecto, orientado al desarrollo de un generador de
 %El presente proyecto propone el diseño e implementación de un generador de funciones/arbitrario utilizando como núcleo de generación un sistema \textbf{DDS} (\textit{Direct Digital Synthesis}) dedicado. Este enfoque permite definir con precisión frecuencia, fase y amplitud, simplificando además la reproducción estable de señales en un amplio rango de frecuencias. 
 
 
-\subsection{Síntesis Digital Directa}
-La síntesis digital directa (DDS) es un método para producir una forma de onda analógica, generalmente una onda sinusoidal, mediante la generación de una señal digital variable en el tiempo y la posterior conversión de digital a analógico. Dado que las operaciones de un dispositivo DDS son principalmente digitales, este ofrece una rápida conmutación entre frecuencias de salida, una excelente resolución de frecuencia y un amplio espectro de frecuencias.
-
-La generación de formas de onda de diversas frecuencias y perfiles de manera precisa, se ha convertido en un requisito clave en diversas industrias. Por ejemplo en la generación de fuentes ágiles de frecuencias variable con bajo ruido de fase y buen rendimiento de espurias en el área de la comunicaciones, equipos de prueba industriales o biomédicos, en lo cual la compacidad y bajo coste son consideraciones de diseño importantes.
-
-Para la generación de frecuencias existen diversas técnicas basadas en lazos de enganche de fase (PLL), hasta la programación dinámica de salidas de convertidores de digital a analógicos (DAC) para generar formas de onda arbitrarias a frecuencias bajas. Sin embargo la generación mediante la técnica de DDS gana mayor aceptación dado que los dispositivos permiten integrar en un solo chip todas las características necesarias para la generación de formas de onda de salida analógicas programables de manera sencilla, con alta resolución y precisión. Logrando que sean aptas para la mayoría de las aplicaciones industriales.
-
-
-Un ejemplo de un dispositivo DDS es el \textbf{AD9833} que funciona a 5.5V con una frecuencia de reloj de 25 MHz, consumiendo una potencia máxima de 30 mW. Una imagen ilustrativa del dispositivo se presenta a continuación.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{Introduccion/img/dds}
-	\caption{El AD9833 es un generador de forma de onda de un solo chip.}
-	\label{fig:dds}
-\end{figure}
-
-Una de las principales ventaja de este tipo de dispositivo es que solo necesitan un reloj externo para generar onda sinusoidales simples y además se programan mediante una interfaz periférica serial (SPI) de alta velocidad, la cual es bastante común en los integrados actuales. Además presentan bajo consumo, bajo coste y encapsulado compacto lo que lo hacen ideal para aplicaciones en donde la potencia máxima y el tamaño son elementos claves a la hora de diseñar.
+%\subsection{Síntesis Digital Directa}
+%
+%La Síntesis Digital Directa (DDS) es una técnica de generación de señales que permite obtener formas de onda analógicas a partir de procesos digitales, mediante el cálculo numérico de muestras y su posterior conversión digital–analógica. Esta arquitectura permite un control preciso de la frecuencia, fase y forma de onda, con elevada resolución y estabilidad.
+%
+%Debido a su naturaleza predominantemente digital, los sistemas basados en DDS ofrecen conmutación rápida entre frecuencias, excelente resolución en el ajuste de parámetros y buena estabilidad espectral. Estas características la convierten en una solución ampliamente utilizada en instrumentación electrónica, equipos de prueba y aplicaciones industriales que requieren generación de señales programables con precisión y repetibilidad.
 
 \newpage
 
+%Un ejemplo de un dispositivo DDS es el \textbf{AD9833} que funciona a 5.5V con una frecuencia de reloj de 25 MHz, consumiendo una potencia máxima de 30 mW. Una imagen ilustrativa del dispositivo se presenta a continuación.
+%
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.5\linewidth]{Introduccion/img/dds}
+%	\caption{El AD9833 es un generador de forma de onda de un solo chip.}
+%	\label{fig:dds}
+%\end{figure}
+%
+%Una de las principales ventaja de este tipo de dispositivo es que solo necesitan un reloj externo para generar onda sinusoidales simples y además se programan mediante una interfaz periférica serial (SPI) de alta velocidad, la cual es bastante común en los integrados actuales. Además presentan bajo consumo, bajo coste y encapsulado compacto lo que lo hacen ideal para aplicaciones en donde la potencia máxima y el tamaño son elementos claves a la hora de diseñar.
+
+\renewcommand{\tablename}{Tabla}
+
 \section{Propuesta de proyecto}
-En el presente proyecto se propone realizar un generador de funciones/arbitrario, que tenga como núcleo principal de síntesis un dispositivo DDS. Este instrumento, así como el osciloscopio, constituyen herramientas esenciales en un laboratorio de electrónica, dado que permiten al desarrollador ensayar diversos circuitos y ver como estos responden ante diversas excitaciones.
+El presente proyecto propone el desarrollo de un Generador de Funciones Arbitrarias basado en arquitectura de Síntesis Digital Directa (DDS). El equipo estará orientado a aplicaciones de laboratorio, desarrollo y enseñanza, priorizando precisión en frecuencia, estabilidad espectral y versatilidad en la generación de formas de onda.
 
-El DDS que utilizaremos para poder hacer esto es el integrado proporcionado por Analog Devices \textbf{AD9102}. Elegimos este en particular, frente a otros como el \textbf{AD9833} (previamente mencionado), dado que provee un módulo de RAM, lo cual nos permite utilizarlo para cargar un conjunto de muestras y lograr en esencia un \textit{Generador de Funciones Arbitrarias}. En la Figura \ref{fig:ddsad9102} puede verse su diagrama en bloques.
+La arquitectura general contempla un bloque de síntesis digital encargado de generar las muestras de la señal, una etapa de conversión digital–analógica y un acondicionamiento analógico de salida que permita alcanzar los niveles de tensión y corriente especificados.
 
-\begin{figure}[H]
+Para garantizar el cumplimiento de las prestaciones definidas en la sección de especificaciones, el dispositivo DDS a seleccionar deberá cumplir con los requisitos técnicos mínimos indicados en la Tabla \ref{tab:requisitos_dds}.
+
+\begin{table}[H]
 	\centering
-	\includegraphics[width=.9\linewidth]{Introduccion/img/DDS_AD9102}
-	\caption{Diagrama en bloques del sintetizador digital directo AD9102.}
-	\label{fig:ddsad9102}
-\end{figure}
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular}{|l|c|}
+		\hline
+		\textbf{Parámetro} & \textbf{Requisito mínimo del proyecto} \\ \hline
+		
+		Resolución del DAC interno & $\geq$ 14 bits \\ \hline
+		
+		Frecuencia máxima de salida (Senoidal) & $\geq$ 20 MHz \\ \hline
+		
+		Frecuencia máxima de clock & $\geq$ 150 MHz \\ \hline
+		
+		Memoria interna para formas arbitrarias & Disponible \\ \hline
+		
+		Tipo de salida & Diferencial o compatible con etapa externa \\ \hline
+		
+		Control programable de fase & Sí \\ \hline
+		
+		Resolución mínima de frecuencia & $\leq$ 1 Hz \\ \hline
+		
+		Interfaz de control digital & SPI o equivalente \\ \hline
+		
+		Uso típico & Arbitrary WaveForm Generator \\ \hline
+		
+	\end{tabular}
+	\caption{Requisitos técnicos mínimos del bloque DDS}
+	\label{tab:requisitos_dds}
+\end{table}
+
+Actualmente el mercado ofrece múltiples familias de dispositivos DDS que cubren un amplio espectro de prestaciones, desde soluciones orientadas a instrumentación básica hasta arquitecturas de muy alta velocidad capaces de operar en múltiples zonas de Nyquist. La Tabla \ref{tab:panorama_dds} presenta un panorama representativo de estas categorías tecnológicas.
 
 
-Para esto mismo presentamos en la siguiente sub-sección  los diversos equipos que se encuentran presentes en el mercado para poder adquirirlos. La idea del proyecto consiste en poder lograr un equipo similar a estos de bajo coste, educativo y replicable.
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.2}
+	\resizebox{\linewidth}{!}{%
+		\begin{tabular}{|l|c|c|c|c|}
+			\hline
+			\textbf{Parámetro} & \textbf{DDS Baja Frecuencia} & \textbf{DDS Media Prestación} & \textbf{DDS Alta Prestación} & \textbf{DDS Multi-Nyquist} \\ \hline
+			
+			Resolución DAC & 10 bits & 14 bits & 14 bits & 14–16 bits \\ \hline
+			
+			Frecuencia máx. salida & $\sim$ 1–5 MHz & $\sim$ 40 MHz & $>$ 100 MHz & $>$ 200 MHz \\ \hline
+			
+			Frecuencia máx. clock & 25–50 MHz & 150–200 MHz & 400 MHz & $\geq$ 1 GSPS \\ \hline
+			
+			Memoria para formas arbitrarias & No & Limitada & Sí & Sí \\ \hline
+			
+			Tipo de salida & Tensión & Corriente diferencial & Corriente diferencial & Corriente diferencial \\ \hline
+			
+			Aplicación típica & Generadores básicos & AWG laboratorio & RF / Instrumentación & RF avanzada \\ \hline
+			
+		\end{tabular}}
+	\caption{Panorama representativo de dispositivos DDS disponibles en el mercado}
+	\label{tab:panorama_dds}
+\end{table}
+
+De acuerdo con el panorama presentado, el alcance del presente desarrollo se encuadra dentro de la categoría de dispositivos DDS de media prestación, orientados a aplicaciones de laboratorio y enseñanza. 
+
+Esta categoría ofrece un equilibrio adecuado entre resolución, frecuencia máxima de operación y complejidad de implementación, permitiendo cumplir con las especificaciones definidas para el equipo sin incurrir en soluciones sobredimensionadas propias del ámbito RF de alta frecuencia.
+
+%\begin{table}[H]
+%	\centering
+%	\label{tab:comparacion_dds}
+%	\renewcommand{\arraystretch}{1.3}
+%	\begin{tabular}{|l|c|c|c|}
+%		\hline
+%		\textbf{Parámetro} & \textbf{AD9833} & \textbf{AD9954} & \textbf{AD9102} \\ \hline
+%		
+%		Resolución del DAC & 10 bits & 14 bits & 14 bits \\ \hline
+%		
+%		Frecuencia máxima de salida & $\sim$2 MHz & $>$100 MHz & $>$40 MHz \\ \hline
+%		
+%		Frecuencia máxima de clock & 25 MHz & 400 MHz & 180 MHz \\ \hline
+%		
+%		Memoria para formas arbitrarias & No & Limitada & Sí (SRAM interna) \\ \hline
+%		
+%		Tipo de salida & Tensión & Corriente diferencial & Corriente diferencial \\ \hline
+%		
+%		Control externo de amplitud & Limitado & Complejo & Mediante VREF externa \\ \hline
+%		
+%		Complejidad de implementación & Baja & Muy alta (RF) & Media \\ \hline
+%		
+%		Costo relativo & Bajo & Muy alto & Medio \\ \hline
+%		
+%	\end{tabular}
+%	\caption{Comparación de sintetizadores DDS disponibles}
+%\end{table}
+
+
+
+
+%El DDS que utilizaremos para poder hacer esto es el integrado proporcionado por Analog Devices \textbf{AD9102}. Elegimos este en particular, frente a otros como el \textbf{AD9833} (previamente mencionado), dado que provee un módulo de RAM, lo cual nos permite utilizarlo para cargar un conjunto de muestras y lograr en esencia un \textit{Generador de Funciones Arbitrarias}. En la Figura \ref{fig:ddsad9102} puede verse su diagrama en bloques.
+%
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=.9\linewidth]{Introduccion/img/DDS_AD9102}
+%	\caption{Diagrama en bloques del sintetizador digital directo AD9102.}
+%	\label{fig:ddsad9102}
+%\end{figure}
+%
+%
+%Para esto mismo presentamos en la siguiente sub-sección  los diversos equipos que se encuentran presentes en el mercado para poder adquirirlos. La idea del proyecto consiste en poder lograr un equipo similar a estos de bajo coste, educativo y replicable.
 %\section{Motivación}
 %En el ámbito académico y de laboratorio, los generadores de funciones y AWG constituyen herramientas fundamentales para la verificación y caracterización de circuitos analógicos y digitales, el ensayo de sistemas embebidos, y la validación de respuestas temporales y espectrales. Sin embargo, el acceso a instrumental con prestaciones adecuadas suele estar condicionado por el costo de adquisición, la disponibilidad en el laboratorio y las limitaciones de cantidad de equipos para prácticas con múltiples estudiantes.
 %

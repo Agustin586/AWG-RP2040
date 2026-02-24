@@ -1,0 +1,51 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Propuesta de proyecto}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Equipos de referencia en el mercado}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Características del equipo}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Configuración general}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Especificaciones de alimentación}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Especificaciones de forma de onda}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Formas de onda disponibles}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Interfaz de usuario}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Conectividad}{6}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Arquitectura de implementación}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Arquitectura de Hardware}{7}{subsection.4.1}%
+\contentsline {paragraph}{Placa de Control:}{7}{subsection.4.1}%
+\contentsline {paragraph}{Placa de alimentación:}{7}{subsection.4.1}%
+\contentsline {paragraph}{Placa de panel frontal:}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Diagrama en bloques de la placa de control}{8}{subsection.4.2}%
+\contentsline {paragraph}{Núcleo de síntesis DDS:}{8}{subsection.4.2}%
+\contentsline {paragraph}{Unidad de control digital (Microcontrolador):}{10}{subsection.4.2}%
+\contentsline {paragraph}{Etapa de transimpedancia diferencial:}{10}{subsection.4.2}%
+\contentsline {paragraph}{Etapa de conversor de tensión diferencial a simple:}{11}{subsection.4.2}%
+\contentsline {paragraph}{Control de amplitud (ajuste grueso):}{11}{subsection.4.2}%
+\contentsline {paragraph}{Etapa de Offset:}{11}{subsection.4.2}%
+\contentsline {paragraph}{Etapa de amplificación de salida:}{12}{subsection.4.2}%
+\contentsline {paragraph}{Generación de reloj:}{12}{subsection.4.2}%
+\contentsline {paragraph}{Memoria no volátil:}{12}{subsection.4.2}%
+\contentsline {paragraph}{Interfaz de expansión de entradas/salidas:}{13}{subsection.4.2}%
+\contentsline {paragraph}{Interfaz USB:}{13}{subsection.4.2}%
+\contentsline {paragraph}{Interfaz Ethernet:}{13}{subsection.4.2}%
+\contentsline {paragraph}{Filtrado y desacople:}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Diagrama en bloques de la placa de alimentación}{13}{subsection.4.3}%
+\contentsline {paragraph}{Fuente primaria:}{13}{subsection.4.3}%
+\contentsline {paragraph}{Generación de rieles analógicos:}{14}{subsection.4.3}%
+\contentsline {paragraph}{Generación de riel digital:}{14}{subsection.4.3}%
+\contentsline {paragraph}{Separación de dominios y filtrado:}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Firmware}{14}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Arquitectura de software}{15}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Descripción de bloques}{15}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Lógica principal:}{15}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Control de periféricos:}{15}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Selección de configuración:}{15}{subsubsection.4.4.2}%
+\contentsline {paragraph}{Configuración de hardware:}{15}{subsubsection.4.4.2}%
+\contentsline {section}{\numberline {5}Metodología de ensayo y validación}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Instrumental y condiciones de medición}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Ensayos funcionales}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ensayos de tipo de señal, frecuencia, amplitud y offset}{18}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Ensayo de frecuencia}{18}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Ensayo de amplitud}{18}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Ensayo de offset}{19}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Ensayo de planitud}{19}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}Ensayos específicos}{20}{subsubsection.5.3.5}%
