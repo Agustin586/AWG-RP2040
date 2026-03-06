@@ -159,6 +159,20 @@ OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.88|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=23622047|ViewY=28740157|LookAtX=42111024|LookAtY=36870080|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.26304111699877E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Fuente\Fuente.V01.R00\PCB-Fuente.V01.R00.PcbDoc
+OutputType9=PDF3D
+OutputName9=PDF3D
+OutputCategory9=Documentation
+OutputDocumentPath9=PCB-Fuente.V01.R00.PcbDoc
+OutputVariantName9=
+OutputEnabled9=1
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=5
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=1|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Control\PCB_Control\PCB_Control.V03.R00.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Fuente\Fuente.V01.R00\.PDF
