@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Control\PCB_Control\PCB_Control.V03.R00.PcbDoc
-Date     : 6/3/2026
-Time     : 18:27:53
+Date     : 8/3/2026
+Time     : 16:02:59
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNet('+15V')),(All)
 Rule Violations :0
@@ -91,8 +91,7 @@ Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "TP82" (65.325mm,72.525mm) on Top Overlay And Track (65.202mm,72mm)(65.202mm,75.47mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
@@ -160,7 +159,7 @@ Rule Violations :0
 Processing Rule : Room Offset1 (Bounding Region = (161.3mm, 78.1mm, 179.9mm, 100mm) (InComponentClass('Offset1'))
 Rule Violations :0
 
-Processing Rule : Room DDS2 (Bounding Region = (88mm, 32mm, 109mm, 50mm) (InComponentClass('DDS2'))
+Processing Rule : Room DDS2 (Bounding Region = (88.6mm, 31.5mm, 108.9mm, 49.9mm) (InComponentClass('DDS2'))
 Rule Violations :0
 
 Processing Rule : Room MICROCONTROLADOR RP2040 (Bounding Region = (19mm, 28mm, 94mm, 104mm) (InComponentClass('MICROCONTROLADOR RP2040'))
@@ -181,13 +180,13 @@ Rule Violations :0
 Processing Rule : Room RELOJ_SI5351 (Bounding Region = (70mm, 62mm, 80mm, 75mm) (InComponentClass('RELOJ_SI5351'))
 Rule Violations :0
 
-Processing Rule : Room DDS1 (Bounding Region = (88mm, 54mm, 109mm, 73mm) (InComponentClass('DDS1'))
+Processing Rule : Room DDS1 (Bounding Region = (88.9mm, 51mm, 108.9mm, 72.2mm) (InComponentClass('DDS1'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 3
 Waived Violations : 0
 Time Elapsed        : 00:00:02

@@ -1,0 +1,4 @@
+Added Member To Class: ClassName=Ethernet Member=Component J10 (J11) SI-60118-F
+Added Rule: Name=Schematic Differential Pairs Routing_1
+Change Rule Scope 1 : Old Scope=InNetClass('Power') New Scope=InNetClass('POWER')
+Added Class: Name=Ethernet
