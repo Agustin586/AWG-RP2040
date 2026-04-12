@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PCB-Fuente.V01.R00.GBR   29/1/2026  19:58:59
+Gerber File Extension Report For: PCB-Fuente.V01.R00.GBR   8/3/2026  11:13:22
 ------------------------------------------------------------------------------------------
 
 
@@ -17,15 +17,8 @@ Layer Extension     Layer Description
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
-.GM2                Top Assembly                            
-.GM3                Bottom Assembly                         
-.GM4                Top 3D Body                             
-.GM5                Top Courtyard                           
-.GM11               Top Designator                          
-.GM12               Bottom Designator                       
 .GM13               Mechanical 13                           
 .GM15               Mechanical 15                           
-.GM16               Top Component Center                    
 .GM20               Mechanical 20                           
-.GM21               Bottom Courtyard                        
+.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------

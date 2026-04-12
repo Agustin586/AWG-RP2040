@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "zephyrProject",
+			"path": "../../../../../../STM32/zephyrProject"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,83 @@
+/*
+ * Parallel 8080 8-bit (bit-bang) + ILI9341 para NUCLEO-H755ZI-Q
+ * Shield Arduino tipo MCUFRIEND 2.4"/2.8"
+ *
+ * Señal   | Arduino | GPIO
+ * --------|---------|-------
+ * DB0     | D8      | PG9
+ * DB1     | D9      | PD15
+ * DB2     | D2      | PG14
+ * DB3     | D3      | PE13
+ * DB4     | D4      | PE14
+ * DB5     | D5      | PE11
+ * DB6     | D6      | PA8
+ * DB7     | D7      | PG12
+ * WR      | A1      | PC0
+ * CS      | A3      | PB1
+ * RESET   | A4      | PC2
+ * DC/RS   | A2      | PC3
+ * RD      | A0      | PA3
+ *
+ * arduino_header índices: A0=0,A1=1,A2=2,A3=3,A4=4,A5=5
+ *                         D0=6,D1=7,D2=8,...D8=14,D9=15,...D13=19
+ */
+
+// #include <zephyr/dt-bindings/display/ili9xxx.h>
+
+// / {
+//     chosen {
+//         zephyr,display = &display_ili9488;
+//     };
+
+//     mipi_dbi: mipi_dbi {
+//         compatible = "zephyr,mipi-dbi-bitbang";
+
+//         data-gpios =
+//             <&arduino_header 14 GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 15 GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 8  GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 9  GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 10 GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 11 GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 12 GPIO_ACTIVE_HIGH>,
+//             <&arduino_header 13 GPIO_ACTIVE_HIGH>;
+
+//         wr-gpios    = <&arduino_header 1 GPIO_ACTIVE_LOW>;
+//         cs-gpios    = <&arduino_header 3 GPIO_ACTIVE_LOW>;
+//         dc-gpios    = <&arduino_header 2 GPIO_ACTIVE_LOW>;
+//         rd-gpios    = <&arduino_header 0 GPIO_ACTIVE_HIGH>;
+// 	reset-gpios = <&arduino_header 4 GPIO_ACTIVE_LOW>;
+
+//         #address-cells = <1>;
+//         #size-cells = <0>;
+
+//         display_ili9488: ili9488@0 {
+//             compatible         = "ilitek,ili9488";
+//             reg                = <0>;
+//             mipi-mode          = "MIPI_DBI_MODE_8080_BUS_8_BIT";
+//             mipi-max-frequency = <0>;
+//             pixel-format       = <ILI9XXX_PIXEL_FORMAT_RGB565>;
+//             width              = <320>;
+//             height             = <480>;
+//             rotation           = <0>;
+//         };
+//     };
+// };
+
+/*
+ * El board support de Zephyr asigna green_led a PA5 (D13), pero en la
+ * NUCLEO-H755ZI-Q (144 pines) el LED físico LD1 está en PB0.
+ * Se sobreescribe el nodo aquí para corregirlo.
+ */
+&green_led {
+	gpios = <&gpiob 0 GPIO_ACTIVE_HIGH>;
+};
+
+/ {
+	aliases {
+		led0 = &green_led;
+		led1 = &yellow_led;
+		led2 = &red_led;
+		sw0 = &user_button;
+	};
+};

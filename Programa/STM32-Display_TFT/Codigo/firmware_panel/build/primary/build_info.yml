@@ -1,0 +1,55 @@
+cmake:
+  application:
+    configuration-dir: 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel'
+    source-dir: 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel'
+  board:
+    name: 'nucleo_h755zi_q'
+    path:
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/boards/st/nucleo_h755zi_q'
+    qualifiers: 'stm32h755xx/m7'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/bindings'
+    files:
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/boards/st/nucleo_h755zi_q/nucleo_h755zi_q_stm32h755xx_m7.dts'
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/overlays/app.overlay'
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/overlays/spi_ipc.overlay'
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/overlays/btn.overlay'
+    include-dirs:
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/hal/stm32/dts'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/include'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/include/zephyr'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/common'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/vendor'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/rx'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/x86'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/xtensa'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/sparc'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/riscv'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/posix'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/arm64'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/arm'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts/arc'
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/dts'
+    user-files:
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/overlays/app.overlay'
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/overlays/spi_ipc.overlay'
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/overlays/btn.overlay'
+  kconfig:
+    files:
+     - 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/boards/st/nucleo_h755zi_q/nucleo_h755zi_q_stm32h755xx_m7_defconfig'
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/prj.conf'
+    user-files:
+     - 'D:/aguat/Documents/GitHub/AWG-RP2040/Programa/STM32-Display_TFT/Codigo/firmware_panel/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'D:/aguat/Documents/zephyr-sdk-0.17.4'
+  zephyr:
+    version: '4.2.1'
+    zephyr-base: 'D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\aguat\.zinstaller\.venv\Scripts\west build -p auto --board nucleo_h755zi_q/stm32h755xx/m7 --build-dir D:\aguat\Documents\GitHub\AWG-RP2040\Programa\STM32-Display_TFT\Codigo\firmware_panel/build/primary'
+  topdir: 'd:\aguat\Documents\GitHub\STM32\zephyrProject'
+  version: '1.5.0'

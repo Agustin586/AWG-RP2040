@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Fuente\Fuente.V01.R00\PCB-Fuente.V01.R00.PcbDoc
-Date     : 11/1/2026
-Time     : 14:54:05
+Date     : 8/3/2026
+Time     : 09:33:25
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -10,8 +10,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Via (59mm,69mm) from Top Layer to Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -40,7 +39,7 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Processing Rule : Board Clearance Constraint (Gap=0mm) (not (OnLayer('Top Overlay')))
 Rule Violations :0
 
 Processing Rule : Room Principal.V01.R00 (Bounding Region = (79mm, 57.5mm, 134mm, 129.5mm) (InComponentClass('Principal.V01.R00'))
@@ -50,6 +49,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 1
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:00

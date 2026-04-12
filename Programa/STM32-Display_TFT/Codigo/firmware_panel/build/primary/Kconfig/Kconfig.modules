@@ -1,0 +1,51 @@
+menu "cmsis (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/hal/cmsis)"
+osource "$(ZEPHYR_CMSIS_KCONFIG)"
+config ZEPHYR_CMSIS_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-dsp (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/lib/cmsis-dsp)"
+osource "$(ZEPHYR_CMSIS_DSP_KCONFIG)"
+config ZEPHYR_CMSIS_DSP_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis_6 (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/hal/cmsis_6)"
+osource "$(ZEPHYR_CMSIS_6_KCONFIG)"
+config ZEPHYR_CMSIS_6_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_HAL_STM32_MODULE
+	bool
+	default y
+
+config ZEPHYR_HAL_STM32_MODULE_BLOBS
+	bool
+menu "lvgl (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/lib/gui/lvgl)"
+osource "D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/lib/gui/lvgl/zephyr/Kconfig"
+config ZEPHYR_LVGL_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_MCUBOOT_MODULE
+	bool
+	default y
+menu "percepio (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/debug/percepio)"
+osource "D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/debug/percepio/zephyr/Kconfig"
+config ZEPHYR_PERCEPIO_MODULE
+	bool
+	default y
+endmenu
+menu "picolibc (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/lib/picolibc)"
+osource "D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/lib/picolibc/zephyr/Kconfig"
+config ZEPHYR_PICOLIBC_MODULE
+	bool
+	default y
+endmenu
+menu "segger (D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/modules/debug/segger)"
+osource "$(ZEPHYR_SEGGER_KCONFIG)"
+config ZEPHYR_SEGGER_MODULE
+	bool
+	default y
+endmenu

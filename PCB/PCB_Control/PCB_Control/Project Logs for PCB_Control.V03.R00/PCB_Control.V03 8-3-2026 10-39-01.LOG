@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=+3V3 Pin=B16-9
+Removed Pin From Net: NetName=+3V3 Pin=B17-9
+Added Component: Designator=R177(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R178(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=R177-2
+Added Pin To Net: NetName=+3V3 Pin=R178-2
+Added Pin To Net: NetName=RESET Pin=B16-9
+Added Pin To Net: NetName=RESET Pin=B17-9
+Added Pin To Net: NetName=RESET Pin=R177-1
+Added Pin To Net: NetName=RESET Pin=R178-1
+Added Pin To Net: NetName=RESET Pin=SW2-3
+Added Pin To Net: NetName=RESET Pin=U9-26
+Added Net: Name=RESET
+Added Member To Class: ClassName=DDS1 Member=Component R177 (R145) 10K
+Added Member To Class: ClassName=DDS2 Member=Component R178 (R145) 10K

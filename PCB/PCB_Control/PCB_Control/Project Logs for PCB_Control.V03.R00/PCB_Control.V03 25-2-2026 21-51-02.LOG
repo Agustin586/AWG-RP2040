@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=SY55857_Q0 New Net Name=SY55857_Q0_N
+Change Net Name : Old Net Name=SY55857_Q1 New Net Name=SY55857_Q1_N
+Change Net Name : Old Net Name=SY55857_Q\0\ New Net Name=SY55857_Q0_P
+Change Net Name : Old Net Name=SY55857_Q\1\ New Net Name=SY55857_Q1_P
+Added Differential Pair: Name=SY55857_Q0
+Added Differential Pair: Name=SY55857_Q1

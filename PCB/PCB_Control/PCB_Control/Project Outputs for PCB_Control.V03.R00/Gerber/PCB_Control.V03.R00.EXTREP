@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: PCB_Control.V03.R00.GBR   8/3/2026  16:04:25
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 GND 1                                   
+.G2                 PWR                                     
+.G3                 Signal L4                               
+.G4                 GND 2                                   
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GKO                Keep-Out Layer                          
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

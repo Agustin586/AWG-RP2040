@@ -1,5 +1,0 @@
-DRC Rules Export File for PCB: D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Fuente\Fuente.V01.R00\PCB-Fuente.V01.R00.PcbDoc
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=11.81
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

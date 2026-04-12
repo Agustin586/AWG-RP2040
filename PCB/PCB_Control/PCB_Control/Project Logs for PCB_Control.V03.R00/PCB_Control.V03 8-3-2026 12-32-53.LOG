@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_P Pin=R52-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_N Pin=R53-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_P Pin=R56-1
+Removed Pin From Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_N Pin=R57-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_N Pin=R52-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple1_P Pin=R53-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_N Pin=R56-1
+Added Pin To Net: NetName=DDS_VOUT_Conversor_Diff_A_Simple2_P Pin=R57-1

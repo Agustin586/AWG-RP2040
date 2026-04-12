@@ -1,0 +1,40 @@
+# Available runners configured by board.cmake.
+runners:
+- stm32cubeprogrammer
+- openocd
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: stm32cubeprogrammer
+
+# Default debug runner if --runner is not given.
+debug-runner: openocd
+
+# Common runner configuration values.
+config:
+  board_dir: D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr/boards/st/nucleo_h755zi_q
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: zephyr.hex
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: D:/aguat/Documents/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
+  openocd: C:/Users/aguat/.zinstaller/tools/openocds/openocd-zephyr/bin/openocd.exe
+  openocd_search:
+    - C:\Program Files/OpenOCD/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  stm32cubeprogrammer:
+    - --port=swd
+    - --reset-mode=hw
+  openocd:
+    - --cmd-load
+    - flash write_image erase
+    - --cmd-verify
+    - verify_image
+    - --target-handle=_CHIPNAME.cpu0
+  jlink:
+    - --dt-flash=y
+    - --device=STM32H755ZI
+    - --speed=3300

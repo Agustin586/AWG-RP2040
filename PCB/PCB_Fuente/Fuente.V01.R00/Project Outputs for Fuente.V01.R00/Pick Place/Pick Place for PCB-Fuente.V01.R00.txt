@@ -4,9 +4,9 @@ D:\aguat\Documents\GitHub\AWG-RP2040\PCB\PCB_Fuente\Fuente.V01.R00\Project Outpu
 ========================================================================================================================
 File Design Information:
 
-Date:       29/01/26
-Time:       19:59
-Revision:   dcd3d7e38dcdc5f28df2ac02f4e5002fee256c45
+Date:       08/03/26
+Time:       11:13
+Revision:   da149efa880accdfb91a51f2a2562634f22ab6bc
 Variant:    No variations
 Units used: mm
 
