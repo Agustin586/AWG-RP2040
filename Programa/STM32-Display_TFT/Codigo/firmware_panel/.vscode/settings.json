@@ -1,0 +1,22 @@
+{
+    "zephyr-workbench.westWorkspace": "d:\\aguat\\Documents\\GitHub\\STM32\\zephyrProject",
+    "zephyr-workbench.board": "nucleo_h755zi_q/stm32h755xx/m7",
+    "zephyr-workbench.toolchain": "zephyr_sdk",
+    "zephyr-workbench.sdk": "d:\\aguat\\Documents\\zephyr-sdk-0.17.4",
+    "zephyr-workbench.build.pristine": "auto",
+    "zephyr-workbench.build.configurations": [
+        {
+            "name": "primary",
+            "board": "nucleo_h755zi_q/stm32h755xx/m7",
+            "active": "true",
+            "env.EXTRA_DTC_OVERLAY_FILE": []
+        }
+    ],
+    "cmake.configureOnOpen": false,
+    "cmake.enableAutomaticKitScan": false,
+    "C_Cpp.default.compilerPath": "d:\\aguat\\Documents\\zephyr-sdk-0.17.4\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}\\build\\primary\\compile_commands.json",
+    "devicetree.zephyrBase": "D:/aguat/Documents/GitHub/STM32/zephyrProject/deps/zephyr",
+    "devicetree.board": "nucleo_h755zi_q/stm32h755xx/m7",
+    "devicetree.ctxFile": "${workspaceFolder}/build/primary/zephyr/zephyr.dts",
+}

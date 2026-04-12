@@ -1,0 +1,35 @@
+/ {
+	buttons {
+		compatible = "gpio-keys";
+
+		btn_freq: btn_freq {
+			gpios = <&gpiog 14 GPIO_ACTIVE_LOW>;
+			label = "BTN_FREQ";
+			zephyr,code = <INPUT_KEY_F1>;
+		};
+
+		btn_ampl: btn_ampl {
+			gpios = <&gpioe 13 GPIO_ACTIVE_LOW>;
+			label = "BTN_AMPL";
+			zephyr,code = <INPUT_KEY_F2>;
+		};
+
+		btn_offs: btn_offs {
+			gpios = <&gpioe 14 GPIO_ACTIVE_LOW>;
+			label = "BTN_OFFS";
+			zephyr,code = <INPUT_KEY_F3>;
+		};
+
+		btn_phas: btn_phas {
+			gpios = <&gpioe 11 GPIO_ACTIVE_LOW>;
+			label = "BTN_PHAS";
+			zephyr,code = <INPUT_KEY_F4>;
+		};
+
+		btn_ok: btn_ok {
+			gpios = <&gpioc 13 GPIO_ACTIVE_LOW>;
+			label = "BTN_OK";
+			zephyr,code = <INPUT_KEY_F5>;
+		};
+	};
+};
